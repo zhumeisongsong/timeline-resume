@@ -1,0 +1,20 @@
+{
+  "name": "timeline-resume",
+  "version": "1.0.0",
+  "description": "Timeline resume also can download PDF resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhumeisongsong/timeline-resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhumeisongsong/timeline-resume/issues"
+  },
+  "homepage": "https://github.com/zhumeisongsong/timeline-resume#readme"
+}
