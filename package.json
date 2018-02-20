@@ -1,20 +1,21 @@
 {
-  "name": "timeline-resume",
-  "version": "1.0.0",
+  "name": "resume",
+  "version": "0.1.0",
   "description": "Timeline resume also can download PDF resume",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhumeisongsong/timeline-resume.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhumeisongsong/timeline-resume/issues"
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
   },
-  "homepage": "https://github.com/zhumeisongsong/timeline-resume#readme"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
