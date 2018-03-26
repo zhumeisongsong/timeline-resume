@@ -1,2 +1,8 @@
-# timeline-resume
-Timeline resume also can download PDF resume
+# react-resume
+
+###feature
+
+Chinese/English/Japanese
+
+ download PDF version
+ 
