@@ -1,13 +1,13 @@
 # react-resume
 
-###feature
+### feature
 
 Chinese/English/Japanese
 
 download PDF version
 
 
-###milestone
+### milestone
 
 1.timeline的设计
 
