@@ -42,7 +42,7 @@ class Projects extends Component {
   }
 
   onImgClick = (e, i) => {
-    const { picOpen } = this.state;
+    const {picOpen} = this.state;
     Object.keys(picOpen).forEach((key) => {
       if (key !== i && picOpen[key]) {
         picOpen[key] = false;
@@ -55,7 +55,7 @@ class Projects extends Component {
   };
 
   onClose = (e, i) => {
-    const { picOpen } = this.state;
+    const {picOpen} = this.state;
     picOpen[i] = false;
     this.setState({
       picOpen,
@@ -63,7 +63,7 @@ class Projects extends Component {
   };
 
   onTweenEnd = (i) => {
-    const { picOpen } = this.state;
+    const {picOpen} = this.state;
     delete picOpen[i];
     this.setState({
       picOpen,
@@ -81,7 +81,7 @@ class Projects extends Component {
     const imgBoxWidth = 130;
     const imgBoxHeight = 96;
     return dataArray.map((item, i) => {
-      const { image, title, content } = item;
+      const {image, title, content} = item;
       const isEnter = typeof this.state.picOpen[i] === 'boolean';
       const isOpen = this.state.picOpen[i];
 
@@ -94,10 +94,10 @@ class Projects extends Component {
       let imgTop = isTop ? imgBoxHeight : 0;
       imgTop = isEnter ? imgTop : 0;
 
-      const liStyle = isEnter ? { width: '100%', height: 175, zIndex: 1 } : null;
+      const liStyle = isEnter ? {width: '100%', height: 175, zIndex: 1} : null;
       const liAnimation = isOpen ?
-        ({ boxShadow: '0 2px 8px rgba(140, 140, 140, .35)' }) :
-        ({ boxShadow: '0 0px 0px rgba(140, 140, 140, 0)' });
+        ({boxShadow: '0 2px 8px rgba(140, 140, 140, .35)'}) :
+        ({boxShadow: '0 0px 0px rgba(140, 140, 140, 0)'});
       let aAnimation = isEnter ?
         ({
           delay: 400,
@@ -139,16 +139,16 @@ class Projects extends Component {
             }}
             animation={aAnimation}
           >
-            <img src={image} width="100%" height="100%" />
+            <img src={image} width="100%" height="100%"/>
           </TweenOne>
           <TweenOneGroup
             enter={[
               {
                 opacity: 0, duration: 0, type: 'from', delay: 400,
               },
-              { ease: 'easeOutCubic', type: 'from', left: isRight ? '50%' : '0%' },
+              {ease: 'easeOutCubic', type: 'from', left: isRight ? '50%' : '0%'},
             ]}
-            leave={{ ease: 'easeInOutCubic', left: isRight ? '50%' : '0%' }}
+            leave={{ease: 'easeInOutCubic', left: isRight ? '50%' : '0%'}}
             component=""
           >
             {isOpen && (
@@ -160,7 +160,7 @@ class Projects extends Component {
                 }}
               >
                 <h1>{title}</h1>
-                <div  onClick={e => this.onClose(e, i)} >XXX</div>
+                <div onClick={e => this.onClose(e, i)}>XXX</div>
                 <em />
                 <p>{content}</p>
               </div>
@@ -173,32 +173,21 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
-        <div className={`${this.props.className}-wrapper`}>
-          <div className={this.props.className}>
-            <div className={`${this.props.className}-header`}>
-              <ul>
-                <li />
-                <li />
-                <li />
-                <li />
-                <li />
-              </ul>
-            </div>
-            <QueueAnim type="bottom" className={`${this.props.className}-title`}>
-              <h1 key="h1">Motion Design</h1>
-              <p key="p">The react animation solution</p>
-            </QueueAnim>
-            <QueueAnim
-              delay={this.getDelay}
-              component="ul"
-              className={`${this.props.className}-image-wrapper`}
-              interval={0}
-              type="bottom"
-            >
-              {this.getLiChildren()}
-            </QueueAnim>
-          </div>
+      <div className={`${this.props.className}-wrapper`}>
+        <div className={this.props.className}>
+          {/*<QueueAnim type="bottom" className={`${this.props.className}-title`}>*/}
+            {/*<h1 key="h1">Motion Design</h1>*/}
+            {/*<p key="p">The react animation solution</p>*/}
+          {/*</QueueAnim>*/}
+          <QueueAnim
+            delay={this.getDelay}
+            component="ul"
+            className={`${this.props.className}-image-wrapper`}
+            interval={0}
+            type="bottom"
+          >
+            {this.getLiChildren()}
+          </QueueAnim>
         </div>
       </div>
     );
