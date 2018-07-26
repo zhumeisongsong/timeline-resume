@@ -54,3 +54,38 @@ div:focus{
   background: transparent;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+p {
+  word-break: break-all;
+}
+
+select,
+button,
+input,
+textarea {
+  -webkit-appearance: none;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+input[disabled] {
+  opacity: 1;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+}
