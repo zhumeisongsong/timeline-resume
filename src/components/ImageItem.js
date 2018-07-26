@@ -1,9 +1,10 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 class ImageItem extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      smallImageLoaded: false,
       largeImageLoaded: false
     }
   }
@@ -12,37 +13,49 @@ class ImageItem extends Component {
   }
 
   componentWillUnmount() {
-    //remove any timers or listeners created in lifespan of the component
+    // remove any timers or listeners created in lifespan of the component
   }
 
-  onLargeImageLoad = (el) => {
+  onSmallImageLoad = () => {
+    this.setState({
+      smallImageLoaded: true
+    })
+  }
+
+  onLargeImageLoad = () => {
     this.setState({
       largeImageLoaded: true
     })
   }
 
-  onSmallImageLoad = (el) => {
-    // elel.classList.add('loaded');
-  }
-
   render() {
     const {
-      val,
-      index
+      val
     } = this.props
-    return (<div className="item" key={index}>
 
-      <div className="placeholder">
-        <img src="https://zos.alipayobjects.com/rmsportal/vJcpMCTaSKSVWyH.png" className="img-small"
-             onLoad={(el) => this.onSmallImageLoad(el)}
-             alt={val.text}/>
-        <div className="inner"/>
-        {this.state.largeImageLoaded &&
-        <img onLoad={this.onLargeImageLoad(this)}
-             src={val.image} alt={val.text}/>
-        }
-      </div>
-    </div>)
+    const {
+      smallImageLoaded,
+      largeImageLoaded
+    } = this.state
+
+    return (
+      <div className="item">
+        <div className="placeholder">
+          <img
+            src={val.thumbnail}
+            className={'img-small' + (smallImageLoaded ? ' loaded' : '')}
+            onLoad={this.onSmallImageLoad}
+            alt={val.text}
+          />
+          <div className="inner" />
+          <img
+            src={val.image}
+            className={(largeImageLoaded ? ' loaded' : '')}
+            onLoad={this.onLargeImageLoad}
+            alt={val.text}
+          />
+        </div>
+      </div>)
   }
 }
 
