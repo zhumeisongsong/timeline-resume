@@ -1,8 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { render } from 'react-dom'
+import { LocaleProvider } from 'antd'
+import { addLocaleData, IntlProvider, FormattedMessage } from 'react-intl'
+import registerServiceWorker from './registerServiceWorker'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import App from './containers/App'
+
+const appLocale = window.appLocale
+addLocaleData(appLocale.data)
+
+render(
+  <LocaleProvider locale={appLocale.antd}>
+    <IntlProvider locale={appLocale.locale} messages={appLocale.messages}>
+      <App />
+    </IntlProvider>
+  </LocaleProvider>,
+  /* eslint-disable no-undef */
+  document.getElementById('root'))
+registerServiceWorker()
+
