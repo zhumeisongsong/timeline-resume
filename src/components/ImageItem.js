@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 
 class ImageItem extends Component {
   constructor(props) {
@@ -39,7 +39,7 @@ class ImageItem extends Component {
     } = this.state
 
     return (
-      <div className="item">
+      <div className="item" key={val.id}>
         <div className="placeholder">
           <img
             src={val.thumbnail}
@@ -47,7 +47,7 @@ class ImageItem extends Component {
             onLoad={this.onSmallImageLoad}
             alt={val.text}
           />
-          <div className="inner" />
+          <div className="inner"/>
           <img
             src={val.image}
             className={(largeImageLoaded ? ' loaded' : '')}
