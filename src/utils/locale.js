@@ -1,6 +1,6 @@
-import zh from '../locales/zh-Hans-CN'
-import en from '../locales/en-US'
-import ja from '../locales/ja-JP'
+import zh from '../locales/zh-Hans-CN';
+import en from '../locales/en-US';
+import ja from '../locales/ja-JP';
 
 /**
  * get locale provider resouce file
@@ -9,7 +9,7 @@ import ja from '../locales/ja-JP'
  * @returns
  */
 export const getLocale = (lang) => {
-  /* eslint-disable global-require */
+  console.log(lang)
   let result = {};
   switch (lang) {
     case 'zh-CN':
@@ -18,12 +18,12 @@ export const getLocale = (lang) => {
     case 'en-US':
       result = en;
       break;
-    case 'ja_JP':
+    case 'ja-JP':
       result = ja;
+      break;
     default:
-      result = zh;
+      result = ja;
   }
 
   return result.default || result;
-  /* eslint-enable global-require */
-}
+};

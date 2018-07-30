@@ -13,6 +13,7 @@ import Pagination from '@/components/pagination';
 
 class Top extends Component {
   render() {
+    console.log(this.props.intl)
     const { locale } = this.context;
     return (
       <div>sssss</div>
