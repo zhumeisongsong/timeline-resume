@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import keyIndex from 'react-key-index';
-import {LocaleProvider} from 'antd';
-import {addLocaleData, IntlProvider} from 'react-intl';
+import { LocaleProvider } from 'antd';
+import { addLocaleData, IntlProvider } from 'react-intl';
 
 import './assets/stylesheet/css/style.css';
 import ImageItem from './components/ImageItem';
@@ -22,14 +22,31 @@ let dataArray = [
     team: '',
     selfTask: ''
   }
-]
+];
 
-dataArray = keyIndex(dataArray, 1)
+dataArray = keyIndex(dataArray, 1);
+
+let langList = [
+  {
+    type: 'zh-CN',
+    name: '中文'
+  },
+  {
+    type: 'en-US',
+    name: 'English'
+  },
+  {
+    type: 'ja-JP',
+    name: '日本语'
+  }
+];
+
+langList = keyIndex(langList, 1);
 
 
 class App extends Component {
   state = {
-    lang: 'en-US',
+    lang: 'ja-JP',
     projects: dataArray
   };
 
@@ -37,18 +54,11 @@ class App extends Component {
 
   };
 
-
-  /**
-   * 切换语言
-   *
-   * @param {any} index 语言序号
-   */
-  onLangChange = (index) => {
-    const lang = index === 0 ? 'en-US' : 'zh-CN';
+  onLangChange = (type) => {
     this.setState({
-      lang,
+      lang: type
     });
-  }
+  };
 
   render() {
     const {
@@ -56,7 +66,6 @@ class App extends Component {
       projects
     } = this.state;
     const appLocale = getLocale(lang);
-    console.log(appLocale)
     addLocaleData(appLocale.data);
 
     return (<div>
@@ -66,11 +75,13 @@ class App extends Component {
             messages={appLocale.messages}
             formats={appLocale.formats}
           >
-            <div>
+            <div className="main">
               <header>
-                <p>中文</p>
-                <p>english</p>
-                <p>日本语</p>
+                {langList.map(val => (<div key={val.id} onClick={
+                    this.onLangChange.bind(this, val.type)}>
+                    {val.name}
+                  </div>)
+                )}
               </header>
               <section className="image-list">
                 {projects.map(val => <ImageItem val={val} key={val.id}/>)}

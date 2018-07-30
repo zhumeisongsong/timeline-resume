@@ -1,5 +1,5 @@
 import antdJa from 'antd/lib/locale-provider/ja_JP';
-import appLocaleData from 'react-intl/locale-data/en';
+import appLocaleData from 'react-intl/locale-data/ja';
 import jaMessages from './ja.json';
 
 export default {
