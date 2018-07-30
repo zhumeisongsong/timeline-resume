@@ -37,7 +37,7 @@ let langList = [
   },
   {
     type: 'ja-JP',
-    name: '日本语'
+    name: '日本語'
   }
 ];
 
@@ -84,7 +84,7 @@ class App extends Component {
                 )}
               </header>
               <section className="image-list">
-                {projects.map(val => <ImageItem val={val} key={val.id}/>)}
+                {projects.map(val => <ImageItem key={val.id} val={val}/>)}
               </section>
               <footer>
                 2018@D.S.SHOW
