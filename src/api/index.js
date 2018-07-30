@@ -1,7 +1,7 @@
 /**
  * Mocking client-server processing
  */
-import _experience from './experience.json'
+import _experience from '../mock/projects.json'
 
 const TIMEOUT = 100
 
