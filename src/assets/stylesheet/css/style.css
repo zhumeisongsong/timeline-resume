@@ -225,3 +225,8 @@ body {
 
 .inner {
   padding-bottom: 66.6%; }
+
+.image-list {
+  display: flex; }
+  .image-list .item {
+    width: 33.3%; }
