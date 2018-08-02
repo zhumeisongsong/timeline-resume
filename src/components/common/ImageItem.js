@@ -39,7 +39,7 @@ class ImageItem extends Component {
     } = this.state
 
     return (
-      <div className="item" key={val.id}>
+      <div className="item" key={val.id} onClick={this.props.onClick}>
         <div className="placeholder">
           <img
             src={val.thumbnail}
