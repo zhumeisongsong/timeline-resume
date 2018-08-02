@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import keyIndex from 'react-key-index';
-import { LocaleProvider } from 'antd';
-import { addLocaleData, IntlProvider } from 'react-intl';
+import {LocaleProvider} from 'antd';
+import {addLocaleData, IntlProvider} from 'react-intl';
 
 import './assets/stylesheet/css/style.css';
 import ImageItem from './components/ImageItem';
@@ -75,7 +75,7 @@ class App extends Component {
             messages={appLocale.messages}
             formats={appLocale.formats}
           >
-            <div className="main">
+            <div>
               <header>
                 {langList.map(val => (<div key={val.id} onClick={
                     this.onLangChange.bind(this, val.type)}>
@@ -83,12 +83,22 @@ class App extends Component {
                   </div>)
                 )}
               </header>
-              <section className="image-list">
-                {projects.map(val => <ImageItem key={val.id} val={val}/>)}
-              </section>
-              <footer>
-                2018@D.S.SHOW
-              </footer>
+              <div className="main">
+                <section className="intro-container">
+                  self introduction
+                </section>
+                <section className="skill-container">
+                  skill map
+                </section>
+                <section className="image-list projects-container">
+                  {projects.map(val => <ImageItem key={val.id} val={val}/>)}
+                </section>
+                <section className="analysis-container">
+                  type count quality
+                </section>
+              </div>
+
+              <footer>2018@D.S.SHOW</footer>
             </div>
           </IntlProvider>
         </LocaleProvider>

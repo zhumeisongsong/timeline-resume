@@ -3,8 +3,13 @@
  */
 import _experience from '../mock/projects.json'
 
-const TIMEOUT = 100
+const TIMEOUT = 600
+
+const getProjects = (cb, timeout) =>
+  setTimeout(() =>
+    cb(_experience), timeout || TIMEOUT)
 
 export default {
-  getExperience: (cb, timeout) => setTimeout(() => cb(_experience), timeout || TIMEOUT)
+  getProjects,
+  // getSummary
 }
