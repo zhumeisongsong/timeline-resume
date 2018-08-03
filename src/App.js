@@ -28,6 +28,7 @@ let langList = [
 langList = keyIndex(langList, 1);
 
 
+
 class App extends Component {
   state = {
     lang: 'ja-JP'
@@ -44,6 +45,7 @@ class App extends Component {
   };
 
   render() {
+    console.log(langList)
     const {
       lang,
     } = this.state;
@@ -59,7 +61,7 @@ class App extends Component {
           >
             <div>
               <header>
-                {langList.map(val => (<div key={val.id} onClick={
+                {langList.map(val => (<div key={val._typeId} onClick={
                     this.onLangChange.bind(this, val.type)}>
                     {val.name}
                   </div>)
@@ -68,9 +70,7 @@ class App extends Component {
               <div className="main">
                 <RouteConfig/>
               </div>
-              <footer>
-                2018@D.S.SHOW
-              </footer>
+              <footer>2018@D.S.SHOW</footer>
             </div>
           </IntlProvider>
         </LocaleProvider>

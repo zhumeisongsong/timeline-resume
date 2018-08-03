@@ -28,18 +28,22 @@ class ImageItem extends Component {
     })
   }
 
+  onClick = (id) => {
+    console.log(id)
+    this.props.onClick(id)
+  }
+
   render() {
     const {
       val
-    } = this.props
-
+    } = this.props;
     const {
       smallImageLoaded,
       largeImageLoaded
-    } = this.state
+    } = this.state;
 
     return (
-      <div className="item" key={val.id} onClick={this.props.onClick}>
+      <div className="item" key={val.id} onClick={this.onClick.bind(this, val.id)}>
         <div className="placeholder">
           <img
             src={val.thumbnail}
