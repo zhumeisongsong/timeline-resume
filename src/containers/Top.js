@@ -14,6 +14,7 @@ import ImageItem from '../components/common/ImageItem';
 
 let dataArray = [
   {
+    id: 1,
     thumbnail: 'https://zos.alipayobjects.com/rmsportal/BXJNKCeUSkhQoSS.png',
     image: 'https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png',
     title: 'Motorcycle',
@@ -50,7 +51,7 @@ class Top extends Component {
     const {locale} = this.context;
     return (
       <section className="image-list">
-        {projects.map(val => <ImageItem key={val.key} val={val} onClick={this.onItemClick.bind(this, val.id)}/>)}
+        {projects.map(val => <ImageItem key={val._typeId} val={val} onClick={this.onItemClick.bind(this, val.id)}/>)}
       </section>
     )
   }
