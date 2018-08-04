@@ -76,28 +76,69 @@ input {
 input[type="submit"] {
   background-color: transparent; }
 
+/**********************************
+COLOR
+**********************************/
+/**********************************
+Z-INDEX
+**********************************/
+/**********************************
+SPACE SIZE
+**********************************/
+/**********************************
+BREAK POINT
+**********************************/
+/**********************************
+ANIMATION
+************************************/
 html,
 body {
+  width: 100%;
   height: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-text-size-adjust: 100%; }
+  min-height: 100%; }
 
 body {
   position: relative;
-  font-size: 13px;
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 200;
-  width: 100%;
-  height: 100%; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
+  letter-spacing: .3px; }
 
 [lang]:lang(zh) {
   font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 [lang]:lang(ja) {
-  font-family: "SF Pro JP","SF Pro Text","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif; }
+  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
-[lang]:lang(ko) {
-  font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif; }
+#root {
+  height: 100%; }
+
+.body-container {
+  width: 100%;
+  height: 100%;
+  min-height: 100%; }
+
+.main-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100; }
+
+.main {
+  padding-top: 40px;
+  min-height: calc(100% - 44px); }
+
+.main-footer {
+  width: 100%;
+  height: 44px;
+  color: #fff;
+  font-size: 10px;
+  background-color: #080808; }
+  .main-footer span {
+    padding-right: 4px;
+    font-weight: bold; }
 
 /**
  *border .5px hack
@@ -199,6 +240,11 @@ body {
     -webkit-box-sizing: border-box;
     z-index: 10;
     pointer-events: none; } }
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .placeholder {
   background-color: #f6f6f6;

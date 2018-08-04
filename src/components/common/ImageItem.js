@@ -29,7 +29,6 @@ class ImageItem extends Component {
   }
 
   onClick = (id) => {
-    console.log(id)
     this.props.onClick(id)
   }
 
@@ -43,7 +42,7 @@ class ImageItem extends Component {
     } = this.state;
 
     return (
-      <div className="item" key={val.id} onClick={this.onClick.bind(this, val.id)}>
+      <div className="item" key={val._idId} onClick={this.onClick.bind(this, val.id)}>
         <div className="placeholder">
           <img
             src={val.thumbnail}
