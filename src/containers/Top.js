@@ -40,7 +40,7 @@ class Top extends Component {
   };
 
   onItemClick = (id) => {
-    console.log(id)
+    this.props.history.push('/projects/1')
   };
 
   render() {
@@ -49,9 +49,10 @@ class Top extends Component {
     } = this.state;
     console.log(this.props.intl);
     const {locale} = this.context;
+
     return (
       <section className="image-list">
-        {projects.map(val => <ImageItem key={val._typeId} val={val} onClick={this.onItemClick.bind(this, val.id)}/>)}
+        {projects.map(val => <ImageItem key={val._idId} val={val} onClick={this.onItemClick.bind(this, val.id)}/>)}
       </section>
     )
   }
