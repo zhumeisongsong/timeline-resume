@@ -11,17 +11,17 @@ import './assets/stylesheet/css/style.css';
 import {getLocale} from './utils/locale';
 
 let langList = [
+  // {
+  //   type: 'zh-CN',
+  //   name: '中文'
+  // },
   {
-    type: 'zh-CN',
-    name: '中文'
+    type: 'ja-JP',
+    name: '日本語'
   },
   {
     type: 'en-US',
     name: 'English'
-  },
-  {
-    type: 'ja-JP',
-    name: '日本語'
   }
 ];
 
@@ -60,15 +60,19 @@ class App extends Component {
         >
           <div className="body-container">
             <header className="main-header">
-              {langList.map(val => (<div key={val._typeId} onClick={
-                  this.onLangChange.bind(this, val.type)}>
-                  {val.name}
-                </div>)
-              )}
+              <div className="wrapper">
+                {langList.map(val => (<div className="item" key={val._typeId} onClick={
+                    this.onLangChange.bind(this, val.type)}>
+                    {val.name}
+                  </div>)
+                )}
+              </div>
             </header>
+
             <div className="main">
               <RouteConfig/>
             </div>
+
             <footer className="main-footer"><span>D.S.SHOW</span>© 2018</footer>
           </div>
         </IntlProvider>
