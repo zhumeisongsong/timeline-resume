@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 
 class ImageItem extends Component {
   constructor(props) {
@@ -20,17 +20,17 @@ class ImageItem extends Component {
     this.setState({
       smallImageLoaded: true
     })
-  }
+  };
 
   onLargeImageLoad = () => {
     this.setState({
       largeImageLoaded: true
     })
-  }
+  };
 
   onClick = (id) => {
     this.props.onClick(id)
-  }
+  };
 
   render() {
     const {
