@@ -1,6 +1,3 @@
 {
-  "App.datePicker.title": "経歴書",
-  "InjectExample.alert": "日本語alert",
-  "InjectExample.button": "日本語button",
-  "InjectExample.description": "これが経歴書"
+  "button.back": "戻る"
 }

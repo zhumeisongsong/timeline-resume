@@ -9,7 +9,6 @@ import ja from '../locales/ja-JP';
  * @returns
  */
 export const getLocale = (lang) => {
-  console.log(lang)
   let result = {};
   switch (lang) {
     case 'zh-CN':

@@ -7,8 +7,12 @@ import {
   FormattedRelative,
   FormattedNumber,
   FormattedPlural,
+  defineMessages
 } from 'react-intl';
 import keyIndex from 'react-key-index';
+
+import Introduction from '../components/Introduction';
+import SkillList from '../components/SkillList';
 import ImageItem from '../components/common/ImageItem';
 
 
@@ -31,11 +35,8 @@ let dataArray = [
 
 dataArray = keyIndex(dataArray, 1);
 
-console.log(dataArray);
-
 class Top extends Component {
   state = {
-    lang: 'ja-JP',
     projects: dataArray
   };
 
@@ -47,13 +48,19 @@ class Top extends Component {
     const {
       projects,
     } = this.state;
-    console.log(this.props.intl);
-    const {locale} = this.context;
+
+    console.log(this.props.defaultData)
 
     return (
-      <section className="image-list">
-        {projects.map(val => <ImageItem key={val._idId} val={val} onClick={this.onItemClick.bind(this, val.id)}/>)}
-      </section>
+      <div>
+        <Introduction/>
+        <SkillList/>
+        <FormattedMessage
+          id ='button.back'/>
+        <section className="image-list">
+          {projects.map(val => <ImageItem key={val._idId} val={val} onClick={this.onItemClick.bind(this, val.id)}/>)}
+        </section>
+      </div>
     )
   }
 }

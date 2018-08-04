@@ -1,50 +1,29 @@
 import React, {Component} from 'react';
-import keyIndex from 'react-key-index';
+import {withRouter} from 'react-router-dom';
 import {LocaleProvider} from 'antd';
 import {addLocaleData, IntlProvider} from 'react-intl';
 
-import RouteConfig from './router/index';
-
 import './assets/stylesheet/css/style.css';
 
-
 import {getLocale} from './utils/locale';
+import {setQuery} from './utils/url';
+import {langList} from './constants/config'
 
-let langList = [
-  // {
-  //   type: 'zh-CN',
-  //   name: '中文'
-  // },
-  {
-    type: 'ja-JP',
-    name: '日本語'
-  },
-  {
-    type: 'en-US',
-    name: 'English'
-  }
-];
-
-langList = keyIndex(langList, 1);
-
+import Top from './containers/Top'
 
 class App extends Component {
   state = {
     lang: 'ja-JP'
   };
 
-  _fetchData = () => {
-
-  };
-
-  onLangChange = (type) => {
+  onLangChange = (val) => {
     this.setState({
-      lang: type
+      lang: val.type
     });
+    document.documentElement.lang = val.lang; // set mew lang attribute
   };
 
   render() {
-    console.log(langList)
     const {
       lang,
     } = this.state;
@@ -61,8 +40,11 @@ class App extends Component {
           <div className="body-container">
             <header className="main-header">
               <div className="wrapper">
-                {langList.map(val => (<div className="item" key={val._typeId} onClick={
-                    this.onLangChange.bind(this, val.type)}>
+                {langList.map(val => (
+                  <div className="item"
+                       key={val._typeId}
+                       onClick={
+                         this.onLangChange.bind(this, val)}>
                     {val.name}
                   </div>)
                 )}
@@ -70,7 +52,7 @@ class App extends Component {
             </header>
 
             <div className="main">
-              <RouteConfig/>
+              <Top defaultData={appLocale}/>
             </div>
 
             <footer className="main-footer"><span>D.S.SHOW</span>© 2018</footer>
