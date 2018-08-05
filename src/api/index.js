@@ -7,11 +7,10 @@ import _projects from './projects.json';
 
 const TIMEOUT = 600;
 
-const getProjects = (lang, cb, timeout) =>
-  setTimeout(() =>
-    cb(keyIndex(_projects[lang], 1)), timeout || TIMEOUT);
-
-export default {
-  getProjects,
-  // getSummary
+export const getProjects = (lang, timeout) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(resolve(keyIndex(_projects[lang], 1)),
+      timeout || TIMEOUT,
+      'done')
+  })
 }

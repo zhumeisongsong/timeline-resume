@@ -265,7 +265,7 @@ body .ant-modal-footer .ant-btn {
     background-color: #000; }
 
 .main-header .item {
-  padding-bottom: 4px;
+  padding: 0 2px 2px 2px;
   cursor: pointer;
   transition: all .2s ease-in-out; }
   .main-header .item:hover {
@@ -308,7 +308,7 @@ body .ant-modal-footer .ant-btn {
 .detail {
   max-width: 1000px;
   width: 100% !important;
-  padding: 0 8px !important; }
+  padding: 0 16px !important; }
   .detail .ant-modal-body {
     min-height: 60vh; }
   .detail button:last-child {
@@ -317,4 +317,9 @@ body .ant-modal-footer .ant-btn {
 .image-list {
   display: flex; }
   .image-list .item {
+    cursor: pointer;
     width: 33.3%; }
+
+@media (max-width: 992px) {
+  .image-list .item {
+    width: 100%; } }
