@@ -1,9 +1,6 @@
 $bar-height: 44px;
 
 .main-header {
-  position: fixed;
-  left: 0;
-  top: 0;
   width: 100%;
   z-index: map-get($global-z-index, b);
   .wrapper {
@@ -20,8 +17,7 @@ $bar-height: 44px;
 }
 
 .main {
-  padding-top: 40px;
-  min-height: calc(100% - 44px);
+  min-height: calc(100% - 88px);
 }
 
 .wrapper {
@@ -57,10 +53,11 @@ $bar-height: 44px;
 
 .image-list {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   .item {
     cursor: pointer;
     width: 33.3%;
-
   }
 }
 

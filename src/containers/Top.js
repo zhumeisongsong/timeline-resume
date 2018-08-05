@@ -48,10 +48,13 @@ class Top extends Component {
 
     // modal content template
     const detailContent = (<div>
+      {/*content*/}
 
+      {/*imageList*/}
+      <ImageItem val={projects[detailIndex]}/>
     </div>);
 
-    console.log(projects)
+    console.log(projects);
 
     return (
       <div>
@@ -61,11 +64,14 @@ class Top extends Component {
         {projects &&
         <section className="image-list">
           {projects.map(val =>
-            <ImageItem
+            <div
               key={val._idId}
-              val={val}
-              onClick={() => this.setModalVisible(true, val.id) }
-            />)}
+              className="item"
+              onClick={() => this.setModalVisible(true, val.id)}
+            >
+              <ImageItem val={val}/>
+            </div>
+          )}
         </section>
         }
 

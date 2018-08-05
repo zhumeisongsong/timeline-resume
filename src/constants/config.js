@@ -24,27 +24,27 @@ langList = keyIndex(langList, 1);
 export const projectType = [
   {
     id: 1,
-    name: 'Web Site'
+    name: 'WebSite'
   },
   {
     id: 2,
-    name: 'Web App'
+    name: 'WebApp'
   },
   {
     id: 3,
-    name: 'Hybrid App',
+    name: 'HybridApp',
   },
   {
     id: 4,
     name: 'Others'
   },
   {
-    id: 5,
-    name: 'CMS'
-  },
-  {
     id: 6,
     name: 'SPA'
+  },
+  {
+    id: 7,
+    name: 'PHP'
   }
 ]
 

@@ -1,3 +1,7 @@
 {
-  "button.back": "back"
+  "button.back": "back",
+  "content.title": "Name",
+  "content.type": "Type",
+  "content.time":"Period",
+  "content.":""
 }
