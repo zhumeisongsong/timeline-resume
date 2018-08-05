@@ -258,14 +258,10 @@ body {
 .inner {
   padding-bottom: 66.6%; }
 
-.image-list {
-  display: flex; }
-  .image-list .item {
-    width: 33.3%; }
-
-body .ant-btn-primary {
+body .ant-modal-footer .ant-btn {
+  color: #fff;
   background-color: #080808; }
-  body .ant-btn-primary:hover {
+  body .ant-modal-footer .ant-btn:hover {
     background-color: #000; }
 
 .main-header .item {
@@ -315,5 +311,10 @@ body .ant-btn-primary {
   padding: 0 8px !important; }
   .detail .ant-modal-body {
     min-height: 60vh; }
-  .detail button:first-child {
+  .detail button:last-child {
     display: none; }
+
+.image-list {
+  display: flex; }
+  .image-list .item {
+    width: 33.3%; }
