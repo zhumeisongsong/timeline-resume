@@ -1,4 +1,3 @@
-
 $bar-height: 44px;
 
 .main-header {
@@ -51,7 +50,14 @@ $bar-height: 44px;
   .ant-modal-body {
     min-height: 60vh;
   }
-  button:first-child {
+  button:last-child {
     display: none;
+  }
+}
+
+.image-list {
+  display: flex;
+  .item {
+    width: 33.3%;
   }
 }

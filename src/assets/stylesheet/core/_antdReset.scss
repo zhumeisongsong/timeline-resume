@@ -1,5 +1,8 @@
 body {
-  .ant-btn-primary {
-    @extend %button-primary;
+  .ant-modal-footer{
+    .ant-btn {
+      @extend %button-primary;
+    }
   }
+
 }

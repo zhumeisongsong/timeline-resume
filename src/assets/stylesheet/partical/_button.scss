@@ -1,4 +1,5 @@
 %button-primary {
+  color: #fff;
   background-color: map-get($global-color, secondary);
   &:hover {
     background-color: #000;
