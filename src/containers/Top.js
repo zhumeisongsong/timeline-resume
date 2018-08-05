@@ -10,6 +10,7 @@ import {
   defineMessages
 } from 'react-intl';
 import keyIndex from 'react-key-index';
+import {Modal, Button} from 'antd';
 
 import Introduction from '../components/Introduction';
 import SkillList from '../components/SkillList';
@@ -37,11 +38,12 @@ dataArray = keyIndex(dataArray, 1);
 
 class Top extends Component {
   state = {
-    projects: dataArray
+    projects: dataArray,
+    modalVisible: false
   };
 
-  onItemClick = (id) => {
-    this.props.history.push('/projects/1')
+  setModalVisible(modalVisible) {
+    this.setState({modalVisible});
   };
 
   render() {
@@ -51,15 +53,24 @@ class Top extends Component {
 
     console.log(this.props.defaultData)
 
+    const modalBack = <FormattedMessage
+      id='button.back'/>
+
     return (
       <div>
         <Introduction/>
         <SkillList/>
-        <FormattedMessage
-          id ='button.back'/>
+
         <section className="image-list">
-          {projects.map(val => <ImageItem key={val._idId} val={val} onClick={this.onItemClick.bind(this, val.id)}/>)}
+          {projects.map(val => <ImageItem key={val._idId} val={val} onClick={() => this.setModalVisible(true) }/>)}
         </section>
+        <Modal
+          className="detail"
+          title="dddd"
+          visible={this.state.modalVisible}
+          onOk={() => this.setModalVisible(false)}
+          okText={modalBack}
+        />
       </div>
     )
   }
