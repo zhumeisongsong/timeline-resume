@@ -39,7 +39,8 @@ dataArray = keyIndex(dataArray, 1);
 class Top extends Component {
   state = {
     projects: dataArray,
-    modalVisible: false
+    modalVisible: false,
+
   };
 
   setModalVisible(modalVisible) {
@@ -56,6 +57,10 @@ class Top extends Component {
     const modalBack = <FormattedMessage
       id='button.back'/>
 
+    const detailContent = (<div>
+
+    </div>)
+
     return (
       <div>
         <Introduction/>
@@ -70,7 +75,9 @@ class Top extends Component {
           visible={this.state.modalVisible}
           onOk={() => this.setModalVisible(false)}
           okText={modalBack}
-        />
+        >
+          {detailContent}
+        </Modal>
       </div>
     )
   }

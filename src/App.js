@@ -54,7 +54,6 @@ class App extends Component {
             <div className="main">
               <Top defaultData={appLocale}/>
             </div>
-
             <footer className="main-footer"><span>D.S.SHOW</span>© 2018</footer>
           </div>
         </IntlProvider>
