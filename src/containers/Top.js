@@ -9,51 +9,49 @@ import {
   FormattedPlural,
   defineMessages
 } from 'react-intl';
-import keyIndex from 'react-key-index';
 import {Modal} from 'antd';
+import _ from 'lodash';
 
 import Introduction from '../components/Introduction';
 import SkillList from '../components/SkillList';
 import ImageItem from '../components/common/ImageItem';
 
-import Api from '../api';
 
 class Top extends Component {
   state = {
-    project: [],
-    detailData: {},
+    detailIndex: '',
     modalVisible: false
   };
 
-  setModalVisible(modalVisible) {
-    this.setState({modalVisible});
-  };
-
-  _fetchData(lang) {
-    Api.getProjects(lang, data => {
-      this.setState({
-        projects: data
-      })
-    })
-  };
-
-  componentDidMount() {
-    this._fetchData(this.props.defaultData.locale)
+  setModalVisible(modalVisible, id) {
+    let index = _.findIndex(this.props.projects, {id})
+    this.setState({
+      modalVisible,
+      detailIndex: index
+    });
   };
 
   render() {
     const {
-      projects,
+      detailIndex,
+      modalVisible
     } = this.state;
+
+    const {
+      projects
+    } = this.props;
 
     console.log(this.props.defaultData);
 
     const modalBack = <FormattedMessage
       id='button.back'/>;
 
+    // modal content template
     const detailContent = (<div>
 
     </div>);
+
+    console.log(projects)
 
     return (
       <div>
@@ -66,20 +64,23 @@ class Top extends Component {
             <ImageItem
               key={val._idId}
               val={val}
-              onClick={() => this.setModalVisible(true) }
+              onClick={() => this.setModalVisible(true, val.id) }
             />)}
         </section>
         }
 
+        {modalVisible &&
         <Modal
           className="detail"
-          title="dddd"
-          visible={this.state.modalVisible}
+          title={projects[detailIndex].name}
+          visible={modalVisible}
           onCancel={() => this.setModalVisible(false)}
           cancelText={modalBack}
         >
           {detailContent}
         </Modal>
+        }
+
       </div>
     )
   }

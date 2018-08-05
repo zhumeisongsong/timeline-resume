@@ -58,6 +58,16 @@ $bar-height: 44px;
 .image-list {
   display: flex;
   .item {
+    cursor: pointer;
     width: 33.3%;
+
+  }
+}
+
+@media (max-width: map-get($global-width, break-point-b)) {
+  .image-list {
+    .item {
+      width: 100%;
+    }
   }
 }
