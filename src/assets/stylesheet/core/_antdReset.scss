@@ -1,0 +1,5 @@
+body {
+  .ant-btn-primary {
+    @extend %button-primary;
+  }
+}
