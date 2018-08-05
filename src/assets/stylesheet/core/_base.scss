@@ -34,51 +34,6 @@ body {
   min-height: 100%;
 }
 
-$bar-height: 44px;
-
-.main-header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: map-get($global-z-index, b);
-  .wrapper {
-    @extend %flex-end;
-    width: 100%;
-    height: $bar-height;
-  }
-  .item {
-    @extend %link;
-    + .item {
-      margin-left: map-get($global-space, a);
-    }
-  }
-}
-
-.main {
-  padding-top: 40px;
-  min-height: calc(100% - 44px);
-}
-
-.wrapper {
-  max-width: map-get($global-width, break-point-a);
-  margin: 0 auto;
-  padding: 0 map-get($global-space, a);
-}
-
-.main-footer {
-  @extend %flex-center-both;
-  width: 100%;
-  height: $bar-height;
-  color: #fff;
-  font-size: 10px;
-  background-color: map-get($global-color, secondary);
-  span {
-    padding-right: 4px;
-    font-weight: bold;
-  }
-}
-
 
 
 

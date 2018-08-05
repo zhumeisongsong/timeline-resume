@@ -31,7 +31,7 @@ class App extends Component {
     addLocaleData(appLocale.data);
 
     return (
-      <LocaleProvider locale={appLocale}>
+      <LocaleProvider locale={appLocale.antd}>
         <IntlProvider
           locale={appLocale.locale}
           messages={appLocale.messages}
