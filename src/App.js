@@ -40,7 +40,11 @@ class App extends Component {
       lang: locale,
       activeLang: params.lang ? params.lang : 'ja'
     });
-  };
+  }
+
+  componentWillUnmount() {
+    // remove any timers or listeners created in lifespan of the component
+  }
 
   onLangChange = (val) => {
     let params = {

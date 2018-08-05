@@ -9,13 +9,6 @@ class ImageItem extends Component {
     }
   }
 
-  componentDidMount() {
-  }
-
-  componentWillUnmount() {
-    // remove any timers or listeners created in lifespan of the component
-  }
-
   onSmallImageLoad = () => {
     this.setState({
       smallImageLoaded: true
@@ -28,10 +21,6 @@ class ImageItem extends Component {
     })
   };
 
-  onClick = (id) => {
-    this.props.onClick(id)
-  };
-
   render() {
     const {
       val
@@ -42,23 +31,22 @@ class ImageItem extends Component {
     } = this.state;
 
     return (
-      <div className="item" key={val._idId} onClick={this.onClick.bind(this, val.id)}>
-        <div className="placeholder">
-          <img
-            src={val.thumbnail}
-            className={'img-small' + (smallImageLoaded ? ' loaded' : '')}
-            onLoad={this.onSmallImageLoad}
-            alt={val.text}
-          />
-          <div className="inner"/>
-          <img
-            src={val.image}
-            className={(largeImageLoaded ? ' loaded' : '')}
-            onLoad={this.onLargeImageLoad}
-            alt={val.text}
-          />
-        </div>
-      </div>)
+      <div className="placeholder">
+        <img
+          src={val.thumbnail}
+          className={'img-small' + (smallImageLoaded ? ' loaded' : '')}
+          onLoad={this.onSmallImageLoad}
+          alt={val.text}
+        />
+        <div className="inner"/>
+        <img
+          src={val.image}
+          className={(largeImageLoaded ? ' loaded' : '')}
+          onLoad={this.onLargeImageLoad}
+          alt={val.text}
+        />
+      </div>
+    )
   }
 }
 
