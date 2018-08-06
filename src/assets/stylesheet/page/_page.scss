@@ -40,11 +40,14 @@ $bar-height: 44px;
 }
 
 .detail {
-  max-width: map-get($global-width, break-point-a)-200px;
+  top: map-get($global-space, a) !important;
+  max-width: map-get($global-width, break-point-a);
   width: 100% !important;
-  padding: 0 map-get($global-space, b) !important;
+  padding: 0 map-get($global-space, a) !important;
   .ant-modal-body {
-    min-height: 60vh;
+    height: 84vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
   button:last-child {
     display: none;
