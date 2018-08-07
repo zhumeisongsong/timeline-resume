@@ -1,7 +1,14 @@
 {
   "button.back": "back",
-  "content.title": "Name",
-  "content.type": "Type",
-  "content.time":"Period",
-  "content.":""
+  "list.name": "Name",
+  "list.type": "Type",
+  "list.time": "Date",
+  "list.content": "Summary",
+  "list.link": "Link",
+  "list.codeLink": "GitHub repo",
+  "list.infrastructure": "Infrastructure",
+  "list.skill": "Dev tools",
+  "list.team": "Team",
+  "list.myRole":"My job",
+  "list.selfResponsibility": "My responsibility"
 }

@@ -1,3 +1,14 @@
 {
-  "button.back": "戻る"
+  "button.back": "戻る",
+  "list.name": "案件名",
+  "list.type": "タイプ",
+  "list.time": "日付",
+  "list.content": "概要",
+  "list.link": "リンク",
+  "list.codeLink": "GitHubリンク",
+  "list.infrastructure": "インフラ",
+  "list.myRole":"担当フェーズ",
+  "list.skill": "使用ツール",
+  "list.team": "開発規模",
+  "list.selfResponsibility": "自分の担当"
 }
