@@ -41,20 +41,48 @@ class Top extends Component {
       projects
     } = this.props;
 
-    console.log(this.props.defaultData);
-
     const modalBack = <FormattedMessage
       id='button.back'/>;
 
     // modal content template
-    const detailContent = (<div>
-      {/*content*/}
+    const detailContent = projects[detailIndex] ? (
+      <div>
+        {/*content*/}
+        {Object.keys(projects[detailIndex]['contentList']).map((key) => {
+            const item = projects[detailIndex]['contentList'][key];
+            const normalItem = (
+              <div className="value">
+                {item}
+              </div>
+            );
+            const teamItem = (
+              <div className="item" key={key}>
+                {item.frontEnd}
+                {item.backEnd}
+                {item.qc}
+                {item.design}
+              </div>
+            );
+            const valueItem = key !== 'team' ? normalItem : teamItem;
 
-      {/*imageList*/}
-      <ImageItem val={projects[detailIndex]}/>
-    </div>);
+            return (
+              <div className="item" key={key}>
+                <div className="key">
+                  <FormattedMessage
+                    id={`list.${key}`}/>
+                </div>
+                {valueItem}
+              </div>
+            )
+          }
+        )}
 
-    console.log(projects);
+        {/*imageList*/}
+        {projects[detailIndex]['detailImage'].map((val, index) =>
+          <ImageItem val={val} key={index}/>
+        )}
+      </div>
+    ) : null;
 
     return (
       <div>
@@ -69,7 +97,7 @@ class Top extends Component {
               className="item"
               onClick={() => this.setModalVisible(true, val.id)}
             >
-              <ImageItem val={val}/>
+              <ImageItem val={val.cover}/>
             </div>
           )}
         </section>
@@ -78,7 +106,7 @@ class Top extends Component {
         {modalVisible &&
         <Modal
           className="detail"
-          title={projects[detailIndex].name}
+          title={projects[detailIndex]['contentList'].name}
           visible={modalVisible}
           onCancel={() => this.setModalVisible(false)}
           cancelText={modalBack}
