@@ -1,20 +1,32 @@
 [
   {
-    "id": 1,
-    "startTime": "2014/11/22",
-    "endTime": "2014/11/22",
-    "description":"dddddd"
+    "type": "Web develop",
+    "content": "Html5/Css3/Sass/Javascript/ES6/Typescript",
+    "score": 4
   },
   {
-    "id": 2,
-    "startTime": "2014/11/22",
-    "endTime": "2014/11/22",
-    "description":"dddddd"
+    "type": "Framework&Library",
+    "content": "React.js/jQuery/Angular4/Vue.js",
+    "score": 4
   },
   {
-    "id": 3,
-    "startTime": "2014/11/22",
-    "endTime": "2014/11/22",
-    "description":"dddddd"
+    "type": "Build Tools",
+    "content": "Webpack/Gulp/Rollup",
+    "score": 4
+  },
+  {
+    "type": "Automated test",
+    "content": "jest/Karma/Nightwatch",
+    "score": 3
+  },
+  {
+    "type": "Back-end",
+    "content": "Koa.js(Node.js)/Yii2(PHP)/Wordpress",
+    "score": 2
+  },
+  {
+    "type": "Others",
+    "content": "Git/Docker/AWS code pipeline/Nginx",
+    "score": 3
   }
 ]

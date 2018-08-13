@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {withRouter} from 'react-router-dom';
 import {LocaleProvider} from 'antd';
 import {addLocaleData, IntlProvider} from 'react-intl';
 import _ from 'lodash';
