@@ -1,4 +1,6 @@
 {
+  "intro.hello": "Hi,I'm {name}",
+  "intro.brief": "AN EXPERIENCED WEB DEVELOPER",
   "button.back": "back",
   "list.name": "Name",
   "list.type": "Type",
@@ -9,6 +11,6 @@
   "list.infrastructure": "Infrastructure",
   "list.skill": "Dev tools",
   "list.team": "Team",
-  "list.myRole":"My job",
+  "list.myRole": "My job",
   "list.selfResponsibility": "My responsibility"
 }

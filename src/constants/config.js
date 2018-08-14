@@ -1,5 +1,3 @@
-import keyIndex from 'react-key-index';
-
 export let langList = [
   // {
   // lang: 'zh-cn',
@@ -7,18 +5,18 @@ export let langList = [
   //   name: '中文'
   // },
   {
+    id: 2,
     lang: 'ja',
     type: 'ja-JP',
     name: '日本語'
   },
   {
+    id: 3,
     lang: 'en',
     type: 'en-US',
     name: 'English'
   }
 ];
-
-langList = keyIndex(langList, 1);
 
 
 export const projectType = [

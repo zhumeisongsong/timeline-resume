@@ -38,6 +38,8 @@ class Top extends Component {
     } = this.state;
 
     const {
+      introduction,
+      skill,
       projects
     } = this.props;
 
@@ -79,21 +81,21 @@ class Top extends Component {
 
         {/*imageList*/}
         {projects[detailIndex]['detailImage'].map((val, index) =>
-          <ImageItem val={val} key={index}/>
+          <ImageItem val={val} key={val}/>
         )}
       </div>
     ) : null;
 
     return (
       <div>
-        <Introduction/>
-        <SkillList/>
-
+        <Introduction data={introduction}/>
+        <SkillList data={skill}/>
         {projects &&
         <section className="image-list">
+          {console.log(projects)}
           {projects.map(val =>
             <div
-              key={val._idId}
+              key={val.id}
               className="item"
               onClick={() => this.setModalVisible(true, val.id)}
             >
