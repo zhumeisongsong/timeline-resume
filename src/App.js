@@ -95,7 +95,7 @@ class App extends Component {
                 {langList.map(val => (
                   <div
                     className={"item " + (activeLang === val.lang ? "active" : '')}
-                    key={val._typeId}
+                    key={val.id}
                     onClick={() => this.onLangChange(val)}
                   >
                     {val.name}
