@@ -92,7 +92,6 @@ class Top extends Component {
         <SkillList data={skill}/>
         {projects &&
         <section className="image-list">
-          {console.log(projects)}
           {projects.map(val =>
             <div
               key={val.id}
