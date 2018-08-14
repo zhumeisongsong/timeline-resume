@@ -1,5 +1,13 @@
-[
-  {
-    "name": "szm"
+{
+  "ja-JP": {
+    "name": "宋竹梅(そう ちく めい)",
+    "age": "28",
+    "location": "中国四川成都",
+    "language": "中国語、英語、日本語"
+  },
+  "en-US": {
+    "name": "Zhumei Song",
+    "age": "28",
+    "location": "Chengdu City, Sichuan Province. China"
   }
-]
+}

@@ -1,7 +1,10 @@
 import React from 'react';
 
-const Introduction = ({location}) => (
-  <div>detail</div>
+const Introduction = (props,{location}) => (
+  <div>
+    {console.log(location)}
+    {console.log(props.data)}
+  </div>
 );
 
 export default Introduction;

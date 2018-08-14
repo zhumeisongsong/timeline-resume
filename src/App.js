@@ -11,19 +11,26 @@ import {langList} from './constants/config';
 
 import Top from './containers/Top';
 
-import {getProjects} from './api';
+import {getProjects, getSkill, getIntroduction} from './api';
 
 class App extends Component {
   state = {
     projects: [],
+    skill: [],
+    introduction: [],
     lang: '',
     activeLang: ''
   };
 
   _fetchData = async function (lang) {
-    let data = await getProjects(lang)
+    let introduction = await getIntroduction(lang);
+    let skill = await getSkill();
+    let projects = await getProjects(lang);
+
     this.setState({
-      projects: data
+      projects,
+      skill,
+      introduction
     })
   };
 
@@ -42,7 +49,7 @@ class App extends Component {
   }
 
   componentWillUnmount() {
-    // remove any timers or listeners created in lifespan of the component
+    // remove any timers or listeners created in life span of the component
   }
 
   onLangChange = (val) => {
@@ -52,13 +59,15 @@ class App extends Component {
     this.setState({
       lang: val.type
     });
-    document.documentElement.lang = val.lang; // set mew lang attribute
+    document.documentElement.lang = val.lang; // set new lang attribute
     window.location.search = setQuery(params);
   };
 
   render() {
     const {
       lang,
+      skill,
+      introduction,
       projects,
       activeLang
     } = this.state;
@@ -68,6 +77,8 @@ class App extends Component {
     const topProps = {
       defaultData: appLocale,
       ref: 'fetchData',
+      introduction,
+      skill,
       projects
     };
 
