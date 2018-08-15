@@ -17,7 +17,7 @@ class App extends Component {
   state = {
     projects: [],
     skill: [],
-    introduction: [],
+    introduction: {},
     lang: '',
     activeLang: ''
   };
@@ -57,7 +57,10 @@ class App extends Component {
       lang: val.lang
     };
     this.setState({
-      lang: val.type
+      lang: val.type,
+      introduction: {},
+      skill: [],
+      projects: []
     });
     document.documentElement.lang = val.lang; // set new lang attribute
     window.location.search = setQuery(params);
@@ -72,6 +75,7 @@ class App extends Component {
       activeLang
     } = this.state;
     const appLocale = getLocale(lang);
+
     addLocaleData(appLocale.data);
 
     const topProps = {
@@ -90,6 +94,7 @@ class App extends Component {
           formats={appLocale.formats}
         >
           <div className="body-container">
+            {/*language select bar*/}
             <header className="main-header">
               <div className="wrapper">
                 {langList.map(val => (
@@ -107,6 +112,8 @@ class App extends Component {
             <div className="main">
               <Top {...topProps}/>
             </div>
+
+            {/*footer copyright*/}
             <footer className="main-footer">
               <span>D.S.SHOW</span>© 2018
             </footer>

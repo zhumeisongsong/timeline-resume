@@ -24,7 +24,7 @@ class Top extends Component {
   };
 
   setModalVisible(modalVisible, id) {
-    let index = _.findIndex(this.props.projects, {id})
+    let index = _.findIndex(this.props.projects, {id});
     this.setState({
       modalVisible,
       detailIndex: index
@@ -88,9 +88,15 @@ class Top extends Component {
 
     return (
       <div>
+        {JSON.stringify(introduction) !== '{}' &&
         <Introduction data={introduction}/>
+        }
+
+        {skill.length > 0 &&
         <SkillList data={skill}/>
-        {projects &&
+        }
+
+        {projects.length > 0 &&
         <section className="image-list">
           {projects.map(val =>
             <div
