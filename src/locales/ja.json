@@ -1,6 +1,7 @@
 {
   "intro.hello":"初めまして、{name}です",
   "intro.brief": "フロントエンド開発経験者",
+  "intro.description":"フロントエンド開発経験者",
   "button.back": "戻る",
   "list.name": "案件名",
   "list.type": "タイプ",
