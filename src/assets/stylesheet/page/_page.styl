@@ -1,0 +1,73 @@
+$bar-height = 44px
+
+.main-header {
+  width 100%
+  z-index map-get($global-z-index, b)
+  .wrapper {
+    @extends .flex-end
+    width 100%
+    height $bar-height
+  }
+  .item {
+    @extends .link
+    + .item {
+      margin-left map-get($global-space, a)
+    }
+  }
+}
+
+main {
+  min-height calc(100% - 88px)
+}
+
+wrapper {
+  max-width map-get($global-width, break-point-a)
+  margin 0 auto
+  padding 0 map-get($global-space, a)
+}
+
+main-footer {
+  @extends .flex-center-both
+  width 100%
+  height $bar-height
+  color #fff
+  font-size 10px
+  background-color map-get($global-color, secondary)
+  span {
+    padding-right 4px
+    font-weight bold
+  }
+}
+
+detail {
+  top map-get($global-space, a) !important
+  max-width map-get($global-width, break-point-a)
+  width 100% !important
+  padding 0 map-get($global-space, a) !important
+  .ant-modal-body {
+    height 84vh
+    overflow-y auto
+    -webkit-overflow-scrolling touch
+  }
+  buttonlast-child {
+    display none
+  }
+}
+
+image-list {
+  display flex
+  flex-wrap wrap
+  width 100%
+  item {
+    cursor pointer
+    width 33.3%
+  }
+}
+
+@media (max-width map-get($global-width, break-point-b)) {
+  image-list {
+    item {
+      width 100%
+    }
+  }
+}
