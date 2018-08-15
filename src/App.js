@@ -3,7 +3,8 @@ import {LocaleProvider} from 'antd';
 import {addLocaleData, IntlProvider} from 'react-intl';
 import _ from 'lodash';
 
-import './assets/stylesheet/css/style.css';
+// import './assets/stylesheet/css/style.css';
+import styles from './assets/stylesheet/style.styl';
 
 import {getLocale} from './utils/locale';
 import {setQuery, getQuery} from './utils/url';
