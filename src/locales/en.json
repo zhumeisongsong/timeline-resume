@@ -1,8 +1,5 @@
 {
   "intro.hello": "Hi,I'm {name}",
-  "intro.brief": "AN EXPERIENCED FRONT-END DEVELOPER",
-
-  "intro.description":"Read on and find out a bit more.",
   "button.back": "back",
   "list.name": "Name",
   "list.type": "Type",
