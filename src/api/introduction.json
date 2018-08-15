@@ -1,13 +1,13 @@
 {
   "ja-JP": {
     "name": "宋竹梅",
-    "read":"そう ちく めい",
-    "face": "AN EXPERIENCED FRONT-END DEVELOPER",
-    "intro.description":"Read on and find out a bit more."
+    "read": "そう ちく めい",
+    "face": "フロントエンド開発経験者",
+    "description": "Read on and find out a bit more."
   },
   "en-US": {
     "name": "Zhumei Song",
-    "face": "フロントエンド開発経験者",
-    "description":"Read on and"
+    "face": "AN EXPERIENCED FRONT-END DEVELOPER",
+    "description": "Read on and"
   }
 }
