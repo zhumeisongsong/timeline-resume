@@ -16,7 +16,6 @@ import Introduction from '../components/Introduction';
 import SkillList from '../components/SkillList';
 import ImageItem from '../components/common/ImageItem';
 
-
 class Top extends Component {
   state = {
     detailIndex: '',
