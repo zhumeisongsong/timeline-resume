@@ -92,9 +92,6 @@ class Top extends Component {
         <Introduction data={introduction}/>
         }
 
-        {skill.length > 0 &&
-        <SkillList data={skill}/>
-        }
 
         {projects.length > 0 &&
         <section className="image-list">
@@ -120,6 +117,10 @@ class Top extends Component {
         >
           {detailContent}
         </Modal>
+        }
+
+        {skill.length > 0 &&
+        <SkillList data={skill}/>
         }
 
       </div>
