@@ -32,7 +32,7 @@ $bar-height = 44px
   height: $bar-height;
   color: #fff;
   font-size: 10px;
-  background-color: $global-color.secondary;
+  background-color: $global-color.default-dark;
   span {
     padding-right: 4px;
     font-weight: bold;
@@ -54,15 +54,15 @@ $bar-height = 44px
   }
 }
 
-.image-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  .item {
-    cursor: pointer;
-    width: 33.3%;
-  }
-}
+.image-list
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  .item
+    cursor: pointer
+    width: 33.3%
+    &:hover
+     opacity 0
 
 @media (max-width: $global-width.break-point-b) {
   .image-list {

@@ -1,18 +1,31 @@
-$gradient = linear-gradient(to bottom right, $global-color.primary, $global-color.sub-primary)
+$gradient = linear-gradient(to bottom right, $global-color.primary, $global-color.secondary)
+
 .cover-container
   display: flex
   flex-direction: column
   align-items: center
   justify-content: center
-  @extends .wrapper
   height: 100vh
-  padding: 0 $global-space.b
+  margin-top: -44px
+  @extends .wrapper
+  .wrapper
+    min-width: 80vw
 
   .name
     color: $global-color.light-grey
+    font-size: 16px
 
+  h1
+    padding-bottom: $global-space.f
+
+    span
+      background: $gradient
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
   p
-    width 35%
+    width: 35%
+    padding-bottom: $global-space.b
+    font-size: 12px
 
   .icon-item
     @extends .flex-center-both
