@@ -46,6 +46,7 @@ class App extends Component {
       lang: locale,
       activeLang: params.lang ? params.lang : 'ja'
     });
+    document.documentElement.lang = params.lang; // set new lang attribute
   }
 
   componentWillUnmount() {

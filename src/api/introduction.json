@@ -1,13 +1,13 @@
 {
   "ja-JP": {
     "name": "宋竹梅",
-    "read": "そう ちく めい",
-    "face": "フロントエンド開発経験者",
-    "description": "Read on and find out a bit more."
+    "read": "Zhumei",
+    "face": "フロントエンド開発<span>経験者</span>",
+    "description": "ウェブサイトとウェブアプリケーションを作るのが得意です。ウェブについてのソリューションを提供するのに注力しています。と仕事をする機会があることを楽しみにしています。"
   },
   "en-US": {
-    "name": "Zhumei Song",
-    "face": "AN EXPERIENCED FRONT-END DEVELOPER",
-    "description": "Read on and"
+    "name": "Zhumei",
+    "face": "AN <span>EXPERIENCED</span> FRONT-END DEVELOPER",
+    "description": "I'm good at making website and web APP. Focus on providing solutions about the web.  Hope my efforts can let you get the required."
   }
 }
