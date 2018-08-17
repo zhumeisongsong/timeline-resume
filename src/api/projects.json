@@ -8,95 +8,34 @@
       },
       "detailImage": [],
       "contentList": {
-        "name": "",
+        "name": "B2Cシュップ",
         "type": 1,
         "time": "2017/06～2017/08",
-        "content": "",
+        "content": "将来の案件にSPAを使用してのために、このdemoをつくりました。",
         "link": "http://angular.maysongshow.cn/",
         "codeLink": "https://github.com/zhumeisongsong/angular-my-app",
         "skill": "static",
         "team": {
           "total": 1
         },
-        "selfResponsibility": "将来の案件にSPAを使用してのために、このdemoをつくりました。"
-      }
-    },
-    {
-      "id": 27,
-      "cover": {
-        "thumbnail": "https://zos.alipayobjects.com/rmsportal/BXJNKCeUSkhQoSS.png",
-        "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
-      },
-      "detailImage": [
-        {
-          "thumbnail": "https://zos.alipayobjects.com/rmsportal/BXJNKCeUSkhQoSS.png",
-          "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
-        },
-        {
-          "thumbnail": "https://zos.alipayobjects.com/rmsportal/BXJNKCeUSkhQoSS.png",
-          "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
-        }
-      ],
-      "contentList": {
-        "name": "Client Website of Travel",
-        "type": 1,
-        "time": "2018/06～2018/08",
-        "content": "C2Cキュレーションサイトの構築(クライアント側)",
-        "link": "https://nippon.hodaiweb.com/",
-        "codeLink": "",
-        "skill": "static",
-        "team": {
-          "total": 10,
-          "design": 1,
-          "frontEnd": 2,
-          "backEnd": 3,
-          "qc": 2
-        },
-        "selfResponsibility": "XXXXX"
-      }
-    }
-  ],
-  "en-US": [
-    {
-      "id": 11,
-      "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
-      },
-      "detailImage": [],
-      "contentList": {
-        "name": "FlowerPlus",
-        "type": 1,
-        "time": "2018/06～2018/08",
-        "content": "日本のwebsite",
-        "link": "https://nippon.hodaiweb.com/",
-        "codeLink": "",
-        "skill": "static",
-        "team": {
-          "total": 10,
-          "design": 1,
-          "frontEnd": 2,
-          "backEnd": 3,
-          "qc": 2
-        },
-        "selfResponsibility": "XXXXX"
+        "selfResponsibility": ""
       }
     },
     {
       "id": 26,
+      "ContainCode": true,
       "cover": {
         "thumbnail": "",
-        "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
+        "image": ""
       },
-      "detailImage": [
-      ],
+      "detailImage": [],
       "contentList": {
         "name": "C2C Curation Site(Admin)",
         "type": 1,
         "time": "2018/06～",
         "content": "C2C Curation Site()",
         "link": "",
-        "codeLink": "",
+        "codeLink": "Private",
         "skill": "static",
         "team": {
           "total": 10,
@@ -116,13 +55,36 @@
       },
       "detailImage": [],
       "contentList": {
-        "name": "C2C Curation Site(Client)",
+        "name": "C2Cキュレーションサイトの構築(クライアント側)",
         "type": 1,
-        "time": "2018/06～",
-        "content": "A responsive website of travel topic. It includes 2 parts content display and profile center. ",
+        "time": "2018/06～2018/08",
+        "content": "",
         "link": "https://nippon.hodaiweb.com/",
         "codeLink": "Private",
-        "skill": ["static"],
+        "skill": "static",
+        "team": {
+          "total": 1
+        },
+        "selfResponsibility": ""
+      }
+    }
+  ],
+  "en-US": [
+    {
+      "id": 11,
+      "cover": {
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+      },
+      "detailImage": [],
+      "contentList": {
+        "name": "B2C Shop Demo",
+        "type": 1,
+        "time": "2017/06～2017/08",
+        "content": "",
+        "link": "https://nippon.hodaiweb.com/",
+        "codeLink": "https://github.com/zhumeisongsong/angular-my-app",
+        "skill": ["Angular4", "webpack"],
         "team": {
           "total": 10,
           "design": 1,
@@ -130,7 +92,59 @@
           "backEnd": 3,
           "qc": 2
         },
-        "selfResponsibility": "Architecture and coding of front-end part./2n"
+        "selfResponsibility": "XXXXX"
+      }
+    },
+    {
+      "id": 26,
+      "ContainCode": true,
+      "cover": {
+        "thumbnail": "",
+        "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
+      },
+      "detailImage": [],
+      "contentList": {
+        "name": "C2C Curation Site(Admin)",
+        "type": 1,
+        "time": "2018/06～",
+        "content": "",
+        "link": "Private",
+        "codeLink": "Private",
+        "skill": "static",
+        "team": {
+          "total": 10,
+          "design": 1,
+          "frontEnd": 2,
+          "backEnd": 3,
+          "qc": 2
+        },
+        "selfResponsibility": "XXXXX"
+      }
+    },
+    {
+      "id": 27,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "contentList": {
+        "name": "C2C Curation Site(Client)",
+        "type": 1,
+        "time": "2018/06～",
+        "content": "A responsive website of travel topic. It includes 2 parts content display and profile center. ",
+        "link": "https://nippon.hodaiweb.com/",
+        "codeLink": "Private",
+        "skill": [
+          "static"
+        ],
+        "team": {
+          "total": 10,
+          "design": 1,
+          "frontEnd": 2,
+          "backEnd": 3,
+          "qc": 2
+        },
+        "selfResponsibility": "\r"
       }
     }
   ]
