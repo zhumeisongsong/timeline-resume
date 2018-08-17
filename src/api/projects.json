@@ -1,7 +1,32 @@
 {
   "ja-JP": [
     {
-      "id": 1,
+      "id": 11,
+      "cover": {
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+      },
+      "detailImage": [],
+      "contentList": {
+        "name": "花+",
+        "type": 1,
+        "time": "2018/06～2018/08",
+        "content": "日本のwebsite",
+        "link": "https://nippon.hodaiweb.com/",
+        "codeLink": "",
+        "skill": "static",
+        "team": {
+          "total": 10,
+          "design": 1,
+          "frontEnd": 2,
+          "backEnd": 3,
+          "qc": 2
+        },
+        "selfResponsibility": "XXXXX"
+      }
+    },
+    {
+      "id": 27,
       "cover": {
         "thumbnail": "https://zos.alipayobjects.com/rmsportal/BXJNKCeUSkhQoSS.png",
         "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
@@ -17,7 +42,7 @@
         }
       ],
       "contentList": {
-        "name": "日本放題 Client",
+        "name": "Client Website of Travel",
         "type": 1,
         "time": "2018/06～2018/08",
         "content": "日本のwebsite",
@@ -37,7 +62,32 @@
   ],
   "en-US": [
     {
-      "id": 1,
+      "id": 11,
+      "cover": {
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+      },
+      "detailImage": [],
+      "contentList": {
+        "name": "FlowerPlus",
+        "type": 1,
+        "time": "2018/06～2018/08",
+        "content": "日本のwebsite",
+        "link": "https://nippon.hodaiweb.com/",
+        "codeLink": "",
+        "skill": "static",
+        "team": {
+          "total": 10,
+          "design": 1,
+          "frontEnd": 2,
+          "backEnd": 3,
+          "qc": 2
+        },
+        "selfResponsibility": "XXXXX"
+      }
+    },
+    {
+      "id": 27,
       "cover": {
         "thumbnail": "https://zos.alipayobjects.com/rmsportal/BXJNKCeUSkhQoSS.png",
         "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"

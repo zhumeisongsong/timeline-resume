@@ -57,7 +57,7 @@ class Top extends Component {
               </div>
             );
             const teamItem = (
-              <div className="item" key={key}>
+              <div className="item">
                 {item.frontEnd}
                 {item.backEnd}
                 {item.qc}
@@ -65,7 +65,6 @@ class Top extends Component {
               </div>
             );
             const valueItem = key !== 'team' ? normalItem : teamItem;
-
             return (
               <div className="item" key={key}>
                 <div className="key">
@@ -79,9 +78,11 @@ class Top extends Component {
         )}
 
         {/*imageList*/}
-        {projects[detailIndex]['detailImage'].map((val, index) =>
-          <ImageItem val={val} key={val}/>
-        )}
+        <div className="detail-images">
+          {projects[detailIndex]['detailImage'].map((val) =>
+            <img src={val} key={val}/>
+          )}
+        </div>
       </div>
     ) : null;
 
@@ -90,7 +91,6 @@ class Top extends Component {
         {JSON.stringify(introduction) !== '{}' &&
         <Introduction data={introduction}/>
         }
-
 
         {projects.length > 0 &&
         <section className="image-list">
@@ -101,6 +101,9 @@ class Top extends Component {
               onClick={() => this.setModalVisible(true, val.id)}
             >
               <ImageItem val={val.cover}/>
+              <div className="hover-cover">
+                <button>{val.contentList.name}</button>
+              </div>
             </div>
           )}
         </section>
