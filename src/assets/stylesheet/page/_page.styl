@@ -1,40 +1,33 @@
 $bar-height = 44px
 
-.main-header {
-  width: 100%;
-  z-index: $global-z-index.b;
-  .wrapper {
+.main-header
+  width: 100%
+  z-index: $global-z-index.b
+  .wrapper
     @extends .flex-end
-    width: 100%;
-    height: $bar-height;
-  }
-  .item {
+    width: 100%
+    height: $bar-height
+  .item
     @extends .link
-    + .item {
-      margin-left: $global-space.a;
-    }
-  }
-}
+    + .item
+      margin-left: $global-space.a
 
-.main {
-  min-height: calc(100% - 88px);
-}
+.main
+  min-height: calc(100% - 88px)
 
-.wrapper {
-  max-width: $global-width.break-point-a;
-  margin: 0 auto;
-  padding: 0 $global-space.a;
-}
 
-.main-footer {
-  @extends .flex-center-both;
-  width: 100%;
-  height: $bar-height;
-  color: #fff;
-  font-size: 10px;
-  background-color: $global-color.default-dark;
-  span {
-    padding-right: 4px;
-    font-weight: bold;
-  }
-}
+.wrapper
+  max-width: $global-width.break-point-a
+  margin: 0 auto
+  padding: 0 $global-space.a
+
+.main-footer
+  @extends .flex-center-both
+  width: 100%
+  height: $bar-height
+  color: #fff
+  font-size: 10px
+  background-color: $global-color.default-dark
+  span
+    padding-right: 4px
+    font-weight: bold
