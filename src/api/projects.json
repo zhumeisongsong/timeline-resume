@@ -1,280 +1,20 @@
 {
   "ja-JP": [
     {
-      "id": 1,
+      "id": 27,
       "cover": {
         "thumbnail": "",
         "image": ""
       },
-      "containCode": false,
-      "containLink": false,
       "detailImage": [],
       "contentList": {
-        "name": "学生コミュニティ(キャンパス内)",
+        "name": "C2Cキュレーションサイト(クライアント側)",
         "country": 1,
         "type": 1,
-        "time": "2009/03～2010/07",
+        "time": "2018/06～2018/08",
         "content": "",
-        "link": "--",
-        "codeLink": "--",
-        "skill": [""],
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 2,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": ["static"],
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "デザイン会社ホームサイト",
-        "country": 1,
-        "type": 1,
-        "time": "2015/03",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": ["static"],
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 4,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "会社ホームサイト",
-        "country": 1,
-        "type": 1,
-        "time": "2015/04",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 5,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": true,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "ゲーム--質問の答える",
-        "country": 1,
-        "type": 1,
-        "time": "2015/08～2015/09",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 6,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "ブログ--D.S.",
-        "country": 1,
-        "type": 1,
-        "time": "2015/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 7,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "B2C客户端(Hybrid App)",
-        "country": 1,
-        "type": 1,
-        "time": "2016/03～2016/08",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 8,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "政务客户端(Web App)",
-        "country": 1,
-        "type": 1,
-        "time": "2016/09～2017/03",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 9,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "動画サイト",
-        "country": 2,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 10,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "B2Cレコード管理システム",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 11,
-      "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
-      },
-      "detailImage": [],
-      "contentList": {
-        "name": "B2Cシュップ",
-        "country": 1,
-        "type": 1,
-        "time": "2017/06～2017/08",
-        "content": "将来の案件にSPAを使用してのために、このdemoをつくりました。",
-        "link": "http://angular.maysongshow.cn/",
-        "codeLink": "https://github.com/zhumeisongsong/angular-my-app",
+        "link": "https://nippon.hodaiweb.com/",
+        "codeLink": "Private",
         "skill": "static",
         "team": {
           "total": 1
@@ -283,293 +23,34 @@
       }
     },
     {
-      "id": 12,
+      "id": 26,
+      "containCode": true,
       "cover": {
         "thumbnail": "",
-        "image": ""
+        "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
       },
-      "containCode": false,
-      "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "応募システムのホームサイト",
-        "country": 1,
+        "name": "C2C Curation Site(Admin)",
+        "country": 2,
         "type": 1,
-        "time": "2010/07～2010/10",
+        "time": "2018/06～",
         "content": "",
-        "link": "",
-        "codeLink": "--",
+        "link": "Private",
+        "codeLink": "Private",
         "skill": "static",
         "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
+          "total": 10,
+          "design": 1,
+          "frontEnd": 2,
+          "backEnd": 3,
+          "qc": 2
         },
-        "selfResponsibility": ""
+        "selfResponsibility": "XXXXX"
       }
     },
     {
-      "id": 13,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 14,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 15,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 16,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 17,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 18,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 19,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 20,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 21,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 22,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 23,
+      "id": 25,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -621,7 +102,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 23,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -647,57 +128,7 @@
       }
     },
     {
-      "id": 26,
-      "ContainCode": true,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "detailImage": [],
-      "contentList": {
-        "name": "C2Cキュレーションサイト(管理画面)",
-        "type": 1,
-        "time": "2018/06～",
-        "content": "C2C Curation Site()",
-        "link": "",
-        "codeLink": "Private",
-        "skill": "static",
-        "team": {
-          "total": 10,
-          "design": 1,
-          "frontEnd": 2,
-          "backEnd": 3,
-          "qc": 2
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 27,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "detailImage": [],
-      "contentList": {
-        "name": "C2Cキュレーションサイト(クライアント側)",
-        "country": 1,
-        "type": 1,
-        "time": "2018/06～2018/08",
-        "content": "",
-        "link": "https://nippon.hodaiweb.com/",
-        "codeLink": "Private",
-        "skill": "static",
-        "team": {
-          "total": 1
-        },
-        "selfResponsibility": ""
-      }
-    }
-  ],
-  "en-US": [
-    {
-      "id": 3,
+      "id": 22,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -723,7 +154,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 21,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -749,7 +180,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 20,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -775,7 +206,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 19,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -801,7 +232,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 18,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -827,7 +258,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 17,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -853,7 +284,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 16,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -879,7 +310,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 15,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -905,7 +336,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 14,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -931,7 +362,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 13,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -941,6 +372,32 @@
       "detailImage": [],
       "contentList": {
         "name": "図書館ホームサイト(キャンパス内)",
+        "country": 1,
+        "type": 1,
+        "time": "2010/07～2010/10",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": "static",
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 12,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "応募システムのホームサイト",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
@@ -964,29 +421,22 @@
       },
       "detailImage": [],
       "contentList": {
-        "name": "B2C Shop Demo",
+        "name": "B2Cシュップ",
         "country": 1,
         "type": 1,
         "time": "2017/06～2017/08",
-        "content": "",
-        "link": "https://nippon.hodaiweb.com/",
+        "content": "将来の案件にSPAを使用してのために、このdemoをつくりました。",
+        "link": "http://angular.maysongshow.cn/",
         "codeLink": "https://github.com/zhumeisongsong/angular-my-app",
-        "skill": [
-          "Angular4",
-          "webpack"
-        ],
+        "skill": "static",
         "team": {
-          "total": 10,
-          "design": 1,
-          "frontEnd": 2,
-          "backEnd": 3,
-          "qc": 2
+          "total": 1
         },
-        "selfResponsibility": "XXXXX"
+        "selfResponsibility": ""
       }
     },
     {
-      "id": 3,
+      "id": 10,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -995,7 +445,7 @@
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "B2Cレコード管理システム",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
@@ -1012,7 +462,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 9,
       "cover": {
         "thumbnail": "",
         "image": ""
@@ -1021,367 +471,245 @@
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 3,
-      "cover": {
-        "thumbnail": "",
-        "image": ""
-      },
-      "containCode": false,
-      "containLink": true,
-      "detailImage": [],
-      "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
-        "type": 1,
-        "time": "2010/07～2010/10",
-        "content": "",
-        "link": "",
-        "codeLink": "--",
-        "skill": "static",
-        "team": {
-          "total": 2,
-          "frontEnd": 1,
-          "backEnd": 1
-        },
-        "selfResponsibility": ""
-      }
-    },
-    {
-      "id": 26,
-      "containCode": true,
-      "cover": {
-        "thumbnail": "",
-        "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
-      },
-      "detailImage": [],
-      "contentList": {
-        "name": "C2C Curation Site(Admin)",
+        "name": "動画サイト",
         "country": 2,
         "type": 1,
-        "time": "2018/06～",
+        "time": "2010/07～2010/10",
         "content": "",
-        "link": "Private",
-        "codeLink": "Private",
+        "link": "",
+        "codeLink": "--",
         "skill": "static",
         "team": {
-          "total": 10,
-          "design": 1,
-          "frontEnd": 2,
-          "backEnd": 3,
-          "qc": 2
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
         },
-        "selfResponsibility": "XXXXX"
+        "selfResponsibility": ""
       }
     },
+    {
+      "id": 8,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "政务客户端(Web App)",
+        "country": 1,
+        "type": 1,
+        "time": "2016/09～2017/03",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": "static",
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 7,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "B2C客户端(Hybrid App)",
+        "country": 1,
+        "type": 1,
+        "time": "2016/03～2016/08",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": "static",
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 6,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "ブログ--D.S.",
+        "country": 1,
+        "type": 1,
+        "time": "2015/10",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": "static",
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 5,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": true,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "ゲーム--質問の答える",
+        "country": 1,
+        "type": 1,
+        "time": "2015/08～2015/09",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": "static",
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 4,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "会社ホームサイト",
+        "country": 1,
+        "type": 1,
+        "time": "2015/04",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": "static",
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 3,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "デザイン会社ホームサイト",
+        "country": 1,
+        "type": 1,
+        "time": "2015/03",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": [
+          "static"
+        ],
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 2,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": true,
+      "detailImage": [],
+      "contentList": {
+        "name": "図書館ホームサイト(キャンパス内)",
+        "country": 1,
+        "type": 1,
+        "time": "2010/07～2010/10",
+        "content": "",
+        "link": "",
+        "codeLink": "--",
+        "skill": [
+          "static"
+        ],
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 1,
+      "cover": {
+        "thumbnail": "",
+        "image": ""
+      },
+      "containCode": false,
+      "containLink": false,
+      "detailImage": [],
+      "contentList": {
+        "name": "学生コミュニティ(キャンパス内)",
+        "country": 1,
+        "type": 1,
+        "time": "2009/03～2010/07",
+        "content": "",
+        "link": "--",
+        "codeLink": "--",
+        "skill": [
+          ""
+        ],
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    }
+  ],
+  "en-US": [
     {
       "id": 27,
       "cover": {
         "thumbnail": "",
         "image": ""
       },
+      "detailImage": [],
       "contentList": {
         "name": "C2C Curation Site(Client)",
         "country": 1,
@@ -1402,6 +730,37 @@
         },
         "selfResponsibility": "\r"
       }
+    },
+    {
+      "id": 11,
+      "containCode": true,
+      "containLink": true,
+      "contentList": {
+        "name": "B2C Shop Demo",
+        "country": 1,
+        "type": 1,
+        "time": "2017/06～2017/08",
+        "content": "",
+        "link": "https://nippon.hodaiweb.com/",
+        "codeLink": "https://github.com/zhumeisongsong/angular-my-app",
+        "skill": [
+          "Angular4",
+          "webpack"
+        ]
+      },
+      "cover": {
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+      },
+      "detailImage": [],
+      "team": {
+        "total": 10,
+        "design": 1,
+        "frontEnd": 2,
+        "backEnd": 3,
+        "qc": 2
+      },
+      "selfResponsibility": "XXXXX"
     }
   ]
 }
