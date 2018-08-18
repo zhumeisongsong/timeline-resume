@@ -1,7 +1,12 @@
 body {
-  .ant-modal-footer{
+  .ant-modal-footer {
     .ant-btn {
       @extends .button-primary
     }
   }
 }
+
+@media (max-width: $global-width.break-point-c - 1)
+  body
+    .ant-modal
+      margin: 0
