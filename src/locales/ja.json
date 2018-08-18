@@ -11,5 +11,7 @@
   "list.myRole": "担当フェーズ",
   "list.skill": "使用ツール",
   "list.team": "開発規模",
-  "list.selfResponsibility": "自分の担当"
+  "list.selfResponsibility": "自分の担当",
+  "tag.code":"コードがある",
+  "tag.link":"リンクがある"
 }

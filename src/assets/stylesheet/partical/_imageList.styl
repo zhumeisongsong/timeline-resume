@@ -1,0 +1,50 @@
+.placeholder
+  overflow: hidden
+  transition: all $global-animation-speed.c ease-in-out
+
+.hover-cover
+  position: absolute
+  left: 0
+  top: 0
+  @extends .flex-center-both
+  width: 100%
+  height: 100%
+  opacity: 0
+  background-color: rgba(0, 0, 0, .8)
+  transition: all $global-animation-speed.a ease-in-out
+  .wrapper
+    @extends .flex-end-row
+  p.title
+    min-width: 160px
+    padding: $global-space.a  $global-space.b
+    border: 1px solid $global-color.soft-white
+    color: $global-color.soft-white
+    font-weight: 200
+    text-align: center
+    + .tag
+      padding-top: $global-space.d
+  .tag
+    padding-top: $global-space.a / 2
+    font-size: 12px
+    color: $global-color.light-grey
+
+.image-list
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  .item
+    position: relative
+    cursor: pointer
+    width: 33.3%
+    overflow hidden
+
+    &:hover
+      .placeholder
+        @extends .enlarge
+      .hover-cover
+        opacity: 1
+
+@media (max-width: $global-width.break-point-b)
+  .image-list
+    .item
+      width: 100%
