@@ -23,11 +23,18 @@ body
     word-break: normal
     margin-bottom: 0
 
+  a
+    color: $global-color.primary
+    transition: all .2s ease-in-out
+    &:hover {
+      color: $global-color.secondary
+      text-decoration: underline
+    }
+
 [lang]:lang(en)
   h1
     font-size: 40px
     font-weight: bold
-
 
 [lang]:lang(ja)
   font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
@@ -35,11 +42,10 @@ body
     font-size: 64px
     letter-spacing: 2px
 
-
 [lang]:lang(zh)
   font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
-input, button{
+input, button {
   outline none;
 }
 

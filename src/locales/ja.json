@@ -2,6 +2,7 @@
   "intro.hello":"初めまして、{name}です",
   "button.back": "戻る",
   "list.name": "案件名",
+  "list.country":"こっか",
   "list.type": "タイプ",
   "list.time": "日付",
   "list.content": "概要",
@@ -13,5 +14,6 @@
   "list.team": "開発規模",
   "list.selfResponsibility": "自分の担当",
   "tag.code":"コードがある",
-  "tag.link":"リンクがある"
+  "tag.link":"リンクがある",
+  "modal.title":"案件詳細"
 }

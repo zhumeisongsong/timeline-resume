@@ -50,26 +50,39 @@ class Top extends Component {
       <div>
         {/*content*/}
         {Object.keys(projects[detailIndex]['contentList']).map((key) => {
-            const item = projects[detailIndex]['contentList'][key];
-            const normalItem = (
-              <div className="value">
-                {item}
-              </div>
-            );
-            const teamItem = (
-              <div className="item">
+            const item = projects[detailIndex]['contentList'][key];// value
+            let valueItem = '';
+
+            if (key === 'team') {
+              valueItem = (<div className="value">
+                <span>
+                </span>
+                <span>
+                </span>
+                <span>
+                </span>
+                <span>
+                </span>
                 {item.frontEnd}
                 {item.backEnd}
                 {item.qc}
                 {item.design}
-              </div>
-            );
-            const valueItem = key !== 'team' ? normalItem : teamItem;
+              </div>)
+            } else if (key === 'link' || key === 'codeLink') {
+              valueItem = (<a className="value" href={item} target="_blank">
+                {item}
+              </a>)
+            } else {
+              valueItem = (<div className="value">
+                {item}
+              </div>)
+            }
+
             return (
               <div className="item" key={key}>
                 <div className="key">
                   <FormattedMessage
-                    id={`list.${key}`}/>
+                    id={`list.${key}`}/>:
                 </div>
                 {valueItem}
               </div>
@@ -125,7 +138,8 @@ class Top extends Component {
         {modalVisible &&
         <Modal
           className="detail"
-          title={projects[detailIndex]['contentList'].name}
+          title={ <FormattedMessage
+            id='modal.title'/>}
           visible={modalVisible}
           onCancel={() => this.setModalVisible(false)}
           cancelText={modalBack}
