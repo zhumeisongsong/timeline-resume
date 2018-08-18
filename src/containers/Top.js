@@ -102,7 +102,20 @@ class Top extends Component {
             >
               <ImageItem val={val.cover}/>
               <div className="hover-cover">
-                <button>{val.contentList.name}</button>
+                <div className="wrapper">
+                  <p className="title">{val.contentList.name}</p>
+                  {val.containLink &&
+                  <p className="tag">
+                    <FormattedMessage
+                      id='tag.link'/></p>
+                  }
+                  {val.containCode &&
+                  <p className="tag">
+                    <FormattedMessage
+                      id='tag.code'/>
+                  </p>
+                  }
+                </div>
               </div>
             </div>
           )}

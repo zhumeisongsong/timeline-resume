@@ -38,38 +38,3 @@ $bar-height = 44px
     font-weight: bold;
   }
 }
-
-.image-list
-  display: flex
-  flex-wrap: wrap
-  width: 100%
-  .item
-    position: relative
-    cursor: pointer
-    width: 33.3%
-    overflow hidden
-    .placeholder
-      overflow: hidden
-      transition: all $global-animation-speed.c ease-in-out
-    .hover-cover
-      position: absolute
-      left: 0
-      top: 0
-      width: 100%
-      height: 100%
-      opacity: 0
-      background-color: rgba(0, 0, 0, .6)
-      transition: all $global-animation-speed.a ease-in-out
-    &:hover
-      .placeholder
-        @extends .enlarge
-      .hover-cover
-        opacity: 1
-
-@media (max-width: $global-width.break-point-b) {
-  .image-list {
-    .item {
-      width: 100%;
-    }
-  }
-}

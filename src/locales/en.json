@@ -11,5 +11,7 @@
   "list.myRole": "My job",
   "list.skill": "Dev tools",
   "list.team": "Team",
-  "list.selfResponsibility": "My responsibility"
+  "list.selfResponsibility": "My responsibility",
+  "tag.code":"with Code",
+  "tag.link":"with Link"
 }
