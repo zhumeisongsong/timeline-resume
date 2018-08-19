@@ -14,3 +14,13 @@
     @extends .text-gradient
   .description
     font-size: 12px
+
+@media (max-width: $global-width.break-point-c)
+  .skill-container
+    .wrapper
+      flex-direction: column
+    .content
+      width 100%
+      + .content
+        padding-left: 0
+        padding-top: 24px

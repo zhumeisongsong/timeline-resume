@@ -1,13 +1,6 @@
 import React, {Component} from 'react';
 import {
-  FormattedMessage,
-  FormattedHTMLMessage,
-  FormattedDate,
-  FormattedTime,
-  FormattedRelative,
-  FormattedNumber,
-  FormattedPlural,
-  defineMessages
+  FormattedMessage
 } from 'react-intl';
 import {Modal} from 'antd';
 import _ from 'lodash';
@@ -153,7 +146,9 @@ class Top extends Component {
         <SkillList data={skill}/>
         }
 
-        <Contact/>
+        {JSON.stringify(introduction) !== '{}' &&
+        <Contact data={introduction}/>
+        }
       </div>
     )
   }
