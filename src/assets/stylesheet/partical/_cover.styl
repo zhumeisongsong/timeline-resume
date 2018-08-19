@@ -5,7 +5,7 @@
   justify-content: center
   height: 100vh
   margin-top: -44px
-  @extends .wrapper
+  @extend .wrapper
   .wrapper
     min-width: 80vw
 
@@ -14,20 +14,32 @@
     font-size: 16px
 
   h1
-    padding-bottom: $global-space.f
 
     span
-     @extends .text-gradient
+      @extend .text-gradient
   p
     width: 35%
     max-width: 400px
+    padding-top: $global-space.f
     padding-bottom: $global-space.b
     font-size: 12px
 
   .icon-item
-    @extends .flex-center-both
+    @extend .flex-center-both
     width: 40px
     height: 40px
     border-radius: 50%
     overflow: hidden
     background: $gradient
+
+@media (max-width: $global-width.break-point-c)
+  .cover-container
+    p
+      width: 100%
+      padding-top: $global-space.b
+    .icon-item
+      position absolute
+      left: 50%
+      bottom: 64px
+      margin-left: -20px
+      animation: start 1.5s infinite ease-in-out

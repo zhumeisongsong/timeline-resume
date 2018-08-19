@@ -6,14 +6,14 @@
   position: absolute
   left: 0
   top: 0
-  @extends .flex-center-both
+  @extend .flex-center-both
   width: 100%
   height: 100%
   opacity: 0
   background-color: rgba(0, 0, 0, .8)
   transition: all $global-animation-speed.a ease-in-out
   .wrapper
-    @extends .flex-end-row
+    @extend .flex-end-row
   p.title
     min-width: 160px
     padding: $global-space.a  $global-space.b
@@ -40,11 +40,11 @@
 
     &:hover
       .placeholder
-        @extends .enlarge
+        @extend .enlarge
       .hover-cover
         opacity: 1
 
-@media (max-width: $global-width.break-point-b)
+@media (max-width: $global-width.break-point-c)
   .image-list
     .item
       width: 100%

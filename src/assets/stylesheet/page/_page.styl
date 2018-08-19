@@ -1,14 +1,15 @@
 $bar-height = 44px
 
 .main-header
+  position: relative
   width: 100%
   z-index: $global-z-index.b
   .wrapper
-    @extends .flex-end
+    @extend .flex-end
     width: 100%
     height: $bar-height
   .item
-    @extends .link
+    @extend .link
     + .item
       margin-left: $global-space.a
 
@@ -21,7 +22,7 @@ $bar-height = 44px
   padding: 0 $global-space.a
 
 .main-footer
-  @extends .flex-center-both
+  @extend .flex-center-both
   width: 100%
   height: $bar-height
   color: #fff
