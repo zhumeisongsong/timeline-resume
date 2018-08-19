@@ -100,7 +100,7 @@ class Top extends Component {
         }
 
         {projects.length > 0 &&
-        <section className="image-list">
+        <section className="image-list scroll fade-in">
           {projects.map(val =>
             <div
               key={val.id}

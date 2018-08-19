@@ -3,7 +3,7 @@ import {Icon} from 'antd';
 import {FormattedMessage} from 'react-intl';
 
 const Contact = (props) => {
-  return (<div className="contact-container">
+  return (<div className="contact-container scroll fade-in">
       <div className="wrapper">
         <div className="item">
           <Icon type="mail"/>

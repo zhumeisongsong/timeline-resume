@@ -12,6 +12,7 @@ import {langList} from './constants/config';
 import Top from './containers/Top';
 
 import {getProjects, getSkill, getIntroduction} from './api';
+import animation from './utils/animation';
 
 class App extends Component {
   state = {
@@ -31,6 +32,8 @@ class App extends Component {
       projects,
       skill,
       introduction
+    },()=>{
+      animation()
     })
   };
 

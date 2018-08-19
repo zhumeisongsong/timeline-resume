@@ -24,7 +24,7 @@ const SkillList = (props) => {
     )
   };
 
-  return (<div className="skill-container">
+  return (<div className="skill-container scroll fade-in">
     <div className="wrapper">
       <div className="content">
         {props.data['hard'].map((val) =>
