@@ -1,6 +1,7 @@
 import React from 'react';
 import {Icon} from 'antd';
 import {FormattedMessage} from 'react-intl';
+import {getQuery} from '../utils/url';
 
 const Contact = (props) => {
   return (<div className="contact-container scroll fade-in">
@@ -12,6 +13,7 @@ const Contact = (props) => {
           </div>
         </div>
 
+        {getQuery(window.location.search).lang !== 'en' &&
         <div className="item">
           <Icon type="profile"/>
           <div className="item-content">
@@ -24,6 +26,7 @@ const Contact = (props) => {
             </a>
           </div>
         </div>
+        }
 
         <div className="item">
           <Icon type="solution"/>
