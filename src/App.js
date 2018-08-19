@@ -16,7 +16,7 @@ import {getProjects, getSkill, getIntroduction} from './api';
 class App extends Component {
   state = {
     projects: [],
-    skill: [],
+    skill: {},
     introduction: {},
     lang: '',
     activeLang: ''
@@ -38,15 +38,16 @@ class App extends Component {
     let params = getQuery(window.location.search);
     let index = _.findIndex(langList, {lang: params.lang});
     let locale = params.lang ? langList[index].type : 'ja-JP';
+    let lang = params.lang ? params.lang : 'ja';
 
     // fetch server data
     this._fetchData(locale);
 
     this.setState({
       lang: locale,
-      activeLang: params.lang ? params.lang : 'ja'
+      activeLang: lang
     });
-    document.documentElement.lang = params.lang; // set new lang attribute
+    document.documentElement.lang = lang // set new lang attribute
   }
 
   componentWillUnmount() {
@@ -60,7 +61,7 @@ class App extends Component {
     this.setState({
       lang: val.type,
       introduction: {},
-      skill: [],
+      skill: {},
       projects: []
     });
     document.documentElement.lang = val.lang; // set new lang attribute
