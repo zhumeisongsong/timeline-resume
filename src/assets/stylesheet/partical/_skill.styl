@@ -1,0 +1,16 @@
+.skill-container
+  padding: $global-space.g 0
+  .wrapper
+    @extends .flex-center-both
+  .content
+    + .content
+      padding-left: $global-space.i
+  .item
+    + .item
+      padding-top: $global-space.c
+  .title
+    padding-right: $global-space.a
+  .score
+    @extends .text-gradient
+  .description
+    font-size: 12px

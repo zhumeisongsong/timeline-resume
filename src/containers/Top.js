@@ -12,9 +12,10 @@ import {
 import {Modal} from 'antd';
 import _ from 'lodash';
 
+import ImageItem from '../components/common/ImageItem';
 import Introduction from '../components/Introduction';
 import SkillList from '../components/SkillList';
-import ImageItem from '../components/common/ImageItem';
+import Contact from '../components/Contact';
 
 class Top extends Component {
   state = {
@@ -148,10 +149,11 @@ class Top extends Component {
         </Modal>
         }
 
-        {skill.length > 0 &&
+        {JSON.stringify(skill) !== "{}" &&
         <SkillList data={skill}/>
         }
 
+        <Contact/>
       </div>
     )
   }

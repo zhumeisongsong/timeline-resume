@@ -1,38 +1,66 @@
-[
-  {
-    "id": 1,
-    "type": "Web develop",
-    "content": "Html5/Css3/Sass/Javascript/ES6/Typescript",
-    "score": 4
-  },
-  {
-    "id": 2,
-    "type": "Framework&Library",
-    "content": "React.js/jQuery/Angular4/Vue.js",
-    "score": 4
-  },
-  {
-    "id": 3,
-    "type": "Build Tools",
-    "content": "Webpack/Gulp/Rollup",
-    "score": 4
-  },
-  {
-    "id": 4,
-    "type": "Automated test",
-    "content": "jest/Karma/Nightwatch",
-    "score": 3
-  },
-  {
-    "id": 5,
-    "type": "Back-end",
-    "content": "Koa.js(Node.js)/Yii2(PHP)/Wordpress",
-    "score": 2
-  },
-  {
-    "id": 6,
-    "type": "Others",
-    "content": "Git/Docker/AWS code pipeline/Nginx",
-    "score": 3
-  }
-]
+{
+  "hard": [
+    {
+      "id": 1,
+      "type": "Web develop",
+      "content": "Html5/Css3/Sass/Stylus/Javascript/ES6/Typescript",
+      "score": 4
+    },
+    {
+      "id": 2,
+      "type": "Framework&Library",
+      "content": "React.js/jQuery/Angular4/Vue.js",
+      "score": 4
+    },
+    {
+      "id": 3,
+      "type": "Build Tools",
+      "content": "Webpack/Gulp/Rollup",
+      "score": 4
+    },
+    {
+      "id": 4,
+      "type": "Automated test",
+      "content": "Jest/Karma/Nightwatch",
+      "score": 3
+    },
+    {
+      "id": 5,
+      "type": "Back-end",
+      "content": "Koa.js(Node.js)/Yii2(PHP)/Wordpress",
+      "score": 2
+    },
+    {
+      "id": 6,
+      "type": "Others",
+      "content": "Git/Docker/AWS code pipeline/Nginx",
+      "score": 3
+    }
+  ],
+  "soft": [
+    {
+      "id": 1,
+      "type": "Rapid learning",
+      "content": "According to the project's need, learn new technology.",
+      "score": 5
+    },
+    {
+      "id": 2,
+      "type": "Solving problems",
+      "content": "Identify the problem correctly, solve it and summarize experience.",
+      "score": 4
+    },
+    {
+      "id": 3,
+      "type": "Communication",
+      "content": "Communicate effectively in teamwork.",
+      "score": 4
+    },
+    {
+      "id": 4,
+      "type": "Sharing",
+      "content": "Sharing ideas with others is the best way to improve.",
+      "score": 4
+    }
+  ]
+}
