@@ -581,7 +581,7 @@
         "time": "2015/08～2015/09",
         "content": "",
         "link": "http://static.maysongshow.cn/static-car-game/assets/build/moc/#slide1",
-        "codeLink": "",
+        "codeLink": "https://github.com/zhumeisongsong/gulp-game",
         "skill": "static",
         "team": {
           "total": 2,
@@ -598,7 +598,7 @@
         "image": "./images/projects/04-company-page/cover-min.jpg"
       },
       "containCode": false,
-      "containLink": true,
+      "containLink": false,
       "detailImage": [],
       "contentList": {
         "name": "会社ホームサイト",
@@ -607,7 +607,7 @@
         "time": "2015/04",
         "content": "",
         "link": "",
-        "codeLink": "--",
+        "codeLink": "",
         "skill": "static",
         "team": {
           "total": 2,
@@ -624,7 +624,7 @@
         "image": "./images/projects/03-LA-page/cover-min.jpg"
       },
       "containCode": false,
-      "containLink": true,
+      "containLink": false,
       "detailImage": [],
       "contentList": {
         "name": "デザイン会社ホームサイト",
@@ -633,7 +633,7 @@
         "time": "2015/03",
         "content": "",
         "link": "",
-        "codeLink": "--",
+        "codeLink": "",
         "skill": [
           "static"
         ],
@@ -661,7 +661,7 @@
         "time": "2010/07～2010/10",
         "content": "",
         "link": "http://202.115.129.131/",
-        "codeLink": "--",
+        "codeLink": "",
         "skill": [
           "static"
         ],
