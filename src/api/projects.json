@@ -2,13 +2,40 @@
   "ja-JP": [
     {
       "id": 27,
+      "containCode": true,
+      "containLink": true,
       "cover": {
         "thumbnail": "",
-        "image": ""
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "detailImage": [],
       "contentList": {
-        "name": "C2Cキュレーションサイト(クライアント側)",
+        "name": "職務経歴書",
+        "country": "中国",
+        "type": 1,
+        "time": "2018/08",
+        "content": "",
+        "link": "https://resume.maysongshow.cn/",
+        "codeLink": "https://github.com/zhumeisongsong/react-resume",
+        "skill": "static",
+        "team": {
+          "total": 1,
+          "frontEnd": 1
+        },
+        "selfResponsibility": ""
+      }
+    },
+    {
+      "id": 26,
+      "containCode": true,
+      "containLink": true,
+      "cover": {
+        "thumbnail": "",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+      },
+      "detailImage": [],
+      "contentList": {
+        "name": "C2Cキュレーションサイト",
         "country": 1,
         "type": 1,
         "time": "2018/06～2018/08",
@@ -23,40 +50,13 @@
       }
     },
     {
-      "id": 26,
-      "containCode": true,
-      "cover": {
-        "thumbnail": "",
-        "image": "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png"
-      },
-      "detailImage": [],
-      "contentList": {
-        "name": "C2C Curation Site(Admin)",
-        "country": 2,
-        "type": 1,
-        "time": "2018/06～",
-        "content": "",
-        "link": "Private",
-        "codeLink": "Private",
-        "skill": "static",
-        "team": {
-          "total": 10,
-          "design": 1,
-          "frontEnd": 2,
-          "backEnd": 3,
-          "qc": 2
-        },
-        "selfResponsibility": "XXXXX"
-      }
-    },
-    {
       "id": 25,
+      "containCode": true,
+      "containLink": true,
       "cover": {
         "thumbnail": "",
         "image": ""
       },
-      "containCode": false,
-      "containLink": true,
       "detailImage": [],
       "contentList": {
         "name": "図書館ホームサイト(キャンパス内)",
@@ -542,10 +542,10 @@
     {
       "id": 6,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/06-blog/thumbnail-min.jpg",
+        "image": "./images/projects/06-blog/cover-min.jpg"
       },
-      "containCode": false,
+      "containCode": true,
       "containLink": true,
       "detailImage": [],
       "contentList": {
@@ -554,8 +554,8 @@
         "type": 1,
         "time": "2015/10",
         "content": "",
-        "link": "",
-        "codeLink": "--",
+        "link": "https://maysongshow.cn/",
+        "codeLink": "https://github.com/zhumeisongsong/node-ghost-blog",
         "skill": "static",
         "team": {
           "total": 2,
@@ -580,8 +580,8 @@
         "type": 1,
         "time": "2015/08～2015/09",
         "content": "",
-        "link": "",
-        "codeLink": "--",
+        "link": "http://static.maysongshow.cn/static-car-game/assets/build/moc/#slide1",
+        "codeLink": "",
         "skill": "static",
         "team": {
           "total": 2,
@@ -594,8 +594,8 @@
     {
       "id": 4,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/04-company-page/thumbnail-min.jpg",
+        "image": "./images/projects/04-company-page/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -620,8 +620,8 @@
     {
       "id": 3,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/03-LA-page/thumbnail-min.jpg",
+        "image": "./images/projects/03-LA-page/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -648,8 +648,8 @@
     {
       "id": 2,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
+        "image": "./images/projects/01-community/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -660,7 +660,7 @@
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
-        "link": "",
+        "link": "http://202.115.129.131/",
         "codeLink": "--",
         "skill": [
           "static"
@@ -676,23 +676,21 @@
     {
       "id": 1,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
+        "image": "./images/projects/01-community/cover-min.jpg"
       },
       "containCode": false,
       "containLink": false,
       "detailImage": [],
       "contentList": {
         "name": "学生コミュニティ(キャンパス内)",
-        "country": 1,
+        "country": "中国",
         "type": 1,
         "time": "2009/03～2010/07",
         "content": "",
-        "link": "--",
-        "codeLink": "--",
-        "skill": [
-          ""
-        ],
+        "link": "",
+        "codeLink": "",
+        "skill": ["html/css","jQuery"],
         "team": {
           "total": 2,
           "frontEnd": 1,
@@ -707,7 +705,7 @@
       "id": 27,
       "cover": {
         "thumbnail": "",
-        "image": ""
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "detailImage": [],
       "contentList": {
