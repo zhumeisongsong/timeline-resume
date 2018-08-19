@@ -1,11 +1,19 @@
 .link
-  padding:0 2px 2px 2px
+  padding: 0 2px 2px 2px
   cursor: pointer
   transition: all .2s ease-in-out
-
   &:hover
     color: $global-color.primary
-
   &.active
     color: $global-color.primary
     border-bottom: 1px solid $global-color.primary
+
+.link-black
+  color: $global-color.default-dark
+  &:hover
+    color: $global-color.primary
+
+.link-white
+  color: $global-color.soft-white
+  &:hover
+    color: #fff

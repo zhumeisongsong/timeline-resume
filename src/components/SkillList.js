@@ -15,11 +15,11 @@ const SkillList = (props) => {
   const content = (val) => {
     return (
       <div key={val.id} className="item">
-        <h2>
+        <h4>
           <span className="title">{val.type}:</span>
           <span className="score">{score(val.score)}</span>
-        </h2>
-        <div className="description">{val.content}</div>
+        </h4>
+        <p className="description">{val.content}</p>
       </div>
     )
   };

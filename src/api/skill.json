@@ -14,7 +14,7 @@
     },
     {
       "id": 3,
-      "type": "Build Tools",
+      "type": "Build tools",
       "content": "Webpack/Gulp/Rollup",
       "score": 4
     },

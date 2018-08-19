@@ -15,5 +15,7 @@
   "list.selfResponsibility": "My responsibility",
   "tag.code":"with Code",
   "tag.link":"with Link",
-  "modal.title":"Information"
+  "modal.title":"Information",
+  "file.career":"Career description",
+  "file.resume":"My resume"
 }

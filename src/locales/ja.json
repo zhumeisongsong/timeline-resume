@@ -15,5 +15,7 @@
   "list.selfResponsibility": "自分の担当",
   "tag.code":"コードがある",
   "tag.link":"リンクがある",
-  "modal.title":"案件詳細"
+  "modal.title":"案件詳細",
+  "file.career":"職務経歴書",
+  "file.resume":"履歴書"
 }
