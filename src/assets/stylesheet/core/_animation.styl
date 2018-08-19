@@ -1,2 +1,23 @@
 .enlarge
-    transform: scale(1.2)
+  transform: scale(1.2)
+
+@keyframes start
+  0%
+    opacity: .8
+    bottom: 74px
+
+  50%
+    opacity: 1
+    bottom: 64px
+
+  100%
+    opacity: 0
+    bottom: 54px
+
+.fade-in
+  opacity: 0
+  transform: translate(0, 50px)
+  transition: opacity .6s .1s, transform .6s ease
+  &.is-scoped
+    opacity: 1
+    transform: translate(0, 0)
