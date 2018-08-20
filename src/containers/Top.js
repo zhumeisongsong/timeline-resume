@@ -72,15 +72,19 @@ class Top extends Component {
               </div>)
             }
 
-            return (
-              <div className="item" key={key}>
-                <div className="key">
-                  <FormattedMessage
-                    id={`list.${key}`}/>:
+            if (item!=='') {
+              return (
+                <div className="item" key={key}>
+                  <div className="key">
+                    <FormattedMessage
+                      id={`list.${key}`}/>:
+                  </div>
+                  {valueItem}
                 </div>
-                {valueItem}
-              </div>
-            )
+              )
+            } else {
+              return null
+            }
           }
         )}
 
