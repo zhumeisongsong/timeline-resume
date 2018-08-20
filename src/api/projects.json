@@ -182,14 +182,14 @@
     {
       "id": 20,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/20-colorit/thumbnail-min.jpg",
+        "image": "./images/projects/20-colorit/cover.jpg"
       },
       "containCode": false,
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "機械學習--写真の処理",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
