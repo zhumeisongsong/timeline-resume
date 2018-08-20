@@ -438,8 +438,8 @@
     {
       "id": 10,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -464,8 +464,8 @@
     {
       "id": 9,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -476,8 +476,8 @@
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
-        "link": "",
-        "codeLink": "--",
+        "link": "http://static.maysongshow.cn/player/assets/build/player.html",
+        "codeLink": "",
         "skill": "static",
         "team": {
           "total": 2,
@@ -490,8 +490,8 @@
     {
       "id": 8,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/08-fuzhou/thumbnail-min.jpg",
+        "image": "./images/projects/08-fuzhou/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -516,8 +516,8 @@
     {
       "id": 7,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/07-vip/thumbnail-min.jpg",
+        "image": "./images/projects/07-vip/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -529,7 +529,7 @@
         "time": "2016/03～2016/08",
         "content": "",
         "link": "",
-        "codeLink": "--",
+        "codeLink": "",
         "skill": "static",
         "team": {
           "total": 2,
@@ -568,8 +568,8 @@
     {
       "id": 5,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/05-car/thumbnail-min.jpg",
+        "image": "./images/projects/05-car/cover-min.jpg"
       },
       "containCode": true,
       "containLink": true,
@@ -648,8 +648,8 @@
     {
       "id": 2,
       "cover": {
-        "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
-        "image": "./images/projects/01-community/cover-min.jpg"
+        "thumbnail": "./images/projects/02-library/thumbnail-min.jpg",
+        "image": "./images/projects/02-library/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
