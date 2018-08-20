@@ -438,8 +438,8 @@
     {
       "id": 10,
       "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+        "thumbnail": "./images/projects/10-bukka-CMS/thumbnail-min.png",
+        "image": "./images/projects/10-bukka-CMS/cover-min.png"
       },
       "containCode": false,
       "containLink": true,
@@ -464,8 +464,8 @@
     {
       "id": 9,
       "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+        "thumbnail": "./images/projects/09-videojs/thumbnail-min.png",
+        "image": "./images/projects/09-videojs/cover-min.png"
       },
       "containCode": false,
       "containLink": true,
