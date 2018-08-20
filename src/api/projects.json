@@ -5,8 +5,8 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+        "thumbnail": "./images/projects/27-resume/thumbnail-min.jpg",
+        "image": "./images/projects/27-resume/cover.jpg"
       },
       "detailImage": [],
       "contentList": {
@@ -30,13 +30,13 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+        "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.jpg",
+        "image": "./images/projects/26-nippon-hodai/cover.jpg"
       },
       "detailImage": [],
       "contentList": {
         "name": "C2Cキュレーションサイト",
-        "country": 1,
+        "country": "日本",
         "type": 1,
         "time": "2018/06～2018/08",
         "content": "",
@@ -54,8 +54,8 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/25-nippon-hodai-CMS/thumbnail-min.jpg",
+        "image": "./images/projects/25-nippon-hodai-CMS/cover.png"
       },
       "detailImage": [],
       "contentList": {
@@ -78,14 +78,14 @@
     {
       "id": 24,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/25-koubei/thumbnail-min.jpg",
+        "image": "./images/projects/24-koubei/cover.jpg"
       },
       "containCode": false,
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "alipay",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
@@ -104,8 +104,8 @@
     {
       "id": 23,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/23-wechat-app/thumbnail-min.png",
+        "image": "./images/projects/23-wechat-app/cover.png"
       },
       "containCode": false,
       "containLink": true,
@@ -390,8 +390,8 @@
     {
       "id": 12,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/11-HE/thumbnail-min.jpg",
+        "image": "./images/projects/11-HE/cover-min.jpg"
       },
       "containCode": false,
       "containLink": true,
@@ -402,8 +402,8 @@
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
-        "link": "",
-        "codeLink": "--",
+        "link": "https://www.hackerearth.cn/",
+        "codeLink": "Private",
         "skill": "static",
         "team": {
           "total": 2,
@@ -690,7 +690,10 @@
         "content": "",
         "link": "",
         "codeLink": "",
-        "skill": ["html/css","jQuery"],
+        "skill": [
+          "html/css",
+          "jQuery"
+        ],
         "team": {
           "total": 2,
           "frontEnd": 1,
