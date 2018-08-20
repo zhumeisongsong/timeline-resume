@@ -6,7 +6,7 @@
       "containLink": true,
       "cover": {
         "thumbnail": "./images/projects/27-resume/thumbnail-min.jpg",
-        "image": "./images/projects/27-resume/cover.jpg"
+        "image": "./images/projects/27-resume/cover.png"
       },
       "detailImage": [],
       "contentList": {
@@ -104,14 +104,14 @@
     {
       "id": 23,
       "cover": {
-        "thumbnail": "./images/projects/23-wechat-app/thumbnail-min.png",
-        "image": "./images/projects/23-wechat-app/cover.png"
+        "thumbnail": "./images/projects/23-koubei-CMS/thumbnail-min.png",
+        "image": "./images/projects/23-koubei-CMS/cover.png"
       },
       "containCode": false,
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "Alipay",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
@@ -130,8 +130,8 @@
     {
       "id": 22,
       "cover": {
-        "thumbnail": "./images/projects/22-DSB/thumbnail-min.png",
-        "image": "./images/projects/23-DSB/cover.png"
+        "thumbnail": "./images/projects/23-wechat-app/thumbnail-min.png",
+        "image": "./images/projects/23-wechat-app/cover.png"
       },
       "containCode": false,
       "containLink": true,
@@ -182,14 +182,14 @@
     {
       "id": 20,
       "cover": {
-        "thumbnail": "./images/projects/20-colorit/thumbnail-min.jpg",
-        "image": "./images/projects/20-colorit/cover.jpg"
+        "thumbnail": "./images/projects/22-DSB/thumbnail-min.png",
+        "image": "./images/projects/23-DSB/cover.png"
       },
       "containCode": false,
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "機械學習--写真の処理",
+        "name": "図書館ホームサイト(キャンパス内)",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
@@ -208,14 +208,14 @@
     {
       "id": 19,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/20-colorit/thumbnail-min.jpg",
+        "image": "./images/projects/20-colorit/cover.jpg"
       },
       "containCode": false,
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "機械學習--写真の処理",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
@@ -241,13 +241,13 @@
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
+        "name": "360°MOVIEページ",
+        "country": "日本",
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
-        "link": "",
-        "codeLink": "--",
+        "link": "http://static.maysongshow.cn/vr/assets/build/",
+        "codeLink": "Private",
         "skill": "static",
         "team": {
           "total": 2,
@@ -312,8 +312,8 @@
     {
       "id": 15,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/15-biedong/thumbnail-min.jpg",
+        "image": "./images/projects/15-biedong/cover.png"
       },
       "containCode": false,
       "containLink": true,
@@ -649,7 +649,7 @@
       "id": 2,
       "cover": {
         "thumbnail": "./images/projects/02-library/thumbnail-min.jpg",
-        "image": "./images/projects/02-library/cover-min.jpg"
+        "image": "./images/projects/02-library/cover.png"
       },
       "containCode": false,
       "containLink": true,
