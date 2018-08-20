@@ -130,8 +130,8 @@
     {
       "id": 22,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/22-DSB/thumbnail-min.png",
+        "image": "./images/projects/23-DSB/cover.png"
       },
       "containCode": false,
       "containLink": true,
@@ -319,13 +319,13 @@
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
-        "country": 1,
+        "name": "広告会社のホームページ",
+        "country": "中国",
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
-        "link": "",
-        "codeLink": "--",
+        "link": " http://www.beanimal.cn/",
+        "codeLink": "",
         "skill": "static",
         "team": {
           "total": 2,
@@ -398,7 +398,7 @@
       "detailImage": [],
       "contentList": {
         "name": "応募システムのホームサイト",
-        "country": 1,
+        "country": "中国",
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
@@ -422,7 +422,7 @@
       "detailImage": [],
       "contentList": {
         "name": "B2Cシュップ",
-        "country": 1,
+        "country": "中国",
         "type": 1,
         "time": "2017/06～2017/08",
         "content": "将来の案件にSPAを使用してのために、このdemoをつくりました。",
@@ -446,7 +446,7 @@
       "detailImage": [],
       "contentList": {
         "name": "B2Cレコード管理システム",
-        "country": 1,
+        "country": "日本",
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
