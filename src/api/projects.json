@@ -30,12 +30,12 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.jpg",
-        "image": "./images/projects/26-nippon-hodai/cover.jpg"
+        "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.png",
+        "image": "./images/projects/26-nippon-hodai/cover.png"
       },
       "detailImage": [],
       "contentList": {
-        "name": "C2Cキュレーションサイト",
+        "name": "C2Cキュレーションサイト(client)",
         "country": "日本",
         "type": 1,
         "time": "2018/06～2018/08",
@@ -59,7 +59,7 @@
       },
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "C2Cキュレーションサイト(admin)",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
@@ -208,8 +208,8 @@
     {
       "id": 19,
       "cover": {
-        "thumbnail": "./images/projects/20-colorit/thumbnail-min.jpg",
-        "image": "./images/projects/20-colorit/cover.jpg"
+        "thumbnail": "./images/projects/19-colorit/thumbnail-min.jpg",
+        "image": "./images/projects/19-colorit/cover.png"
       },
       "containCode": false,
       "containLink": true,
@@ -419,6 +419,8 @@
         "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
         "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
+      "containCode": true,
+      "containLink": true,
       "detailImage": [],
       "contentList": {
         "name": "B2Cシュップ",
@@ -439,10 +441,10 @@
       "id": 10,
       "cover": {
         "thumbnail": "./images/projects/10-bukka-CMS/thumbnail-min.png",
-        "image": "./images/projects/10-bukka-CMS/cover-min.png"
+        "image": "./images/projects/10-bukka-CMS/cover.png"
       },
       "containCode": false,
-      "containLink": true,
+      "containLink": false,
       "detailImage": [],
       "contentList": {
         "name": "B2Cレコード管理システム",
@@ -451,7 +453,7 @@
         "time": "2010/07～2010/10",
         "content": "",
         "link": "",
-        "codeLink": "--",
+        "codeLink": "Private",
         "skill": "static",
         "team": {
           "total": 2,
