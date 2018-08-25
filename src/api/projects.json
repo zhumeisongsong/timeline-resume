@@ -234,8 +234,8 @@
     {
       "id": 18,
       "cover": {
-        "thumbnail": "",
-        "image": ""
+        "thumbnail": "./images/projects/18-VR/thumbnail-min.jpg",
+        "image": "./images/projects/18-VR/cover.png"
       },
       "containCode": false,
       "containLink": true,
@@ -315,7 +315,7 @@
         "thumbnail": "./images/projects/15-biedong/thumbnail-min.jpg",
         "image": "./images/projects/15-biedong/cover.png"
       },
-      "containCode": false,
+      "containCode": true,
       "containLink": true,
       "detailImage": [],
       "contentList": {
@@ -367,17 +367,17 @@
         "thumbnail": "",
         "image": ""
       },
-      "containCode": false,
+      "containCode": true,
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "商務会社ホームサイト",
         "country": 1,
         "type": 1,
         "time": "2010/07～2010/10",
         "content": "",
         "link": "",
-        "codeLink": "--",
+        "codeLink": "",
         "skill": "static",
         "team": {
           "total": 2,
@@ -390,8 +390,8 @@
     {
       "id": 12,
       "cover": {
-        "thumbnail": "./images/projects/11-HE/thumbnail-min.jpg",
-        "image": "./images/projects/11-HE/cover-min.jpg"
+        "thumbnail": "./images/projects/12-HE/thumbnail-min.jpg",
+        "image": "./images/projects/12-HE/cover.png"
       },
       "containCode": false,
       "containLink": true,
