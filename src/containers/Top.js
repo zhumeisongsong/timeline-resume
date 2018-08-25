@@ -36,57 +36,27 @@ class Top extends Component {
       projects
     } = this.props;
 
-    const modalBack = <FormattedMessage
-      id='button.back'/>;
+    const modalBack = <FormattedMessage id='button.back'/>;
 
     // modal content template
     const detailContent = projects[detailIndex] ? (
       <div>
         {/*content*/}
-        {Object.keys(projects[detailIndex]['contentList']).map((key) => {
-            const item = projects[detailIndex]['contentList'][key];// value
-            let valueItem = '';
+        {console.log(projects[detailIndex]['contentList'])}
+        <FormattedMessage id={`list.name`}/>
+        <FormattedMessage id={`list.link`}/>
+        <FormattedMessage id={`list.codeLink`}/>
 
-            if (key === 'team') {
-              valueItem = (<div className="value">
-                <span>
-                </span>
-                <span>
-                </span>
-                <span>
-                </span>
-                <span>
-                </span>
-                {item.frontEnd}
-                {item.backEnd}
-                {item.qc}
-                {item.design}
-              </div>)
-            } else if (key === 'link' || key === 'codeLink') {
-              valueItem = (<a className="value" href={item} target="_blank">
-                {item}
-              </a>)
-            } else {
-              valueItem = (<div className="value">
-                {item}
-              </div>)
-            }
+        <FormattedMessage id={`list.content`}/>
 
-            if (item!=='') {
-              return (
-                <div className="item" key={key}>
-                  <div className="key">
-                    <FormattedMessage
-                      id={`list.${key}`}/>:
-                  </div>
-                  {valueItem}
-                </div>
-              )
-            } else {
-              return null
-            }
-          }
-        )}
+        <FormattedMessage id={`list.skill`}/>
+        <FormattedMessage id={`list.team`}/>
+        <FormattedMessage id={`list.selfResponsibility`}/>
+        <FormattedMessage id={`list.myRole`}/>
+
+        <FormattedMessage id={`list.country`}/>
+        <FormattedMessage id={`list.time`}/>
+        <FormattedMessage id={`list.infrastructure`}/>
 
         {/*imageList*/}
         <div className="detail-images">
@@ -133,25 +103,24 @@ class Top extends Component {
         </section>
         }
 
-        {modalVisible &&
-        <Modal
-          className="detail"
-          title={ <FormattedMessage
-            id='modal.title'/>}
-          visible={modalVisible}
-          onCancel={() => this.setModalVisible(false)}
-          cancelText={modalBack}
-        >
-          {detailContent}
-        </Modal>
-        }
-
         {JSON.stringify(skill) !== "{}" &&
         <SkillList data={skill}/>
         }
 
         {JSON.stringify(introduction) !== '{}' &&
         <Contact data={introduction}/>
+        }
+
+        {modalVisible &&
+        <Modal
+          className="detail"
+          title={projects[detailIndex]['contentList'].type}
+          visible={modalVisible}
+          onCancel={() => this.setModalVisible(false)}
+          cancelText={modalBack}
+        >
+          {detailContent}
+        </Modal>
         }
       </div>
     )
