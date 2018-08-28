@@ -11,7 +11,6 @@ const Introduction = (props) => {
             values={{
               name: props.data.name + (props.data.read ? `(${props.data.read})` : '')
             }}/>
-
         </div>
         <h1 dangerouslySetInnerHTML={{__html: props.data.face}}/>
         <p>{props.data.description}</p>
