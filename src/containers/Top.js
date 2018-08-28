@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
+import {Modal} from 'antd';
+import _ from 'lodash';
 import {
   FormattedMessage
 } from 'react-intl';
-import {Modal} from 'antd';
-import _ from 'lodash';
 
 import ImageItem from '../components/common/ImageItem';
 import Introduction from '../components/Introduction';
 import SkillList from '../components/SkillList';
 import Contact from '../components/Contact';
+import Detail from '../components/Detail';
 
 class Top extends Component {
   state = {
@@ -40,39 +41,17 @@ class Top extends Component {
 
     // modal content template
     const detailContent = projects[detailIndex] ? (
-      <div>
-        {/*content*/}
-        {console.log(projects[detailIndex]['contentList'])}
-        <FormattedMessage id={`list.name`}/>
-        <FormattedMessage id={`list.link`}/>
-        <FormattedMessage id={`list.codeLink`}/>
-
-        <FormattedMessage id={`list.content`}/>
-
-        <FormattedMessage id={`list.skill`}/>
-        <FormattedMessage id={`list.team`}/>
-        <FormattedMessage id={`list.selfResponsibility`}/>
-        <FormattedMessage id={`list.myRole`}/>
-
-        <FormattedMessage id={`list.country`}/>
-        <FormattedMessage id={`list.time`}/>
-        <FormattedMessage id={`list.infrastructure`}/>
-
-        {/*imageList*/}
-        <div className="detail-images">
-          {projects[detailIndex]['detailImage'].map((val) =>
-            <img src={val} key={val}/>
-          )}
-        </div>
-      </div>
+      <Detail data={projects[detailIndex]}/>
     ) : null;
 
     return (
       <div>
+        {/*container introduction*/}
         {JSON.stringify(introduction) !== '{}' &&
         <Introduction data={introduction}/>
         }
 
+        {/*container projects*/}
         {projects.length > 0 &&
         <section className="image-list scroll fade-in">
           {projects.map(val =>
@@ -87,13 +66,11 @@ class Top extends Component {
                   <p className="title">{val.contentList.name}</p>
                   {val.containLink &&
                   <p className="tag">
-                    <FormattedMessage
-                      id='tag.link'/></p>
+                    <FormattedMessage id='tag.link'/></p>
                   }
                   {val.containCode &&
                   <p className="tag">
-                    <FormattedMessage
-                      id='tag.code'/>
+                    <FormattedMessage id='tag.code'/>
                   </p>
                   }
                 </div>
@@ -103,14 +80,17 @@ class Top extends Component {
         </section>
         }
 
+        {/*container skill*/}
         {JSON.stringify(skill) !== "{}" &&
         <SkillList data={skill}/>
         }
 
+        {/*container instruction*/}
         {JSON.stringify(introduction) !== '{}' &&
         <Contact data={introduction}/>
         }
 
+        {/*modal*/}
         {modalVisible &&
         <Modal
           className="detail"
