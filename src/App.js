@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {LocaleProvider} from 'antd';
 import {addLocaleData, IntlProvider} from 'react-intl';
 import _ from 'lodash';
+import {FormattedMessage} from 'react-intl';
 
 import './assets/stylesheet/style.styl';
 
@@ -32,7 +33,7 @@ class App extends Component {
       projects,
       skill,
       introduction
-    },()=>{
+    }, () => {
       animation()
     })
   };
@@ -120,6 +121,7 @@ class App extends Component {
 
             {/*footer copyright*/}
             <footer className="main-footer">
+              <FormattedMessage id='copyright'/>
               <span>D.S.SHOW</span>© 2018
             </footer>
           </div>
