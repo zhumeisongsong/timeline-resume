@@ -21,6 +21,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
-locales/en.json
-locales/ja.json
-locales/zh.json
+/src/locales/en.json
+/src/locales/ja.json
+/src/locales/zh.json
+/public/images
+
