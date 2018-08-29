@@ -4,7 +4,6 @@ import {
 } from 'react-intl';
 
 const Detail = (props) => {
-  console.log(props.data)
   return (
     <div className="detail-content">
       <h2>{props.data.contentList.name}</h2>
