@@ -720,6 +720,7 @@
         "link": "https://resume.maysongshow.cn",
         "codeLink": "https://github.com/zhumeisongsong/react-resume",
         "skill": "2",
+        "myRole": "1,2,3",
         "team": {
           "total": 1,
           "frontEnd": 1
@@ -730,9 +731,11 @@
     },
     {
       "id": 26,
+      "containCode": true,
+      "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+        "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.jpg",
+        "image": "./images/projects/26-nippon-hodai/cover-min.jpg"
       },
       "detailImage": [],
       "contentList": {
@@ -740,10 +743,10 @@
         "country": "1",
         "type": "1",
         "time": "2018/06～",
-        "content": "A responsive website of travel topic. It includes 2 parts content display and profile center. ",
         "link": "https://nippon.hodaiweb.com/",
         "codeLink": "",
         "skill": "1",
+        "myRole": "1,2,3",
         "team": {
           "total": 10,
           "design": 1,
@@ -751,6 +754,7 @@
           "backEnd": 3,
           "qc": 2
         },
+        "content": "A responsive website of travel topic. It includes 2 parts content display and profile center. ",
         "selfResponsibility": "\r"
       }
     },
@@ -758,29 +762,30 @@
       "id": 11,
       "containCode": true,
       "containLink": true,
+      "cover": {
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "image": "./images/projects/11-flower-plus/cover-min.jpg"
+      },
+      "detailImage": [],
       "contentList": {
         "name": "B2C Shop Demo",
         "country": "1",
         "type": "1",
         "time": "2017/06～2017/08",
         "content": "",
-        "link": "https://nippon.hodaiweb.com",
+        "link": "http://angular.maysongshow.cn",
         "codeLink": "https://github.com/zhumeisongsong/angular-my-app",
-        "skill": "Angular4"
-      },
-      "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
-        "image": "./images/projects/11-flower-plus/cover-min.jpg"
-      },
-      "detailImage": [],
-      "team": {
-        "total": 10,
-        "design": 1,
-        "frontEnd": 2,
-        "backEnd": 3,
-        "qc": 2
-      },
-      "selfResponsibility": "XXXXX"
+        "skill": "Angular4",
+        "myRole": "1,2,3",
+        "team": {
+          "total": 10,
+          "design": 1,
+          "frontEnd": 2,
+          "backEnd": 3,
+          "qc": 2
+        },
+        "selfResponsibility": "XXXXX"
+      }
     }
   ]
 }
