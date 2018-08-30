@@ -709,7 +709,7 @@
       "containLink": true,
       "cover": {
         "thumbnail": "./images/projects/27-resume/thumbnail-min.jpg",
-        "image": "./images/projects/27-resume/cover.png"
+        "image": "./images/projects/27-resume/cover-min.png"
       },
       "detailImage": [],
       "contentList": {
@@ -717,7 +717,6 @@
         "country": "1",
         "type": "1",
         "time": "2018/08",
-        "content": "",
         "link": "https://resume.maysongshow.cn",
         "codeLink": "https://github.com/zhumeisongsong/react-resume",
         "skill": "2",
@@ -725,13 +724,14 @@
           "total": 1,
           "frontEnd": 1
         },
+        "content": "A website for projects introduction.",
         "selfResponsibility": ""
       }
     },
     {
       "id": 26,
       "cover": {
-        "thumbnail": "",
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
         "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "detailImage": [],

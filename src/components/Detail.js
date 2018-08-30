@@ -57,18 +57,6 @@ const Detail = (props) => {
 
         <div className="item">
           <div className="item-label">
-            <FormattedMessage id={`list.infrastructure`}/>
-          </div>
-          <div className="item-content">
-            {isNaN(parseInt(props.data.contentList.skill, 10)) ?
-              props.data.contentList.skill :
-              key2value('skillType', props.data.contentList.skill)
-            }
-          </div>
-        </div>
-
-        <div className="item">
-          <div className="item-label">
             <FormattedMessage id={`list.team`}/>
           </div>
           <div className="item-content">
@@ -80,7 +68,13 @@ const Detail = (props) => {
           </div>
         </div>
 
-        <FormattedMessage id={`list.myRole`}/>
+        <div className="item">
+
+        </div>
+
+        <div className="item">
+
+        </div>
       </div>
 
       {/*imageList*/}
