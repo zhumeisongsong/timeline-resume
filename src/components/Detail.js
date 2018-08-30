@@ -2,7 +2,7 @@ import React from 'react';
 import {
   FormattedMessage
 } from 'react-intl';
-import {key2value} from '../utils/string'
+import {key2value, nl2br} from '../utils/string'
 
 const Detail = (props) => {
   return (
@@ -10,7 +10,7 @@ const Detail = (props) => {
       <h2>{props.data.contentList.name}</h2>
       {props.data.contentList.link &&
       <div className="item link">
-        <a href={props.data.contentList.link}>{props.data.contentList.link}</a>
+        <a href={props.data.contentList.link} target="_blank" rel="noreferrer noopener">{props.data.contentList.link}</a>
       </div>
       }
       <div className="col-left">
@@ -39,7 +39,7 @@ const Detail = (props) => {
           <div className="item-label">
             <FormattedMessage id={`list.codeLink`}/>
           </div>
-          <a href={props.data.contentList.codeLink}>{props.data.contentList.codeLink}</a>
+          <a href={props.data.contentList.codeLink} target="_blank" rel="noreferrer noopener">{props.data.contentList.codeLink}</a>
         </div>
         }
 
@@ -63,7 +63,7 @@ const Detail = (props) => {
             <ul>
               {Object.keys(props.data.contentList.team).map((key) => {
                 return ( <li key={key}>
-                  <span>{key}</span>
+                  <FormattedMessage className="ul-name" id={`team.${key}`}/>
                   <span>{props.data.contentList.team[key]}</span>
                   <FormattedMessage id={`list.unit`}/>
                 </li>)
@@ -76,9 +76,7 @@ const Detail = (props) => {
           {props.data.contentList.content}
         </div>
 
-        <div className="item">
-          {props.data.contentList.selfResponsibility}
-        </div>
+        <div className="item" dangerouslySetInnerHTML={{__html: nl2br(props.data.contentList.selfResponsibility)}}/>
       </div>
 
       {/*imageList*/}
