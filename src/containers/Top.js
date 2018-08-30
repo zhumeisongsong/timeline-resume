@@ -11,6 +11,8 @@ import SkillList from '../components/SkillList';
 import Contact from '../components/Contact';
 import Detail from '../components/Detail';
 
+import {key2value} from '../utils/string';
+
 class Top extends Component {
   state = {
     detailIndex: '',
@@ -94,7 +96,7 @@ class Top extends Component {
         {modalVisible &&
         <Modal
           className="detail"
-          title={projects[detailIndex]['contentList'].type}
+          title={key2value('projectType', projects[detailIndex]['contentList'].type)}
           visible={modalVisible}
           onCancel={() => this.setModalVisible(false)}
           cancelText={modalBack}
