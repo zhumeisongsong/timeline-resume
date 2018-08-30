@@ -61,19 +61,23 @@ const Detail = (props) => {
           </div>
           <div className="item-content">
             <ul>
-              <li>
-
-              </li>
+              {Object.keys(props.data.contentList.team).map((key) => {
+                return ( <li key={key}>
+                  <span>{key}</span>
+                  <span>{props.data.contentList.team[key]}</span>
+                  <FormattedMessage id={`list.unit`}/>
+                </li>)
+              })}
             </ul>
           </div>
         </div>
 
         <div className="item">
-
+          {props.data.contentList.content}
         </div>
 
         <div className="item">
-
+          {props.data.contentList.selfResponsibility}
         </div>
       </div>
 
