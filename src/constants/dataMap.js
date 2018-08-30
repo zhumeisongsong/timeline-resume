@@ -1,4 +1,4 @@
-export let langList = [
+const langList = [
   // {
   // lang: 'zh-cn',
   //   type: 'zh-CN',
@@ -19,7 +19,7 @@ export let langList = [
 ];
 
 
-export const projectType = [
+const projectType = [
   {
     id: 1,
     name: 'WebSite'
@@ -44,6 +44,35 @@ export const projectType = [
     id: 7,
     name: 'PHP'
   }
-]
+];
+
+const skillType = [
+  {
+    id: 1,
+    name: 'Gulp + Rollup + Pug + Sass + ES6/jQuery'
+  },
+  {
+    id: 2,
+    name: 'React + Redux/Mobx + react-router4 + axios + Antd'
+  }
+];
+
+const country = [
+  {
+    id: 1,
+    name: 'China'
+  },
+  {
+    id: 2,
+    name: 'Japan'
+  }
+];
+
+export default{
+  langList,
+  projectType,
+  skillType,
+  country
+}
 
 

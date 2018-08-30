@@ -8,7 +8,7 @@ import './assets/stylesheet/style.styl';
 
 import {getLocale} from './utils/locale';
 import {setQuery, getQuery} from './utils/url';
-import {langList} from './constants/config';
+import map from './constants/dataMap';
 
 import Top from './containers/Top';
 
@@ -40,8 +40,8 @@ class App extends Component {
 
   componentDidMount() {
     let params = getQuery(window.location.search);
-    let index = _.findIndex(langList, {lang: params.lang});
-    let locale = params.lang ? langList[index].type : 'ja-JP';
+    let index = _.findIndex(map.langList, {lang: params.lang});
+    let locale = params.lang ? map.langList[index].type : 'ja-JP';
     let lang = params.lang ? params.lang : 'ja';
 
     // fetch server data
@@ -103,7 +103,7 @@ class App extends Component {
             {/*language select bar*/}
             <header className="main-header">
               <div className="wrapper">
-                {langList.map(val => (
+                {map.langList.map(val => (
                   <div
                     className={"item " + (activeLang === val.lang ? "active" : '')}
                     key={val.id}
