@@ -79,10 +79,21 @@ const roleType = [
   },
   {
     id: 3,
-    name: 'text'
+    name: 'architecture'
   },
-
-]
+  {
+    id: 4,
+    name: 'code'
+  },
+  {
+    id: 5,
+    name: 'unit'
+  },
+  {
+    id: 6,
+    name: 'integration'
+  }
+];
 
 export default{
   langList,
