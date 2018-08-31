@@ -49,7 +49,7 @@ const projectType = [
 const skillType = [
   {
     id: 1,
-    name: 'Gulp + Rollup + Pug + Sass + ES6/jQuery'
+    name: 'Gulp + Rollup + Pug/assemble + Sass + ES6/jQuery'
   },
   {
     id: 2,
@@ -68,11 +68,25 @@ const country = [
   }
 ];
 
+const roleType = [
+  {
+    id: 1,
+    name: 'survey'
+  },
+  {
+    id: 2,
+    name: 'design'
+  },
+  {
+    id: 3,
+    name: 'text'
+  },
+
+]
+
 export default{
   langList,
   projectType,
   skillType,
   country
 }
-
-

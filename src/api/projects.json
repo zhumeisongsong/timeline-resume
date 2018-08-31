@@ -16,14 +16,14 @@
         "time": "2018/08",
         "link": "https://resume.maysongshow.cn/",
         "codeLink": "https://github.com/zhumeisongsong/react-resume",
-        "skill": "static",
+        "skill": "1",
         "myRole":"1,2,3",
         "team": {
           "total": 1,
           "frontEnd": 1
         },
-        "content": "",
-        "selfResponsibility": ""
+        "content": "C2Cキュレーションサイトの新規立ち上げプロジェクト",
+        "learned": " rollupでjsにまとめる経験、継続的なデプロイ経験"
       }
     },
     {
@@ -43,7 +43,8 @@
         "content": "",
         "link": "https://nippon.hodaiweb.com/",
         "codeLink": "Private",
-        "skill": "static",
+        "myRole":"1,2,3",
+        "skill": "1",
         "team": {
           "total": 1
         },
@@ -66,8 +67,9 @@
         "time": "2010/07～2010/10",
         "content": "",
         "link": "",
-        "codeLink": "--",
-        "skill": "static",
+        "codeLink": "",
+        "myRole":"1,2,3",
+        "skill": "2",
         "team": {
           "total": 2,
           "frontEnd": 1,
@@ -93,7 +95,7 @@
         "content": "",
         "link": "",
         "codeLink": "--",
-        "skill": "static",
+        "skill": "2",
         "team": {
           "total": 2,
           "frontEnd": 1,
@@ -119,7 +121,7 @@
         "content": "",
         "link": "",
         "codeLink": "--",
-        "skill": "static",
+        "skill": "vue.js + vuex",
         "team": {
           "total": 2,
           "frontEnd": 1,
@@ -138,14 +140,14 @@
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "図書館ホームサイト(キャンパス内)",
+        "name": "Wechat mini App",
         "country": 1,
         "type": "1",
         "time": "2010/07～2010/10",
         "content": "",
         "link": "",
-        "codeLink": "--",
-        "skill": "static",
+        "codeLink": "",
+        "skill": "MINA",
         "team": {
           "total": 2,
           "frontEnd": 1,
@@ -326,8 +328,8 @@
         "time": "2010/07～2010/10",
         "content": "",
         "link": " http://www.beanimal.cn/",
-        "codeLink": "",
-        "skill": "static",
+        "codeLink": "https://github.com/zhumeisongsong/wp-biedong",
+        "skill": "1",
         "team": {
           "total": 2,
           "frontEnd": 1,
@@ -584,7 +586,7 @@
         "time": "2015/08～2015/09",
         "content": "",
         "link": "http://static.maysongshow.cn/static-car-game/assets/build/moc/#slide1",
-        "codeLink": "https://github.com/zhumeisongsong/gulp-game",
+        "codeLink": "https://github.com/zhumeisongsong/static-car-game",
         "skill": "static",
         "team": {
           "total": 2,
