@@ -76,7 +76,7 @@ const Detail = (props) => {
           {props.data.contentList.content}
         </div>
 
-        <div className="item" dangerouslySetInnerHTML={{__html: nl2br(props.data.contentList.selfResponsibility)}}/>
+        <div className="item" dangerouslySetInnerHTML={{__html: nl2br(props.data.contentList.learned)}}/>
       </div>
 
       {/*imageList*/}

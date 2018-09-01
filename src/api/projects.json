@@ -322,7 +322,7 @@
       "containLink": true,
       "detailImage": [],
       "contentList": {
-        "name": "広告会社のホームページ",
+        "name": "広告会社ホームページ",
         "country": "中国",
         "type": "1",
         "time": "2010/07～2010/10",
@@ -682,26 +682,26 @@
       "id": 1,
       "cover": {
         "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
-        "image": "./images/projects/01-community/cover-min.jpg"
+        "image": "./images/projects/01-community/cover-min.png"
       },
       "containCode": false,
       "containLink": false,
       "detailImage": [],
       "contentList": {
         "name": "学生コミュニティ(キャンパス内)",
-        "country": "中国",
+        "country": "1",
         "type": "1",
         "time": "2009/03～2010/07",
-        "content": "",
+        "content": "大学の情報をシェアしたプラットフォームをすすけて開発",
         "link": "",
         "codeLink": "",
-        "skill": 1,
+        "skill": "html css",
         "team": {
           "total": 2,
           "frontEnd": 1,
           "backEnd": 1
         },
-        "selfResponsibility": ""
+        "learned": "UIデザイン方、htmlとcssでページを作り方"
       }
     }
   ],
@@ -788,6 +788,32 @@
         },
         "content": "Shop demo for team share, no backend support.",
         "selfResponsibility": "In cart, the total price will change with count add or minus.This shows different components share same state.\rIn order confirm page, by using angular's router configa auth check is provided for calling login."
+      }
+    },
+    {
+      "id": 1,
+      "cover": {
+        "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
+        "image": "./images/projects/01-community/cover-min.png"
+      },
+      "containCode": false,
+      "containLink": false,
+      "detailImage": [],
+      "contentList": {
+        "name": "Students' community",
+        "country": "1",
+        "type": "1",
+        "time": "2009/03～2010/07",
+        "content": "An information sharing platform in my university",
+        "link": "",
+        "codeLink": "",
+        "skill": "html css",
+        "team": {
+          "total": 2,
+          "frontEnd": 1,
+          "backEnd": 1
+        },
+        "learned": "Website UI design; How to make a static page by html&css"
       }
     }
   ]
