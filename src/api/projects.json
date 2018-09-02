@@ -10,7 +10,7 @@
       },
       "detailImage": [],
       "contentList": {
-        "name": "職務経歴書",
+        "name": "履歴ウェブ",
         "country": "1",
         "type": "1",
         "time": "2018/08",
@@ -37,12 +37,12 @@
       "detailImage": [],
       "contentList": {
         "name": "C2Cキュレーションサイト(client)",
-        "country": "日本",
+        "country": "2",
         "type": "1",
         "time": "2018/06～2018/08",
-        "content": "",
+        "content": "C2Cキュレーションサイトの新規立ち上げプロジェクト",
         "link": "https://nippon.hodaiweb.com/",
-        "codeLink": "Private",
+        "codeLink": "",
         "myRole":"1,2,3",
         "skill": "1",
         "team": {
@@ -62,10 +62,10 @@
       "detailImage": [],
       "contentList": {
         "name": "C2Cキュレーションサイト(admin)",
-        "country": 1,
+        "country": "2",
         "type": "1,3",
         "time": "2010/07～2010/10",
-        "content": "",
+        "content": "C2Cキュレーションサイトの新規立ち上げプロジェクト",
         "link": "",
         "codeLink": "",
         "myRole":"1,2,3",
@@ -323,7 +323,7 @@
       "detailImage": [],
       "contentList": {
         "name": "広告会社ホームページ",
-        "country": "中国",
+        "country": "1",
         "type": "1",
         "time": "2010/07～2010/10",
         "content": "",
@@ -681,8 +681,8 @@
     {
       "id": 1,
       "cover": {
-        "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
-        "image": "./images/projects/01-community/cover-min.png"
+        "thumbnail": "./images/projects/01-community/thumbnail-min.png",
+        "image": "./images/projects/01-community/cover-min.jpg"
       },
       "containCode": false,
       "containLink": false,
@@ -692,7 +692,7 @@
         "country": "1",
         "type": "1",
         "time": "2009/03～2010/07",
-        "content": "大学の情報をシェアしたプラットフォームをすすけて開発",
+        "content": "大学の情報をシェアしたプラットフォームをすずけて開発",
         "link": "",
         "codeLink": "",
         "skill": "html css",
@@ -793,8 +793,8 @@
     {
       "id": 1,
       "cover": {
-        "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
-        "image": "./images/projects/01-community/cover-min.png"
+        "thumbnail": "./images/projects/01-community/thumbnail-min.png",
+        "image": "./images/projects/01-community/cover-min.jpg"
       },
       "containCode": false,
       "containLink": false,
