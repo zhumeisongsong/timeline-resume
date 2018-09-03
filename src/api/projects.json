@@ -407,7 +407,7 @@
     {
       "id": 11,
       "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.png",
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
         "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "containCode": true,
@@ -1112,7 +1112,7 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.png",
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
         "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "detailImage": [],
