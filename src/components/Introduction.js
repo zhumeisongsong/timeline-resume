@@ -6,18 +6,21 @@ const Introduction = (props) => {
 
   const particlesParams = {
     particles: {
+      number: {
+        value: 70
+      },
       color: {
-        value: '#aaa'
+        value: '#ccc'
       },
       line_linked: {
-        color: '#aaa'
+        color: '#ccc'
       }
     },
-    interactivity:{
-      events:{
-        onhover:{
+    interactivity: {
+      events: {
+        onhover: {
           enable: true,
-          mode: 'repulse'
+          mode: 'grab'
         }
       }
     }
