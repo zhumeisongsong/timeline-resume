@@ -25,5 +25,4 @@ yarn-error.log*
 /src/locales/ja.json
 /src/locales/zh.json
 /public/images
-/public/files
 
