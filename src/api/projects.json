@@ -5,7 +5,7 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/27-resume/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/27-resume/thumbnail-min.png",
         "image": "./images/projects/27-resume/cover-min.png"
       },
       "detailImage": [],
@@ -58,7 +58,7 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/25-nippon-hodai-CMS/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/25-nippon-hodai-CMS/thumbnail-min.png",
         "image": "./images/projects/25-nippon-hodai-CMS/cover-min.png"
       },
       "detailImage": [],
@@ -83,7 +83,7 @@
     {
       "id": 24,
       "cover": {
-        "thumbnail": "./images/projects/24-koubei/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/24-koubei/thumbnail-min.png",
         "image": "./images/projects/24-koubei/cover-min.jpg"
       },
       "containCode": false,
@@ -380,7 +380,7 @@
     {
       "id": 12,
       "cover": {
-        "thumbnail": "./images/projects/12-HE/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/12-HE/thumbnail-min.png",
         "image": "./images/projects/12-HE/cover.png"
       },
       "containCode": false,
@@ -407,7 +407,7 @@
     {
       "id": 11,
       "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.png",
         "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "containCode": true,
@@ -487,7 +487,7 @@
     {
       "id": 8,
       "cover": {
-        "thumbnail": "./images/projects/08-fuzhou/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/08-fuzhou/thumbnail-min.png",
         "image": "./images/projects/08-fuzhou/cover-min.jpg"
       },
       "containCode": false,
@@ -514,7 +514,7 @@
     {
       "id": 7,
       "cover": {
-        "thumbnail": "./images/projects/07-vip/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/07-vip/thumbnail-min.png",
         "image": "./images/projects/07-vip/cover-min.jpg"
       },
       "containCode": false,
@@ -541,7 +541,7 @@
     {
       "id": 6,
       "cover": {
-        "thumbnail": "./images/projects/06-blog/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/06-blog/thumbnail-min.png",
         "image": "./images/projects/06-blog/cover-min.jpg"
       },
       "containCode": true,
@@ -568,7 +568,7 @@
     {
       "id": 5,
       "cover": {
-        "thumbnail": "./images/projects/05-car/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/05-car/thumbnail-min.png",
         "image": "./images/projects/05-car/cover-min.png"
       },
       "containCode": true,
@@ -595,7 +595,7 @@
     {
       "id": 4,
       "cover": {
-        "thumbnail": "./images/projects/04-company-page/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/04-company-page/thumbnail-min.png",
         "image": "./images/projects/04-company-page/cover-min.jpg"
       },
       "containCode": false,
@@ -622,7 +622,7 @@
     {
       "id": 3,
       "cover": {
-        "thumbnail": "./images/projects/03-LA-page/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/03-LA-page/thumbnail-min.png",
         "image": "./images/projects/03-LA-page/cover-min.jpg"
       },
       "containCode": false,
@@ -706,7 +706,7 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/27-resume/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/27-resume/thumbnail-min.png",
         "image": "./images/projects/27-resume/cover-min.png"
       },
       "detailImage": [],
@@ -732,7 +732,7 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.png",
         "image": "./images/projects/26-nippon-hodai/cover-min.jpg"
       },
       "detailImage": [],
@@ -761,7 +761,7 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/25-nippon-hodai-CMS/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/25-nippon-hodai-CMS/thumbnail-min.png",
         "image": "./images/projects/25-nippon-hodai-CMS/cover-min.png"
       },
       "detailImage": [],
@@ -786,7 +786,7 @@
     {
       "id": 24,
       "cover": {
-        "thumbnail": "./images/projects/24-koubei/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/24-koubei/thumbnail-min.png",
         "image": "./images/projects/24-koubei/cover-min.jpg"
       },
       "containCode": false,
@@ -1083,7 +1083,7 @@
     {
       "id": 12,
       "cover": {
-        "thumbnail": "./images/projects/12-HE/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/12-HE/thumbnail-min.png",
         "image": "./images/projects/12-HE/cover.png"
       },
       "containCode": false,
@@ -1112,7 +1112,7 @@
       "containCode": true,
       "containLink": true,
       "cover": {
-        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.png",
         "image": "./images/projects/11-flower-plus/cover-min.jpg"
       },
       "detailImage": [],
@@ -1193,7 +1193,7 @@
     {
       "id": 8,
       "cover": {
-        "thumbnail": "./images/projects/08-fuzhou/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/08-fuzhou/thumbnail-min.png",
         "image": "./images/projects/08-fuzhou/cover-min.jpg"
       },
       "containCode": false,
@@ -1220,7 +1220,7 @@
     {
       "id": 7,
       "cover": {
-        "thumbnail": "./images/projects/07-vip/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/07-vip/thumbnail-min.png",
         "image": "./images/projects/07-vip/cover-min.jpg"
       },
       "containCode": false,
@@ -1247,7 +1247,7 @@
     {
       "id": 6,
       "cover": {
-        "thumbnail": "./images/projects/06-blog/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/06-blog/thumbnail-min.png",
         "image": "./images/projects/06-blog/cover-min.jpg"
       },
       "containCode": true,
@@ -1274,7 +1274,7 @@
     {
       "id": 5,
       "cover": {
-        "thumbnail": "./images/projects/05-car/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/05-car/thumbnail-min.png",
         "image": "./images/projects/05-car/cover-min.png"
       },
       "containCode": true,
@@ -1301,7 +1301,7 @@
     {
       "id": 4,
       "cover": {
-        "thumbnail": "./images/projects/04-company-page/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/04-company-page/thumbnail-min.png",
         "image": "./images/projects/04-company-page/cover-min.jpg"
       },
       "containCode": false,
@@ -1328,7 +1328,7 @@
     {
       "id": 3,
       "cover": {
-        "thumbnail": "./images/projects/03-LA-page/thumbnail-min.jpg",
+        "thumbnail": "./images/projects/03-LA-page/thumbnail-min.png",
         "image": "./images/projects/03-LA-page/cover-min.jpg"
       },
       "containCode": false,
