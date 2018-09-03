@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import {FormattedMessage} from 'react-intl';
+import Particles from 'react-particles-js';
 
 const Introduction = (props) => {
   return (
     <div className="cover-container scroll fade-in">
+      <Particles />
       <div className="wrapper">
         <div className="name">
           <FormattedMessage
