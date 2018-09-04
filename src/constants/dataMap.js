@@ -53,7 +53,7 @@ const skillType = [
   },
   {
     id: 2,
-    name: 'React + Redux/Mobx + react-router4 + axios + Antd'
+    name: 'React + (Redux/Mobx) + react-router4 + axios + Antd'
   }
 ];
 
