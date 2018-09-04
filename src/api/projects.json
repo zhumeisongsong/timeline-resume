@@ -381,7 +381,7 @@
       "id": 12,
       "cover": {
         "thumbnail": "./images/projects/12-HE/thumbnail-min.png",
-        "image": "./images/projects/12-HE/cover.png"
+        "image": "./images/projects/12-HE/cover-min.png"
       },
       "containCode": false,
       "containLink": true,
@@ -434,7 +434,7 @@
       "id": 10,
       "cover": {
         "thumbnail": "./images/projects/10-bukka-CMS/thumbnail-min.png",
-        "image": "./images/projects/10-bukka-CMS/cover.png"
+        "image": "./images/projects/10-bukka-CMS/cover-min.png"
       },
       "containCode": false,
       "containLink": false,
@@ -733,7 +733,7 @@
       "containLink": true,
       "cover": {
         "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.png",
-        "image": "./images/projects/26-nippon-hodai/cover-min.jpg"
+        "image": "./images/projects/26-nippon-hodai/cover-min.png"
       },
       "detailImage": [],
       "contentList": {
@@ -1084,7 +1084,7 @@
       "id": 12,
       "cover": {
         "thumbnail": "./images/projects/12-HE/thumbnail-min.png",
-        "image": "./images/projects/12-HE/cover.png"
+        "image": "./images/projects/12-HE/cover-min.png"
       },
       "containCode": false,
       "containLink": true,
@@ -1140,7 +1140,7 @@
       "id": 10,
       "cover": {
         "thumbnail": "./images/projects/10-bukka-CMS/thumbnail-min.png",
-        "image": "./images/projects/10-bukka-CMS/cover.png"
+        "image": "./images/projects/10-bukka-CMS/cover-min.png"
       },
       "containCode": false,
       "containLink": false,
