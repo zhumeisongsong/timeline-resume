@@ -49,14 +49,15 @@ const Detail = (props) => {
             <FormattedMessage id={`list.skill`}/>
           </div>
           <div className="item-content">
-            {isNaN(parseInt(props.data.contentList.skill, 10)) ?
-              props.data.contentList.skill :
-              key2value('skillType', props.data.contentList.skill)
-            }
+            {props.data.contentList.skill.map((val) => {
+              return (<span className="padding-r">
+                {isNaN(parseInt(val, 10)) ? val : key2value('skillType', val)}
+              </span>)
+            })}
           </div>
         </div>
 
-        {/*myRole list*/}
+        {/*my role*/}
         <div className="item">
           <div className="item-label">
             <FormattedMessage id={`list.myRole`}/>
@@ -72,7 +73,7 @@ const Detail = (props) => {
           </div>
         </div>
 
-        {/*team member list*/}
+        {/*team member*/}
         <div className="item">
           <div className="item-label">
             <FormattedMessage id={`list.team`}/>
@@ -82,7 +83,7 @@ const Detail = (props) => {
               {Object.keys(props.data.contentList.team).map((key) => {
                 return ( <li key={key}>
                   <FormattedMessage className="ul-name" id={`team.${key}`}/>
-                  <span>{props.data.contentList.team[key]}</span>
+                  <span className="padding-lr">{props.data.contentList.team[key]}</span>
                   <FormattedMessage id={`list.unit`}/>
                 </li>)
               })}
