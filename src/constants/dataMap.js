@@ -92,6 +92,10 @@ const roleType = [
   {
     id: 6,
     name: 'integration'
+  },
+  {
+    id: 7,
+    name: 'release'
   }
 ];
 
@@ -99,5 +103,6 @@ export default{
   langList,
   projectType,
   skillType,
-  country
+  country,
+  roleType
 }

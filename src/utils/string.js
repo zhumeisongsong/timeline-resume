@@ -39,6 +39,7 @@ export const nl2br = (string) => {
  * @return {Object} result
  */
 export const key2value = (mapType, key) => {
+
   let keyArr = key.split(',');
   let valueArr = [];
   keyArr.map((val) => {

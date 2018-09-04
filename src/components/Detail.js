@@ -10,7 +10,8 @@ const Detail = (props) => {
       <h2>{props.data.contentList.name}</h2>
       {props.data.contentList.link &&
       <div className="item link">
-        <a href={props.data.contentList.link} target="_blank" rel="noreferrer noopener">{props.data.contentList.link}</a>
+        <a href={props.data.contentList.link} target="_blank"
+           rel="noreferrer noopener">{props.data.contentList.link}</a>
       </div>
       }
       <div className="col-left">
@@ -33,13 +34,13 @@ const Detail = (props) => {
           </div>
         </div>
 
-
         {props.data.contentList.codeLink &&
         <div className="item">
           <div className="item-label">
             <FormattedMessage id={`list.codeLink`}/>
           </div>
-          <a href={props.data.contentList.codeLink} target="_blank" rel="noreferrer noopener">{props.data.contentList.codeLink}</a>
+          <a href={props.data.contentList.codeLink} target="_blank"
+             rel="noreferrer noopener">{props.data.contentList.codeLink}</a>
         </div>
         }
 
@@ -55,6 +56,23 @@ const Detail = (props) => {
           </div>
         </div>
 
+        {/*myRole list*/}
+        <div className="item">
+          <div className="item-label">
+            <FormattedMessage id={`list.myRole`}/>
+          </div>
+          <div className="item-content">
+            <ul>
+              {props.data.contentList.myRole.map((val) => {
+                return ( <li key={val}>
+                  <FormattedMessage className="ul-name" id={`role.${key2value('roleType', val)}`}/>
+                </li>)
+              })}
+            </ul>
+          </div>
+        </div>
+
+        {/*team member list*/}
         <div className="item">
           <div className="item-label">
             <FormattedMessage id={`list.team`}/>
