@@ -19,12 +19,10 @@
         "skill": ["2"],
         "myRole": ["1","2","3","4","5","7"],
         "team": {
-          "total": 10,
-          "frontEnd": 2,
-          "backEnd": 3,
-          "qc": 2
+          "total": 1,
+          "frontEnd": 2
         },
-        "content": "",
+        "content": "担当した案件を紹介のため",
         "learned": "react-intlでSPA多言語対応、stylusの書き方"
       }
     },
@@ -713,7 +711,7 @@
       "contentList": {
         "name": "Resume",
         "country": "1",
-        "type": "1",
+        "type": "6",
         "time": "2018/08",
         "link": "https://resume.maysongshow.cn",
         "codeLink": "https://github.com/zhumeisongsong/react-resume",
@@ -724,7 +722,7 @@
           "frontEnd": 1
         },
         "content": "A website for projects introduction.",
-        "selfResponsibility": ""
+        "learned": "react-intl"
       }
     },
     {
