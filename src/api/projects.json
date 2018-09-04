@@ -16,8 +16,17 @@
         "time": "2018/08",
         "link": "https://resume.maysongshow.cn/",
         "codeLink": "https://github.com/zhumeisongsong/react-resume",
-        "skill": ["2"],
-        "myRole": ["1","2","3","4","5","7"],
+        "skill": [
+          "2"
+        ],
+        "myRole": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
         "team": {
           "total": 1,
           "frontEnd": 2
@@ -38,13 +47,21 @@
       "contentList": {
         "name": "C2Cキュレーションサイト(client)",
         "country": "2",
-        "type": ["1"],
+        "type": [
+          "1"
+        ],
         "time": "2018/06～2018/08",
         "content": "C2Cキュレーションサイトの新規立ち上げプロジェクト",
         "link": "https://nippon.hodaiweb.com/",
         "codeLink": "",
-        "skill": ["1"],
-        "myRole": ["1","2","3"],
+        "skill": [
+          "1"
+        ],
+        "myRole": [
+          "1",
+          "2",
+          "3"
+        ],
         "team": {
           "total": 1
         },
@@ -90,7 +107,9 @@
       "contentList": {
         "name": "alipay",
         "country": 1,
-        "type": ["1"],
+        "type": [
+          "1"
+        ],
         "time": "2010/07～2010/10",
         "content": "",
         "link": "",
@@ -117,7 +136,9 @@
       "contentList": {
         "name": "Wechat mini App",
         "country": "1",
-        "type": ["1"],
+        "type": [
+          "1"
+        ],
         "time": "2010/07～2010/10",
         "content": "",
         "link": "",
@@ -715,14 +736,23 @@
         "time": "2018/08",
         "link": "https://resume.maysongshow.cn",
         "codeLink": "https://github.com/zhumeisongsong/react-resume",
-        "skill": "2",
-        "myRole": ["1","2","3","4","5","7"],
+        "skill": [
+          "2"
+        ],
+        "myRole": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
         "team": {
           "total": 1,
           "frontEnd": 1
         },
         "content": "A website for projects introduction.",
-        "learned": "react-intl"
+        "learned": "use react-intl for locale provider, write css with stylus"
       }
     },
     {

@@ -17,6 +17,10 @@ const Detail = (props) => {
       <div className="col-left">
 
         <div className="item">
+          {props.data.contentList.content}
+        </div>
+
+        <div className="item">
           <div className="item-label">
             <FormattedMessage id={`list.time`}/>
           </div>
@@ -92,10 +96,11 @@ const Detail = (props) => {
         </div>
 
         <div className="item">
-          {props.data.contentList.content}
+          <div className="item-label">
+            <FormattedMessage id={`list.learned`}/>
+          </div>
+          <div className="item-content" dangerouslySetInnerHTML={{__html: nl2br(props.data.contentList.learned)}}/>
         </div>
-
-        <div className="item" dangerouslySetInnerHTML={{__html: nl2br(props.data.contentList.learned)}}/>
       </div>
 
       {/*imageList*/}
