@@ -718,7 +718,7 @@
         "link": "https://resume.maysongshow.cn",
         "codeLink": "https://github.com/zhumeisongsong/react-resume",
         "skill": "2",
-        "myRole": "1,2,3",
+        "myRole": ["1","2","3","4","5","7"],
         "team": {
           "total": 1,
           "frontEnd": 1
