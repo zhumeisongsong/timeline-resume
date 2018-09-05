@@ -7,18 +7,23 @@ import {key2value, nl2br} from '../utils/string'
 const Detail = (props) => {
   return (
     <div className="detail-content">
-      <h2>{props.data.contentList.name}</h2>
-      {props.data.contentList.link &&
-      <div className="item link">
-        <a href={props.data.contentList.link} target="_blank"
-           rel="noreferrer noopener">{props.data.contentList.link}</a>
-      </div>
-      }
-      <div className="col-left">
-
+      <header>
+        <h2>{props.data.contentList.name}</h2>
+        {props.data.contentList.content &&
         <div className="item">
           {props.data.contentList.content}
         </div>
+        }
+
+        {props.data.contentList.link &&
+        <div className="item link">
+          <a href={props.data.contentList.link} target="_blank"
+             rel="noreferrer noopener">{props.data.contentList.link}</a>
+        </div>
+        }
+      </header>
+
+      <div className="col-left">
 
         <div className="item">
           <div className="item-label">
@@ -54,8 +59,8 @@ const Detail = (props) => {
           </div>
           <div className="item-content">
             {props.data.contentList.skill.map((val) => {
-              return (<span className="padding-r">
-                {isNaN(parseInt(val, 10)) ? val : key2value('skillType', val)}
+              return (<span className="padding-r" key={val}>
+                {isNaN(parseInt(val, 10)) ? val : key2value('skillType', val) }
               </span>)
             })}
           </div>
@@ -95,18 +100,20 @@ const Detail = (props) => {
           </div>
         </div>
 
+        {props.data.contentList.learned &&
         <div className="item">
           <div className="item-label">
             <FormattedMessage id={`list.learned`}/>
           </div>
           <div className="item-content" dangerouslySetInnerHTML={{__html: nl2br(props.data.contentList.learned)}}/>
         </div>
+        }
       </div>
 
       {/*imageList*/}
       <div className="detail-images">
         {props.data['detailImage'].map((val) =>
-          <img src={val} key={val}/>
+          <img src={val} key={val} alt={val}/>
         )}
       </div>
     </div>
