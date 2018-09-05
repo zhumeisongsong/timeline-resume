@@ -22,15 +22,15 @@ const langList = [
 const projectType = [
   {
     id: 1,
-    name: 'WebSite'
+    name: 'Website'
   },
   {
     id: 2,
-    name: 'WebApp'
+    name: 'Web APP'
   },
   {
     id: 3,
-    name: 'HybridApp',
+    name: 'Hybrid APP(webview)',
   },
   {
     id: 4,
@@ -96,6 +96,14 @@ const roleType = [
   {
     id: 7,
     name: 'release'
+  },
+  {
+    id: 8,
+    name: 'review'
+  },
+  {
+    id: 9,
+    name: 'refactor'
   }
 ];
 

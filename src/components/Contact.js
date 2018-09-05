@@ -13,7 +13,6 @@ const Contact = (props) => {
           </div>
         </div>
 
-        {getQuery(window.location.search).lang !== 'en' &&
         <div className="item">
           <Icon type="profile"/>
           <div className="item-content">
@@ -26,7 +25,6 @@ const Contact = (props) => {
             </a>
           </div>
         </div>
-        }
 
         <div className="item">
           <Icon type="solution"/>

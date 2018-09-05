@@ -11,6 +11,13 @@
     display: none
 
 .detail-content
+  display: flex
+  flex-wrap: wrap
+  position: relative
+  header
+    width: 100%
+    padding-bottom: $global-space.e
+
   .col-left
     width: 62.5%
   .item
@@ -18,7 +25,6 @@
     padding-bottom: $global-space.a
     &.link
       margin-top: -($global-space.a)
-      padding-bottom: $global-space.e
   .item-label
     padding-right: $global-space.a
     font-weight: bold
@@ -36,8 +42,10 @@
 
   .detail-images
     max-width: 900px
+    width: 36.5%
     margin: 0 auto
     img
+      width: 100%
       + img
         margin-top: $global-space.b
 
@@ -47,3 +55,10 @@
 .padding-lr
   padding-left: $global-space.a
   padding-right: $global-space.a
+
+
+@media (max-width: $global-width.break-point-c)
+  .detail-content
+    .col-left
+      width: 100%
+      padding-bottom: $global-space.c
