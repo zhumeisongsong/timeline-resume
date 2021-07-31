@@ -2,14 +2,14 @@
   "ja-JP": {
     "name": "宋竹梅",
     "read": "Zhumei",
-    "face": "フロントエンド開発<span>経験者</span>",
+    "face": "フロントエンドエンジニア",
     "description": "ウェブサイトとウェブアプリケーションを作るのが得意です。ウェブについてのソリューションを提供するのに注力しています。と仕事をする機会があることを楽しみにしています。",
     "resume": "./files/resume-ja.pdf",
     "career": "./files/career-ja.pdf"
   },
   "en-US": {
     "name": "Zhumei",
-    "face": "AN <span>EXPERIENCED</span> FRONT-END DEVELOPER",
+    "face": "FRONT-END ENGINEER",
     "description": "I'm good at making website and web APP. Focus on providing solutions about the web.  Hope my efforts can let you get the required.",
     "resume": "./files/resume-ja.pdf",
     "career": "./files/career-ja.pdf"
