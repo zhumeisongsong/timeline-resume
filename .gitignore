@@ -19,11 +19,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-.idea
-/src/locales/en.json
-/src/locales/ja.json
-/src/locales/zh.json
-/public/images
-
 yarn.lock
