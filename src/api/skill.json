@@ -9,7 +9,7 @@
     {
       "id": 2,
       "type": "Framework&Library",
-      "content": "React.js+Redux/jQuery/Angular4/Vue.js",
+      "content": "React.js+Redux",
       "score": 4
     },
     {
@@ -27,13 +27,13 @@
     {
       "id": 5,
       "type": "Back-end",
-      "content": "Koa.js(Node.js)/Yii2(PHP)/Wordpress",
-      "score": 2
+      "content": "nodejs",
+      "score": 3
     },
     {
       "id": 6,
       "type": "Others",
-      "content": "Git/Docker/AWS code pipeline/Nginx",
+      "content": "AWS cli / AWS Amplify / AWS Appsync / Firebase / Heroku",
       "score": 3
     }
   ],
