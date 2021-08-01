@@ -39,8 +39,8 @@ const Introduction = () => {
 
         <div className="wrapper">
           <div className="name">{translate('intro.hello')}</div>
-          <h1/>
-          <p></p>
+          <h1>{translate('intro.face')}</h1>
+          <p>{translate('intro.description')}</p>
           <div className="icon-item">
             <div className="icon icon-arrow-down" />
           </div>

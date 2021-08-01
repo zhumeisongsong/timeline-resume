@@ -1,6 +1,10 @@
 
 export default {
   "intro.hello":"初めまして、宋竹梅(ソウ ジュウメイ)と申します",
+  "intro.face": "フロントエンドエンジニア",
+  "intro.description": "description ja",
+  "resume": "./files/resume-ja.pdf",
+  "career": "./files/career-ja.pdf",
   "button.back": "戻る",
   "list.name": "案件名",
   "list.country":"こっか",

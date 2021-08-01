@@ -1,5 +1,7 @@
 export default {
   "intro.hello": "Hi,I'm Zhumei Song",
+  "intro.face": "FRONT-END ENGINEER",
+  "intro.description": "description en",
   "button.back": "back",
   "list.name": "Name",
   "list.country": "Country",
@@ -16,5 +18,7 @@ export default {
   "tag.code": "with Code",
   "tag.link": "with Link",
   "modal.title": "Information",
-  "file.resume": "Resume"
+  "file.resume": "Resume",
+  "resume": "./files/resume-ja.pdf",
+  "career": "./files/career-ja.pdf",
 }
