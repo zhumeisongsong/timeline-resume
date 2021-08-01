@@ -1,5 +1,12 @@
 import React, { useMemo, useCallback } from 'react';
 
+type SkillType = {
+  id: number;
+  type: string;
+  content: string;
+  score: number;
+};
+
 const data = {
   hard: [
     {
@@ -68,8 +75,45 @@ const data = {
   ]
 };
 
+const score = (score: number) => {
+  let string = '';
+  for (let i = 0; i < score; i++) {
+    string = string + '★';
+  }
+  for (let i = 0; i < 5 - score; i++) {
+    string = string + '☆';
+  }
+  return string;
+};
+
 const Skill = () => {
-  return useMemo(() => <div>Skill</div>, []);
+  const content = (item: SkillType) => {
+    return (
+      <div key={item.id} className="item">
+        <h4>
+          <span className="title">{item.type}:</span>
+          <span className="score">{score(item.score)}</span>
+        </h4>
+        <p className="description">{item.content}</p>
+      </div>
+    );
+  };
+
+  return useMemo(
+    () => (
+      <section className="skill-container scroll fade-in">
+        <div className="wrapper">
+          <div className="content">
+            {data['hard'].map((item) => content(item))}
+          </div>
+          <div className="content">
+            {data['soft'].map((item) => content(item))}
+          </div>
+        </div>
+      </section>
+    ),
+    []
+  );
 };
 
 export default Skill;
