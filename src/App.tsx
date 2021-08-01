@@ -3,10 +3,12 @@ import Layout from './components/Layout';
 import Top from './containers/Top';
 import I18nContextProvider from './locales';
 
+import './index.css';
+
 const App: FC = () => {
   return useMemo(
     () => (
-      <I18nContextProvider lang={'ja'}>
+      <I18nContextProvider>
         <Layout>
           <Top />
         </Layout>

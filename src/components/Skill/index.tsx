@@ -1,5 +1,7 @@
 import React, { useMemo, useCallback } from 'react';
 
+import './index.scss';
+
 type SkillType = {
   id: number;
   type: string;
@@ -11,26 +13,26 @@ const data = {
   hard: [
     {
       id: 1,
-      type: 'Web develop',
+      type: 'Web Develop',
       content: 'Html5/Css3/Sass/Stylus/Javascript/ES6/Typescript',
       score: 4
     },
     {
       id: 2,
       type: 'Framework&Library',
-      content: 'React.js+Redux',
+      content: 'React.js(Redux/Mobx)',
       score: 4
     },
     {
       id: 3,
       type: 'Build tools',
-      content: 'Webpack/Gulp/Rollup',
+      content: 'Webpack/parcel/Gulp/Rollup',
       score: 4
     },
     {
       id: 4,
       type: 'Automated test',
-      content: 'Jest/Karma/Nightwatch',
+      content: 'Jest/Nightwatch',
       score: 3
     },
     {
@@ -42,20 +44,20 @@ const data = {
     {
       id: 6,
       type: 'Others',
-      content: 'AWS cli / AWS Amplify / AWS Appsync / Firebase / Heroku',
+      content: 'AWS cli/AWS Amplify/AWS Appsync/Firebase/Heroku',
       score: 3
     }
   ],
   soft: [
     {
       id: 1,
-      type: 'Rapid learning',
+      type: 'Rapid Learning',
       content: "According to the project's need, learn new technology.",
       score: 5
     },
     {
       id: 2,
-      type: 'Solving problems',
+      type: 'Solving Problems',
       content:
         'Identify the problem correctly, solve it and summarize experience.',
       score: 4
@@ -101,7 +103,7 @@ const Skill = () => {
 
   return useMemo(
     () => (
-      <section className="skill-container scroll fade-in">
+      <section className="section-container skill-container scroll fade-in">
         <div className="wrapper">
           <div className="content">
             {data['hard'].map((item) => content(item))}

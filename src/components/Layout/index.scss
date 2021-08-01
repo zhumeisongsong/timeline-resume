@@ -1,0 +1,51 @@
+.enlarge {
+  transform: scale(1.2);
+}
+
+@keyframes start {
+  0% {
+    opacity: 0.8;
+    bottom: 74px;
+  }
+
+  50% {
+    opacity: 1;
+    bottom: 64px;
+  }
+
+  100% {
+    opacity: 0;
+    bottom: 54px;
+  }
+}
+
+// .fade-in {
+//   opacity: 0;
+//   transform: translate(0, 50px);
+//   transition: opacity 0.6s 0.1s, transform 0.6s ease;
+//   &.is-scoped {
+//     opacity: 1;
+//     transform: translate(0, 0);
+//   }
+// }
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-arrow-down {
+  background: url('../../images/icon/arrow-down.svg') center no-repeat;
+  background-size: contain;
+}
+
+.main-container {
+}
+
+.section-container {
+  .wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

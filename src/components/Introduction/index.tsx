@@ -29,7 +29,7 @@ const Introduction = () => {
 
   return useMemo(
     () => (
-      <section className="cover-container scroll fade-in">
+      <section className="section-container cover-container scroll fade-in">
         <Particles
           width="100vw"
           height="100vh"

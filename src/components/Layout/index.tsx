@@ -2,6 +2,8 @@ import React, { useMemo } from 'react';
 import Header from '..//Header';
 import Footer from '../Footer';
 
+import './index.scss';
+
 type Props = {
   children: any;
   showMenu?: boolean;
