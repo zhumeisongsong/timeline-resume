@@ -6,7 +6,7 @@ const Footer = () => {
   return useMemo(
     () => (
       <footer className="footer-container">
-        Copyright © 2021 Zhumei Song.
+        <span>Copyright Zhumei Song</span> © 2021
       </footer>
     ),
     []
