@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react';
+import queryString from 'query-string';
 import jaJP from './jaJP';
 import enUS from './enUS';
 
@@ -8,13 +9,15 @@ export const langLocales: any = {
 };
 
 const getTranslate =
-  (langCode: string) =>
+  (langCode: any) =>
   (key: string): string =>
     langLocales[langCode][key] || key;
 
+const parsed = queryString.parse(window.location.search);
+
 const initialState = {
-  langCode: 'en',
-  translate: getTranslate('en')
+  langCode: parsed.lang || 'ja',
+  translate: getTranslate(parsed.lang || 'ja')
 };
 
 export const I18nContext = React.createContext(initialState);
