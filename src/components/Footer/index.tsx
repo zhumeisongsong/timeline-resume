@@ -1,11 +1,12 @@
 import React, { useMemo } from 'react';
 
+import './index.scss';
+
 const Footer = () => {
   return useMemo(
     () => (
       <footer className="footer-container">
-        {/* <FormattedMessage id="copyright" /> */}
-        <span>D.S.SHOW</span>© {new Date().getFullYear()}
+        Copyright © 2021 Zhumei Song.
       </footer>
     ),
     []
