@@ -1,18 +1,27 @@
-import React, { useMemo, useContext } from 'react';
-import ImageItem from '../../components/ImageItem';
+import React, { useMemo, useState, useEffect, useCallback } from 'react';
 import Introduction from '../../components/Introduction';
 import Skill from '../../components/Skill';
 import Contact from '../../components/Contact';
+import ImageItem from '../../components/ImageItem';
 import Detail from '../../components/Detail';
-import { I18nContext } from '../../locales';
 
 const Top = () => {
-  const { translate } = useContext(I18nContext);
+  const [data, seetData] = useState({
+    introduction: null,
+    projects: null,
+    skill: null
+  });
+  const fetchData = useCallback(async () => {
+    
+  }, []);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   return useMemo(
     () => (
       <div className="top-container">
-        {translate('intro.hello')}
         <Introduction />
         <Skill />
         <Contact />

@@ -1,5 +1,5 @@
 export default {
-  "intro.hello": "Hi,I'm {name}",
+  "intro.hello": "Hi,I'm Zhumei Song",
   "button.back": "back",
   "list.name": "Name",
   "list.country": "Country",
