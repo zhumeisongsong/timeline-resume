@@ -1,16 +1,15 @@
 {
   "ja-JP": {
-    "name": "宋竹梅",
-    "read": "Zhumei",
+    "name": "宋竹梅((ソウ ジュウメイ))",
     "face": "フロントエンドエンジニア",
-    "description": "ウェブサイトとウェブアプリケーションを作るのが得意です。ウェブについてのソリューションを提供するのに注力しています。と仕事をする機会があることを楽しみにしています。",
+    "description": "description ja",
     "resume": "./files/resume-ja.pdf",
     "career": "./files/career-ja.pdf"
   },
   "en-US": {
-    "name": "Zhumei",
+    "name": "Zhumei Song",
     "face": "FRONT-END ENGINEER",
-    "description": "I'm good at making website and web APP. Focus on providing solutions about the web.  Hope my efforts can let you get the required.",
+    "description": "description en",
     "resume": "./files/resume-ja.pdf",
     "career": "./files/career-ja.pdf"
   }

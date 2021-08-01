@@ -1,6 +1,6 @@
 
 export default {
-  "intro.hello":"初めまして、{name}です",
+  "intro.hello":"初めまして、宋竹梅(ソウ ジュウメイ)と申します",
   "button.back": "戻る",
   "list.name": "案件名",
   "list.country":"こっか",
