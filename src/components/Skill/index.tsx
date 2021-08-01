@@ -94,7 +94,7 @@ const Skill = () => {
       <div key={item.id} className="item">
         <h4>
           <span className="title">{item.type}:</span>
-          <span className="score">{score(item.score)}</span>
+          <span className="score text-gradient">{score(item.score)}</span>
         </h4>
         <p className="description">{item.content}</p>
       </div>
