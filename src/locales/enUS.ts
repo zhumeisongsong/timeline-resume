@@ -18,7 +18,8 @@ export default {
   "tag.code": "with Code",
   "tag.link": "with Link",
   "modal.title": "Information",
+  "file.career": "Career",
   "file.resume": "Resume",
-  "resume": "./files/resume-ja.pdf",
-  "career": "./files/career-ja.pdf",
+  "file.careerPath": "./files/職務経歴書-宋竹梅.pdf",
+  "file.resumePath": "./files/履歴書-宋竹梅.pdf",
 }
