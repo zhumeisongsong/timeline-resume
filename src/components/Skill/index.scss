@@ -1,5 +1,9 @@
 .skill-container {
   padding: 64px 0;
+  .wrapper {
+    flex-direction: row;
+  }
+  
   .content {
     + .content {
       padding-left: 64px;

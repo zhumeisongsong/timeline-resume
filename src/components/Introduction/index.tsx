@@ -2,6 +2,8 @@ import React, { useMemo, useCallback, useContext } from 'react';
 import Particles from 'react-particles-js';
 import { I18nContext } from '../../locales';
 
+import './index.scss';
+
 const particlesParams = {
   particles: {
     number: {
