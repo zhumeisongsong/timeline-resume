@@ -130,6 +130,21 @@ button {
   background-size: contain;
 }
 
+.icon-document {
+  background: url('../../images/icon/document.svg') center no-repeat;
+  background-size: contain;
+}
+
+.icon-email {
+  background: url('../../images/icon/mail.svg') center no-repeat;
+  background-size: contain;
+}
+
+.icon-resume {
+  background: url('../../images/icon/resume.svg') center no-repeat;
+  background-size: contain;
+}
+
 .link {
   padding: 0 2px 2px 2px;
   cursor: pointer;
@@ -174,6 +189,7 @@ button {
 }
 
 .section-container {
+  width: 100%;
   .wrapper {
     display: flex;
     flex-direction: column;
