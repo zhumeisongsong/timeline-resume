@@ -1,0 +1,20 @@
+.contact-container {
+  padding: 120px 0;
+  background-color: #333;
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+  }
+
+  a {
+
+    text-decoration: none;
+    
+  }
+}
