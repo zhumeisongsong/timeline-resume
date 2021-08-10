@@ -1,3 +1,5 @@
+import project from './projectEnUS';
+
 export default {
   "intro.hello": "Hi,I'm Zhumei Song",
   "intro.face": "FRONT-END ENGINEER",
@@ -22,4 +24,5 @@ export default {
   "file.resume": "Resume",
   "file.careerPath": "./files/職務経歴書-宋竹梅.pdf",
   "file.resumePath": "./files/履歴書-宋竹梅.pdf",
+  "project": project
 }

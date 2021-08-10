@@ -1,6 +1,7 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import Header from '..//Header';
 import Footer from '../Footer';
+import animation from '../../utils/scrollAnimation';
 
 import './index.scss';
 
@@ -10,6 +11,10 @@ type Props = {
 };
 
 const Layout = ({ children }: Props) => {
+  useEffect(() => {
+    animation();
+  }, []);
+
   return useMemo(
     () => (
       <div className="main-container">

@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from 'react';
 
-const ImageItem = () => {
-  return useMemo(() => 'ImageItem', []);
+const ImageItem = ({ data }: any) => {
+  return useMemo(() => <div>ImageItem</div>, []);
 };
 
 export default ImageItem;

@@ -1,4 +1,6 @@
 
+import project from './projectJaJP';
+
 export default {
   "intro.hello": "初めまして、宋竹梅(ソウ ジュウメイ)と申します",
   "intro.face": "フロントエンドエンジニア",
@@ -23,4 +25,5 @@ export default {
   "file.resume": "履歴書",
   "file.careerPath": "./files/職務経歴書-宋竹梅.pdf",
   "file.resumePath": "./files/履歴書-宋竹梅.pdf",
+  "project": project
 }

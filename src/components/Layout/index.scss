@@ -110,15 +110,15 @@ button {
   }
 }
 
-// .fade-in {
-//   opacity: 0;
-//   transform: translate(0, 50px);
-//   transition: opacity 0.6s 0.1s, transform 0.6s ease;
-//   &.is-scoped {
-//     opacity: 1;
-//     transform: translate(0, 0);
-//   }
-// }
+.fade-in {
+  opacity: 0;
+  transform: translate(0, 50px);
+  transition: opacity 0.6s 0.1s, transform 0.6s ease;
+  &.is-scoped {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
 
 .icon {
   width: 20px;
