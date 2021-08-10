@@ -1,48 +1,11 @@
 export default [
   {
-    "id": 27,
-    "containCode": true,
-    "containLink": true,
-    "cover": {
-      "thumbnail": "./images/projects/27-resume/thumbnail-min.png",
-      "image": "./images/projects/27-resume/cover-min.png"
-    },
-    "detailImage": [],
-
-    "name": "履歴ウェブサイト",
-    "country": "1",
-    "type": "6",
-    "time": "2018/08",
-    "link": "https://resume.maysongshow.cn/",
-    "codeLink": "https://github.com/zhumeisongsong/react-resume",
-    "skill": [
-      "2"
-    ],
-    "myRole": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "7"
-    ],
-    "team": {
-      "total": 1,
-      "frontEnd": 1
-    },
-    "content": "担当した案件を紹介のため",
-    "learned": "react-intlでSPA多言語対応、stylusの書き方"
-  },
-  {
     "id": 26,
-    "containCode": true,
-    "containLink": true,
     "cover": {
       "thumbnail": "./images/projects/26-nippon-hodai/thumbnail-min.png",
       "image": "./images/projects/26-nippon-hodai/cover-min.png"
     },
     "detailImage": [],
-
     "name": "C2Cキュレーションサイト(client)",
     "country": "2",
     "type": "1",
@@ -71,8 +34,6 @@ export default [
   },
   {
     "id": 25,
-    "containCode": true,
-    "containLink": false,
     "cover": {
       "thumbnail": "./images/projects/25-nippon-hodai-CMS/thumbnail-min.png",
       "image": "./images/projects/25-nippon-hodai-CMS/cover-min.png"
@@ -80,7 +41,6 @@ export default [
     "detailImage": [
       "./images/projects/25-nippon-hodai-CMS/detail-min.png"
     ],
-
     "name": "C2Cキュレーションサイト(admin)",
     "country": "2",
     "type": "3",
@@ -112,14 +72,11 @@ export default [
       "thumbnail": "./images/projects/24-koubei/thumbnail-min.png",
       "image": "./images/projects/24-koubei/cover-min.jpg"
     },
-    "containCode": true,
-    "containLink": true,
     "detailImage": [
       "./images/projects/24-koubei/detail-1-min.png",
       "./images/projects/24-koubei/detail-2-min.png",
       "./images/projects/24-koubei/detail-3-min.png"
     ],
-
     "name": "AlipayプラットフォームのWebAPP構築",
     "country": "1",
     "type": "3",
@@ -153,15 +110,12 @@ export default [
       "thumbnail": "./images/projects/22-wechat-app/thumbnail-min.png",
       "image": "./images/projects/22-wechat-app/cover-min.png"
     },
-    "containCode": false,
-    "containLink": true,
     "detailImage": [
       "./images/projects/22-wechat-app/detail-1.png",
       "./images/projects/22-wechat-app/detail-2.png",
       "./images/projects/22-wechat-app/detail-3.png",
       "./images/projects/22-wechat-app/detail-4.png"
     ],
-
     "name": "Wechat mini APP",
     "country": "1",
     "type": "2",
@@ -192,13 +146,10 @@ export default [
       "thumbnail": "./images/projects/21-anet/thumbnail-min.png",
       "image": "./images/projects/21-anet/cover-min.png"
     },
-    "containCode": false,
-    "containLink": false,
     "detailImage": [
       "./images/projects/21-anet/detail-1-min.png",
       "./images/projects/21-anet/detail-2-min.png"
     ],
-
     "name": "ニュース APP",
     "country": "1",
     "type": "3",
@@ -226,14 +177,11 @@ export default [
       "thumbnail": "./images/projects/20-DSB/thumbnail-min.png",
       "image": "./images/projects/20-DSB/cover-min.png"
     },
-    "containCode": true,
-    "containLink": false,
     "detailImage": [
       "./images/projects/20-DSB/detail-1-min.png",
       "./images/projects/20-DSB/detail-2-min.png",
       "./images/projects/20-DSB/detail-3-min.png"
     ],
-
     "name": "DSB",
     "country": "2",
     "type": "1",
@@ -264,8 +212,7 @@ export default [
       "thumbnail": "./images/projects/19-colorit/thumbnail-min.png",
       "image": "./images/projects/19-colorit/cover-min.png"
     },
-    "containCode": true,
-    "containLink": false,
+
     "detailImage": [],
 
     "name": "機械學習--写真の処理",
@@ -297,8 +244,7 @@ export default [
       "thumbnail": "./images/projects/18-VR/thumbnail-min.png",
       "image": "./images/projects/18-VR/cover-min.png"
     },
-    "containCode": false,
-    "containLink": true,
+
     "detailImage": [
       "./images/projects/18-VR/detail-1-min.png",
       "./images/projects/18-VR/detail-2-min.png"
@@ -335,12 +281,10 @@ export default [
       "thumbnail": "./images/projects/17-topiclip/thumbnail-min.png",
       "image": "./images/projects/17-topiclip/cover-min.png"
     },
-    "containCode": false,
-    "containLink": true,
+
     "detailImage": [
       "./images/projects/17-topiclip/detail-min.png"
     ],
-
     "name": "会社ホームページ",
     "country": "1",
     "type": "1",
@@ -371,10 +315,8 @@ export default [
       "thumbnail": "./images/projects/16-sohu/thumbnail-min.png",
       "image": "./images/projects/16-sohu/cover-min.png"
     },
-    "containCode": true,
-    "containLink": false,
-    "detailImage": [],
 
+    "detailImage": [],
     "name": "Staticページ",
     "country": "1",
     "type": "1",
@@ -402,8 +344,7 @@ export default [
       "thumbnail": "./images/projects/15-biedong/thumbnail-min.png",
       "image": "./images/projects/15-biedong/cover-min.png"
     },
-    "containCode": true,
-    "containLink": true,
+
     "detailImage": [],
 
     "name": "広告会社ホームサイト",
@@ -435,8 +376,7 @@ export default [
       "thumbnail": "./images/projects/14-house/thumbnail-min.png",
       "image": "./images/projects/14-house/cover-min.png"
     },
-    "containCode": false,
-    "containLink": true,
+
     "detailImage": [],
 
     "name": "Staticページ",
@@ -465,8 +405,7 @@ export default [
       "thumbnail": "./images/projects/13-dwh/thumbnail-min.png",
       "image": "./images/projects/13-dwh/cover-min.png"
     },
-    "containCode": true,
-    "containLink": true,
+
     "detailImage": [
       "./images/projects/13-dwh/detail-min.png"
     ],
@@ -502,8 +441,7 @@ export default [
       "thumbnail": "./images/projects/12-HE/thumbnail-min.png",
       "image": "./images/projects/12-HE/cover-min.png"
     },
-    "containCode": false,
-    "containLink": true,
+
     "detailImage": [
       "./images/projects/12-HE/detail-min.png"
     ],
@@ -536,8 +474,7 @@ export default [
       "thumbnail": "./images/projects/11-flower-plus/thumbnail-min.jpg",
       "image": "./images/projects/11-flower-plus/cover-min.jpg"
     },
-    "containCode": true,
-    "containLink": true,
+
     "detailImage": [],
 
     "name": "B2Cシュップdemo",
@@ -571,8 +508,7 @@ export default [
       "thumbnail": "./images/projects/10-bukka-CMS/thumbnail-min.png",
       "image": "./images/projects/10-bukka-CMS/cover-min.png"
     },
-    "containCode": false,
-    "containLink": false,
+
     "detailImage": [
       "./images/projects/10-bukka-CMS/detail-min.png"
     ],
@@ -606,8 +542,7 @@ export default [
       "thumbnail": "./images/projects/09-videojs/thumbnail-min.png",
       "image": "./images/projects/09-videojs/cover-min.png"
     },
-    "containCode": true,
-    "containLink": true,
+
     "detailImage": [
       "./images/projects/09-videojs/detail-min.png"
     ],
@@ -639,8 +574,7 @@ export default [
       "thumbnail": "./images/projects/08-fuzhou/thumbnail-min.png",
       "image": "./images/projects/08-fuzhou/cover-min.jpg"
     },
-    "containCode": false,
-    "containLink": false,
+
     "detailImage": [
       "./images/projects/08-fuzhou/detail-1-min.jpg",
       "./images/projects/08-fuzhou/detail-2-min.png",
@@ -682,8 +616,7 @@ export default [
       "thumbnail": "./images/projects/07-vip/thumbnail-min.png",
       "image": "./images/projects/07-vip/cover-min.jpg"
     },
-    "containCode": false,
-    "containLink": false,
+
     "detailImage": [],
 
     "name": "B2C Hybrid APP",
@@ -711,47 +644,12 @@ export default [
     "learned": ""
   },
   {
-    "id": 6,
-    "cover": {
-      "thumbnail": "./images/projects/06-blog/thumbnail-min.png",
-      "image": "./images/projects/06-blog/cover-min.jpg"
-    },
-    "containCode": true,
-    "containLink": true,
-    "detailImage": [],
-
-    "name": "ブログ",
-    "country": "1",
-    "type": "1",
-    "time": "2015/11",
-    "content": "",
-    "link": "https://maysongshow.cn/",
-    "codeLink": "https://github.com/zhumeisongsong/node-ghost-blog",
-    "skill": [
-      "ghost"
-    ],
-    "myRole": [
-      "1",
-      "2",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "team": {
-      "total": 1,
-      "frontEnd": 1
-    },
-    "learned": ""
-  },
-  {
     "id": 5,
     "cover": {
       "thumbnail": "./images/projects/05-car/thumbnail-min.png",
       "image": "./images/projects/05-car/cover-min.png"
     },
-    "containCode": true,
-    "containLink": true,
+
     "detailImage": [],
 
     "name": "ゲーム--質問の答えるページ",
@@ -775,131 +673,4 @@ export default [
     },
     "learned": ""
   },
-  {
-    "id": 4,
-    "cover": {
-      "thumbnail": "./images/projects/04-company-page/thumbnail-min.png",
-      "image": "./images/projects/04-company-page/cover-min.jpg"
-    },
-    "containCode": false,
-    "containLink": false,
-    "detailImage": [],
-
-    "name": "会社ホームサイト",
-    "country": "1",
-    "type": "1",
-    "time": "2015/04",
-    "content": "",
-    "link": "",
-    "codeLink": "",
-    "skill": [
-      "html css js"
-    ],
-    "myRole": [
-      "2",
-      "4",
-      "5"
-    ],
-    "team": {
-      "total": 1,
-      "frontEnd": 1
-    },
-    "learned": ""
-  },
-  {
-    "id": 3,
-    "cover": {
-      "thumbnail": "./images/projects/03-LA-page/thumbnail-min.png",
-      "image": "./images/projects/03-LA-page/cover-min.jpg"
-    },
-    "containCode": false,
-    "containLink": false,
-    "detailImage": [],
-
-    "name": "デザイン会社ホームサイト",
-    "country": "1",
-    "type": "1",
-    "time": "2015/03",
-    "content": "",
-    "link": "",
-    "codeLink": "",
-    "skill": [
-      "html css js"
-    ],
-    "myRole": [
-      "2",
-      "4",
-      "5"
-    ],
-    "team": {
-      "total": 2,
-      "frontEnd": 1,
-      "backEnd": 1
-    },
-    "learned": ""
-  },
-  {
-    "id": 2,
-    "cover": {
-      "thumbnail": "./images/projects/02-library/thumbnail-min.png",
-      "image": "./images/projects/02-library/cover-min.png"
-    },
-    "containCode": false,
-    "containLink": true,
-    "detailImage": [],
-
-    "name": "図書館ホームサイト(キャンパス内)",
-    "country": "1",
-    "type": "1",
-    "time": "2010/09～2010/12",
-    "content": "",
-    "link": "http://202.115.129.131/",
-    "codeLink": "",
-    "skill": [
-      "html css js"
-    ],
-    "myRole": [
-      "2",
-      "4",
-      "5"
-    ],
-    "team": {
-      "total": 2,
-      "frontEnd": 1,
-      "backEnd": 1
-    },
-    "learned": ""
-  },
-  {
-    "id": 1,
-    "cover": {
-      "thumbnail": "./images/projects/01-community/thumbnail-min.png",
-      "image": "./images/projects/01-community/cover-min.jpg"
-    },
-    "containCode": false,
-    "containLink": false,
-    "detailImage": [],
-
-    "name": "学生コミュニティ(キャンパス内)",
-    "country": "1",
-    "type": "1",
-    "time": "2009/03～2010/07",
-    "content": "大学の情報をシェアしたプラットフォームを",
-    "link": "",
-    "codeLink": "",
-    "skill": [
-      "html css js"
-    ],
-    "myRole": [
-      "2",
-      "4",
-      "5"
-    ],
-    "team": {
-      "total": 2,
-      "frontEnd": 1,
-      "backEnd": 1
-    },
-    "learned": "UIデザイン方、htmlとcssでページを作り方"
-  }
 ]

@@ -17,8 +17,6 @@ export default {
   "list.skill": "FW&Tools",
   "list.team": "Team",
   "list.selfResponsibility": "My responsibility",
-  "tag.code": "with Code",
-  "tag.link": "with Link",
   "modal.title": "Information",
   "file.career": "Career",
   "file.resume": "Resume",

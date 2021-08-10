@@ -1,6 +1,7 @@
 import React, { useMemo, useContext, useCallback, useState, FC } from 'react';
 import { Modal } from 'antd';
 import ImageItem from '../ImageItem';
+import { projectType } from '../../constants/index';
 import { I18nContext } from '../../locales';
 
 import './index.scss';
@@ -39,8 +40,12 @@ const Project: FC = () => {
               <div className="hover-cover">
                 <div className="wrapper">
                   <p className="title">{item.name}</p>
-                  {item.containLink && <p className="tag"></p>}
-                  {item.containCode && <p className="tag"></p>}
+                  <p className="type">
+                    {
+                      projectType.find((type) => item?.type == type.id + '')
+                        ?.name
+                    }
+                  </p>
                 </div>
               </div>
             </div>
@@ -50,7 +55,9 @@ const Project: FC = () => {
         {visible && (
           <Modal
             className="detail"
-            title={detailData?.type}
+            title={
+              projectType.find((type) => detailData?.type == type.id + '')?.name
+            }
             visible={visible}
             onCancel={onClose}
             footer={''}
