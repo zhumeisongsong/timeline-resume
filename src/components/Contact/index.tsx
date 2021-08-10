@@ -1,4 +1,11 @@
-import React, { useMemo, useCallback, useContext } from 'react';
+import React, { useMemo, useContext } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faAddressCard,
+  faAt,
+  faNewspaper
+} from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { I18nContext } from '../../locales';
 
 import './index.scss';
@@ -11,9 +18,13 @@ const Contact = () => {
       <section className="section-container contact-container">
         <div className="wrapper">
           <div className="item">
-            <a className="link-white" href="mailto: zhumeisongsong@gmail.com">
-              <div className="icon icon-email" />
-              zhumeisongsong@gmail.com
+            <a
+              className="link-white"
+              href={translate('file.resumePath')}
+              download
+            >
+              <FontAwesomeIcon icon={faNewspaper} />
+              <span>{translate('file.resume')}</span>
             </a>
           </div>
 
@@ -23,19 +34,26 @@ const Contact = () => {
               href={translate('file.careerPath')}
               download
             >
-              <div className="icon icon-document" />
-              {translate('file.career')}
+              <FontAwesomeIcon icon={faAddressCard} />
+              <span>{translate('file.career')}</span>
             </a>
           </div>
 
           <div className="item">
             <a
               className="link-white"
-              href={translate('file.resumePath')}
+              href="https://github.com/zhumeisongsong"
               download
             >
-              <div className="icon icon-resume" />
-              {translate('file.resume')}
+              <FontAwesomeIcon icon={faGithub} />
+              <span>zhumeisongsong</span>
+            </a>
+          </div>
+
+          <div className="item">
+            <a className="link-white" href="mailto: zhumeisongsong@gmail.com">
+              <FontAwesomeIcon icon={faAt} />
+              <span>zhumeisongsong@gmail.com</span>
             </a>
           </div>
         </div>

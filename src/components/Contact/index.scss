@@ -9,12 +9,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 33.3%;
+    width: 25%;
   }
 
   a {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-decoration: none;
-    
+  }
+
+  svg {
+    font-size: 40px;
+    opacity: .8;
+    margin-bottom: 16px;
+  }
+
+  span {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-container {
+    .wrapper {
+      flex-direction: column;
+    }
+    .item {
+      +.item {
+        padding-top: 64px;
+      }
+    }
   }
 }
