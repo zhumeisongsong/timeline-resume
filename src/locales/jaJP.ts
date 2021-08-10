@@ -18,8 +18,6 @@ export default {
   "list.skill": "使用ツール",
   "list.team": "開発規模",
   "list.selfResponsibility": "自分の担当",
-  "tag.code": "コードがある",
-  "tag.link": "リンクがある",
   "modal.title": "案件詳細",
   "file.career": "職務経歴書",
   "file.resume": "履歴書",
