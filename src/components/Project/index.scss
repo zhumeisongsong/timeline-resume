@@ -1,0 +1,56 @@
+.hover-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+  .wrapper {
+  }
+  p.title {
+    min-width: 160px;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    + .tag {
+    }
+  }
+  .tag {
+    font-size: 12px;
+    color: #fff;
+  }
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .item {
+    position: relative;
+    cursor: pointer;
+    width: 33.33%;
+    overflow: hidden;
+    &:hover {
+      .placeholder {
+      }
+      .hover-cover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.ant-modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 767px) {
+  .project-container {
+    .item {
+      width: 100%;
+    }
+  }
+}

@@ -10,7 +10,7 @@ export const langLocales: any = {
 
 const getTranslate =
   (langCode: any) =>
-  (key: string): string =>
+  (key: string): any =>
     langLocales[langCode][key] || key;
 
 const parsed = queryString.parse(window.location.search);
