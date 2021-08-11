@@ -38,7 +38,7 @@ const ImageItem = ({ data }: any) => {
         />
       </div>
     ),
-    [data, state]
+    [data, state, onLargeImageLoad, onSmallImageLoad]
   );
 };
 

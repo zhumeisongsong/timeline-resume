@@ -15,7 +15,7 @@ const Contact = () => {
 
   return useMemo(
     () => (
-      <section className="section-container contact-container">
+      <section className="section-container contact-container scroll fade-in">
         <div className="wrapper">
           <div className="item">
             <a
@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
       </section>
     ),
-    []
+    [translate]
   );
 };
 

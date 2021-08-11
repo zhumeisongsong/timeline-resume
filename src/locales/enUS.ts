@@ -1,6 +1,6 @@
 import project from './projectEnUS';
 
-export default {
+const enUS = {
   "intro.hello": "Hi,I'm Zhumei Song",
   "intro.face": "FRONT-END ENGINEER",
   "intro.description": "description en",
@@ -24,3 +24,5 @@ export default {
   "file.resumePath": "./files/履歴書-宋竹梅.pdf",
   "project": project
 }
+
+export default enUS;

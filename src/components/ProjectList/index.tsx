@@ -12,15 +12,18 @@ interface Project {
   name: string;
 }
 
-const Project: FC = () => {
+const ProjectList: FC = () => {
   const { translate } = useContext(I18nContext);
   const data = translate('project');
   const [visible, setVisible] = useState(false);
   const [detailData, setDetailData] = useState<Project | null>(null);
-  const onClick = useCallback((id) => {
-    setDetailData(data.find((item: Project) => item.id === id));
-    setVisible(true);
-  }, []);
+  const onClick = useCallback(
+    (id) => {
+      setDetailData(data.find((item: Project) => item.id === id));
+      setVisible(true);
+    },
+    [data]
+  );
   const onClose = useCallback(() => {
     setVisible(false);
     setDetailData(null);
@@ -42,7 +45,7 @@ const Project: FC = () => {
                   <p className="title">{item.name}</p>
                   <p className="type">
                     {
-                      projectType.find((type) => item?.type == type.id + '')
+                      projectType.find((type) => item?.type === type.id + '')
                         ?.name
                     }
                   </p>
@@ -51,12 +54,12 @@ const Project: FC = () => {
             </div>
           ))}
         </section>
-        {console.log(detailData)}
         {visible && (
           <Modal
             className="detail"
             title={
-              projectType.find((type) => detailData?.type == type.id + '')?.name
+              projectType.find((type) => detailData?.type === type.id + '')
+                ?.name
             }
             visible={visible}
             onCancel={onClose}
@@ -67,8 +70,8 @@ const Project: FC = () => {
         )}
       </>
     ),
-    [data, visible, detailData]
+    [data, visible, detailData, onClick, onClose]
   );
 };
 
-export default Project;
+export default ProjectList;
