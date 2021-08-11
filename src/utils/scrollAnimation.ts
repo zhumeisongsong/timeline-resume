@@ -9,9 +9,11 @@ const scrollAnimation = () => {
   })
 };
 
-export default () => {
+const animation = () => {
   scrollAnimation();
   window.addEventListener('scroll', () => {
     scrollAnimation()
   });
 };
+
+export default animation;

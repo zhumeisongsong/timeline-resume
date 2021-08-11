@@ -36,7 +36,7 @@ const Header = () => {
         </div>
       </header>
     ),
-    [activeLang]
+    [activeLang, onLangChange]
   );
 };
 

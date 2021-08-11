@@ -23,7 +23,7 @@ const Layout = ({ children }: Props) => {
         <Footer />
       </div>
     ),
-    []
+    [children]
   );
 };
 

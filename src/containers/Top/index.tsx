@@ -1,17 +1,15 @@
-import React, { useMemo, useState, useEffect, useCallback } from 'react';
+import React, { useMemo } from 'react';
 import Introduction from '../../components/Introduction';
-import Project from '../../components/Project';
+import ProjectList from '../../components/ProjectList';
 import Skill from '../../components/Skill';
 import Contact from '../../components/Contact';
-
-
 
 const Top = () => {
   return useMemo(
     () => (
       <div className="top-container">
         <Introduction />
-        <Project/>
+        <ProjectList />
         <Skill />
         <Contact />
       </div>

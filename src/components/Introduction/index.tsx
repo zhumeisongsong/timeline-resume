@@ -1,4 +1,4 @@
-import React, { useMemo, useCallback, useContext } from 'react';
+import React, { useMemo, useContext } from 'react';
 import Particles from 'react-particles-js';
 import { I18nContext } from '../../locales';
 
@@ -49,7 +49,7 @@ const Introduction = () => {
         </div>
       </section>
     ),
-    []
+    [translate]
   );
 };
 

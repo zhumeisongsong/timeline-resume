@@ -22,7 +22,7 @@ const initialState = {
 
 export const I18nContext = React.createContext(initialState);
 
-export default ({ children, lang }: any) => {
+const I18nContextProvider = ({ children, lang }: any) => {
   /* This is where magic starts to happen. We're creating
   a reducer to manage the global state which will sit in
   I18nContext. For now, the only action we will have
@@ -51,3 +51,5 @@ export default ({ children, lang }: any) => {
     </I18nContext.Provider>
   );
 };
+
+export default I18nContextProvider;
