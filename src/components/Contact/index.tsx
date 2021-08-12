@@ -20,6 +20,24 @@ const Contact = () => {
           <div className="item">
             <a
               className="link-white"
+              href="https://github.com/zhumeisongsong"
+              download
+            >
+              <FontAwesomeIcon icon={faGithub} />
+              <span>zhumeisongsong</span>
+            </a>
+          </div>
+
+          <div className="item">
+            <a className="link-white" href="mailto: zhumeisongsong@gmail.com">
+              <FontAwesomeIcon icon={faAt} />
+              <span>zhumeisongsong@gmail.com</span>
+            </a>
+          </div>
+
+          <div className="item">
+            <a
+              className="link-white"
               href={translate('file.resumePath')}
               download
             >
@@ -36,24 +54,6 @@ const Contact = () => {
             >
               <FontAwesomeIcon icon={faAddressCard} />
               <span>{translate('file.career')}</span>
-            </a>
-          </div>
-
-          <div className="item">
-            <a
-              className="link-white"
-              href="https://github.com/zhumeisongsong"
-              download
-            >
-              <FontAwesomeIcon icon={faGithub} />
-              <span>zhumeisongsong</span>
-            </a>
-          </div>
-
-          <div className="item">
-            <a className="link-white" href="mailto: zhumeisongsong@gmail.com">
-              <FontAwesomeIcon icon={faAt} />
-              <span>zhumeisongsong@gmail.com</span>
             </a>
           </div>
         </div>
