@@ -63,8 +63,9 @@ h2 {
 }
 
 p {
+  width: 100%;
   text-align: justify;
-  word-break: normal;
+  word-break: break-all;
   margin-bottom: 0;
 }
 
@@ -131,21 +132,6 @@ button {
   background-size: contain;
 }
 
-.icon-document {
-  background: url('../../images/icon/document.svg') center no-repeat;
-  background-size: contain;
-}
-
-.icon-email {
-  background: url('../../images/icon/mail.svg') center no-repeat;
-  background-size: contain;
-}
-
-.icon-resume {
-  background: url('../../images/icon/resume.svg') center no-repeat;
-  background-size: contain;
-}
-
 .link {
   padding: 0 2px 2px 2px;
   cursor: pointer;
@@ -202,5 +188,11 @@ button {
 @media only screen and (max-width: 767px) {
   .wrapper {
     padding: 0 12px;
+  }
+
+  [lang]:lang(ja) {
+    h1 {
+      font-size: 44px;
+    }
   }
 }

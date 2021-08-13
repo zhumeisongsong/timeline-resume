@@ -3,7 +3,7 @@ import project from './projectEnUS';
 const enUS = {
   "intro.hello": "Hi,I'm Zhumei Song",
   "intro.face": "<span>FRONT-END</span> ENGINEER",
-  "intro.description": "Love web technologies and cross-platform development. <br/>Have extensive experience in developing web apps and hybrid apps. <br/>A contributor to open source.",
+  "intro.description": "Love web technologies and cross-platform development. <br/>Have extensive experience in developing web apps and hybrid apps. <br/>Pursuing the optimal solution.<br/>A contributor to open source.",
   "list.name": "Name",
   "list.country": "Country",
   "list.type": "Type",
