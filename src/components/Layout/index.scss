@@ -27,14 +27,14 @@ body {
 
 [lang]:lang(ja) {
   h1 {
-    font-size: 64px;
+    font-size: 60px;
     letter-spacing: 2px;
   }
 }
 
 [lang]:lang(en) {
   h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
   }
 }
@@ -110,15 +110,15 @@ button {
   }
 }
 
-// .fade-in {
-//   opacity: 0;
-//   transform: translate(0, 50px);
-//   transition: opacity 0.6s 0.1s, transform 0.6s ease;
-//   &.is-scoped {
-//     opacity: 1;
-//     transform: translate(0, 0);
-//   }
-// }
+.fade-in {
+  opacity: 0;
+  transform: translate(0, 50px);
+  transition: opacity 0.6s 0.1s, transform 0.6s ease;
+  &.is-scoped {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
 
 .icon {
   width: 20px;
