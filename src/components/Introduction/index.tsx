@@ -42,7 +42,9 @@ const Introduction = () => {
 
         <div className="wrapper">
           <div className="name">{translate('intro.hello')}</div>
-          <h1>{translate('intro.face')}</h1>
+          <h1
+            dangerouslySetInnerHTML={{ __html: translate('intro.face') }}
+          ></h1>
           <p
             dangerouslySetInnerHTML={{ __html: translate('intro.description') }}
           ></p>
