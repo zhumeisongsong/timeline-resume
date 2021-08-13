@@ -3,8 +3,7 @@ import project from './projectJaJP';
 const jaJP = {
   'intro.hello': '初めまして、宋竹梅(ソウ ジュウメイ)と申します',
   'intro.face': 'フロントエンドエンジニア',
-  'intro.description': 'description ja',
-  'button.back': '戻る',
+  'intro.description': 'ウェブテクノロジーとクロスプラットフォーム開発が大好きです。<br/>ウェブアプリやハイブリッドアプリの開発に豊富な経験があります。<br/>オープンソースにも貢献しています。',
   'list.name': '案件名',
   'list.country': 'こっか',
   'list.type': 'タイプ',
