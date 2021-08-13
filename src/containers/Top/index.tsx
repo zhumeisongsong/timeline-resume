@@ -11,7 +11,7 @@ const Top = () => {
         <Introduction />
         {/* <ProjectList /> */}
         <Skill />
-        {/* <Contact /> */}
+        <Contact />
       </div>
     ),
     []
