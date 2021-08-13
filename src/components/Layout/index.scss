@@ -28,6 +28,7 @@ body {
 [lang]:lang(ja) {
   h1 {
     font-size: 60px;
+    font-weight: bold;
     letter-spacing: 2px;
   }
 }
@@ -53,7 +54,7 @@ h4,
 h5,
 h6 {
   color: rgba(0, 0, 0, 0.85);
-  line-height: 1.5;
+  line-height: 1.2;
   font-weight: 500;
 }
 
