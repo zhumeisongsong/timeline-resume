@@ -13,26 +13,27 @@ const data = {
   hard: [
     {
       id: 1,
-      type: 'Web Develop',
-      content: 'Html5/Css3/Sass/Stylus/Javascript/ES6/Typescript',
+      type: 'Web Development',
+      content:
+        'Javascript(ES5,ES6)/Typescript/HTML5/CSS(sass,less,stylus,style-components)',
       score: 4
     },
     {
       id: 2,
-      type: 'Framework&Library',
-      content: 'React.js(Redux/Mobx)',
+      type: 'React Family Bucket',
+      content: 'React.js+react-router+Redux(rematch)+immer.js',
       score: 4
     },
     {
       id: 3,
       type: 'Build tools',
-      content: 'Webpack/parcel/Gulp/Rollup',
+      content: 'Webpack/Parcel/Gulp/Rollup',
       score: 4
     },
     {
       id: 4,
       type: 'Automated test',
-      content: 'Jest/Nightwatch',
+      content: 'Jest/React Testing Library/Nightwatch',
       score: 3
     },
     {
@@ -44,7 +45,8 @@ const data = {
     {
       id: 6,
       type: 'Others',
-      content: 'AWS cli/AWS Amplify/AWS Appsync/Firebase/Heroku',
+      content:
+        'AWS-cli/AWS-Amplify/AWS-Appsync/Firebase/Heroku/Git flow/Git Actions',
       score: 3
     }
   ],
@@ -52,7 +54,7 @@ const data = {
     {
       id: 1,
       type: 'Rapid Learning',
-      content: "According to the project's need, learn new technology.",
+      content: 'Have a solid foundation and embrace change.',
       score: 5
     },
     {
