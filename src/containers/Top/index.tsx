@@ -9,7 +9,7 @@ const Top = () => {
     () => (
       <div className="top-container">
         <Introduction />
-        {/* <ProjectList /> */}
+        <ProjectList />
         <Skill />
         <Contact />
       </div>
