@@ -7,7 +7,6 @@ const projectEnUS = [
     },
     detailImage: [],
     name: 'C2C curation site(Client)',
-    country: '2',
     type: '1',
     time: '2018/06～',
     content:
@@ -34,7 +33,6 @@ const projectEnUS = [
     },
     detailImage: ['./images/projects/25-nippon-hodai-CMS/detail-min.png'],
     name: 'C2C curation site(admin)',
-    country: '2',
     type: '3',
     time: '2018/06～',
     content: 'The CMS of a C2C curation site',
@@ -510,6 +508,35 @@ const projectEnUS = [
       backEnd: 1
     },
     learned: ''
+  },
+  {
+    "id": 1,
+    "cover": {
+      "thumbnail": "./images/projects/01-community/thumbnail-min.png",
+      "image": "./images/projects/01-community/cover-min.jpg"
+    },
+    "containCode": false,
+    "containLink": false,
+    "detailImage": [],
+    "name": "Students' community(in the university)",
+    "country": "1",
+    "type": "1",
+    "time": "2009/03～2010/07",
+    "content": "An information sharing platform in my university",
+    "skill": [
+      "html css js"
+    ],
+    "myRole": [
+      "2",
+      "4",
+      "5"
+    ],
+    "team": {
+      "total": 2,
+      "frontEnd": 1,
+      "backEnd": 1
+    },
+    "learned": "Website UI design; How to make a static page by html&css"
   }
 ];
 

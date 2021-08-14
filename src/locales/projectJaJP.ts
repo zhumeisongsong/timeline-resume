@@ -1,9 +1,81 @@
 const projectJaJP = [
   {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: '医療相談システム',
+    time: '2021/07~'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'ドリンク注文アプリ',
+    time: '2021/04~2021/07'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'ファンクラブアプリ',
+    time: '2021/01~2021/04'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'ライブメッセージ機能',
+    time: '2020/07'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: '不動産ホームページ',
+    time: '2020/05~2020/12'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: '守り合いJapan',
+    time: '2020/05'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'Landing Page',
+    time: '2020/01～2020/04'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'シンガポールのオンライン予約システム',
+    time: '2019/08～2020/01'
+  },
+  {
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'alphaca',
+    time: '2019/01～2019/06'
+  },
+  {
     id: 26,
     cover: {
-      thumbnail: './images/projects/26-nippon-hodai/thumbnail-min.png',
-      image: './images/projects/26-nippon-hodai/cover-min.png'
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
     },
     detailImage: [],
     name: 'C2Cキュレーションサイト(client)',
@@ -11,8 +83,6 @@ const projectJaJP = [
     type: '1',
     time: '2018/06～',
     content: 'C2Cキュレーションサイトの新規立ち上げプロジェクト',
-    link: 'https://nippon.hodaiweb.com/',
-    codeLink: 'https://github.com/monstar-lab/TS_niponhoudai',
     skill: ['1'],
     myRole: ['3', '4', '5', '8', '9'],
     team: {
@@ -28,17 +98,15 @@ const projectJaJP = [
   {
     id: 25,
     cover: {
-      thumbnail: './images/projects/25-nippon-hodai-CMS/thumbnail-min.png',
-      image: './images/projects/25-nippon-hodai-CMS/cover-min.png'
+      thumbnail: '/images/projects/25-nippon-hodai-CMS/thumbnail-min.png',
+      image: '/images/projects/25-nippon-hodai-CMS/cover-min.png'
     },
-    detailImage: ['./images/projects/25-nippon-hodai-CMS/detail-min.png'],
+    detailImage: ['/images/projects/25-nippon-hodai-CMS/detail-min.png'],
     name: 'C2Cキュレーションサイト(admin)',
     country: '2',
     type: '3',
     time: '2018/06～',
     content: 'C2Cキュレーションサイトの管理画面',
-    link: '',
-    codeLink: 'https://github.com/monstar-lab/TS_niponhoudai_CMS',
     skill: ['2'],
     myRole: ['3', '4', '5', '8'],
     team: {
@@ -53,21 +121,19 @@ const projectJaJP = [
   {
     id: 24,
     cover: {
-      thumbnail: './images/projects/24-koubei/thumbnail-min.png',
-      image: './images/projects/24-koubei/cover-min.jpg'
+      thumbnail: '/images/projects/24-koubei/thumbnail-min.png',
+      image: '/images/projects/24-koubei/cover-min.jpg'
     },
     detailImage: [
-      './images/projects/24-koubei/detail-1-min.png',
-      './images/projects/24-koubei/detail-2-min.png',
-      './images/projects/24-koubei/detail-3-min.png'
+      '/images/projects/24-koubei/detail-1-min.png',
+      '/images/projects/24-koubei/detail-2-min.png',
+      '/images/projects/24-koubei/detail-3-min.png'
     ],
     name: 'AlipayプラットフォームのWebAPP構築',
     country: '1',
     type: '3',
     time: '2018/05～2018/06',
     content: '',
-    link: 'http://kbqz.monstar-lab.com.cn:8002/?shop_id=2017070600077010000034639246',
-    codeLink: 'https://github.com/monstarlab-chengdu-product-factory/koubei-C',
     skill: ['2', '継続的なデプロイ(docker)', 'immutable.js'],
     myRole: ['1', '3', '4', '5'],
     team: {
@@ -83,21 +149,21 @@ const projectJaJP = [
   {
     id: 22,
     cover: {
-      thumbnail: './images/projects/22-wechat-app/thumbnail-min.png',
-      image: './images/projects/22-wechat-app/cover-min.png'
+      thumbnail: '/images/projects/22-wechat-app/thumbnail-min.png',
+      image: '/images/projects/22-wechat-app/cover-min.png'
     },
     detailImage: [
-      './images/projects/22-wechat-app/detail-1.png',
-      './images/projects/22-wechat-app/detail-2.png',
-      './images/projects/22-wechat-app/detail-3.png',
-      './images/projects/22-wechat-app/detail-4.png'
+      '/images/projects/22-wechat-app/detail-1.png',
+      '/images/projects/22-wechat-app/detail-2.png',
+      '/images/projects/22-wechat-app/detail-3.png',
+      '/images/projects/22-wechat-app/detail-4.png'
     ],
     name: 'Wechat mini APP',
     country: '1',
     type: '2',
     time: '2018/05～2018/06',
     content: '',
-    link: '',
+    
     codeLink:
       'https://github.com/zhumeisongsong/wechat-mini-programs-basic-store',
     skill: ['MINA'],
@@ -113,20 +179,20 @@ const projectJaJP = [
   {
     id: 21,
     cover: {
-      thumbnail: './images/projects/21-anet/thumbnail-min.png',
-      image: './images/projects/21-anet/cover-min.png'
+      thumbnail: '/images/projects/21-anet/thumbnail-min.png',
+      image: '/images/projects/21-anet/cover-min.png'
     },
     detailImage: [
-      './images/projects/21-anet/detail-1-min.png',
-      './images/projects/21-anet/detail-2-min.png'
+      '/images/projects/21-anet/detail-1-min.png',
+      '/images/projects/21-anet/detail-2-min.png'
     ],
     name: 'ニュース APP',
     country: '1',
     type: '3',
     time: '2018/03',
     content: '',
-    link: '',
-    codeLink: '',
+    
+    
     skill: ['2'],
     myRole: ['1', '3', '4', '5'],
     team: {
@@ -139,21 +205,19 @@ const projectJaJP = [
   {
     id: 20,
     cover: {
-      thumbnail: './images/projects/20-DSB/thumbnail-min.png',
-      image: './images/projects/20-DSB/cover-min.png'
+      thumbnail: '/images/projects/20-DSB/thumbnail-min.png',
+      image: '/images/projects/20-DSB/cover-min.png'
     },
     detailImage: [
-      './images/projects/20-DSB/detail-1-min.png',
-      './images/projects/20-DSB/detail-2-min.png',
-      './images/projects/20-DSB/detail-3-min.png'
+      '/images/projects/20-DSB/detail-1-min.png',
+      '/images/projects/20-DSB/detail-2-min.png',
+      '/images/projects/20-DSB/detail-3-min.png'
     ],
     name: 'DSB',
     country: '2',
     type: '1',
     time: '2018/01～2010/04',
     content: '',
-    link: '',
-    codeLink: 'https://github.com/monstar-lab/DSB_FAM_Front',
     skill: ['Vue.js + Vuex'],
     myRole: ['1', '3', '8', '9'],
     team: {
@@ -167,8 +231,8 @@ const projectJaJP = [
   {
     id: 19,
     cover: {
-      thumbnail: './images/projects/19-colorit/thumbnail-min.png',
-      image: './images/projects/19-colorit/cover-min.png'
+      thumbnail: '/images/projects/19-colorit/thumbnail-min.png',
+      image: '/images/projects/19-colorit/cover-min.png'
     },
     detailImage: [],
     name: '機械學習--写真の処理',
@@ -176,7 +240,7 @@ const projectJaJP = [
     type: '1',
     time: '2018/01',
     content: '',
-    link: '',
+    
     codeLink: 'https://github.com/git-hacker/colorit',
     skill: ['MINA'],
     myRole: ['1', '3', '4', '5'],
@@ -190,21 +254,19 @@ const projectJaJP = [
   {
     id: 18,
     cover: {
-      thumbnail: './images/projects/18-VR/thumbnail-min.png',
-      image: './images/projects/18-VR/cover-min.png'
+      thumbnail: '/images/projects/18-VR/thumbnail-min.png',
+      image: '/images/projects/18-VR/cover-min.png'
     },
 
     detailImage: [
-      './images/projects/18-VR/detail-1-min.png',
-      './images/projects/18-VR/detail-2-min.png'
+      '/images/projects/18-VR/detail-1-min.png',
+      '/images/projects/18-VR/detail-2-min.png'
     ],
     name: 'モバイル向け動画サイト構築',
     country: '2',
     type: '1',
     time: '2018/01',
     content: 'video.jsにもとづくVR動画サイトプロジェクト',
-    link: 'http://static.maysongshow.cn/vr/assets/build/',
-    codeLink: ' https://github.com/monstar-lab/uverworld_web',
     skill: ['1'],
     myRole: ['1', '2', '3', '4', '5', '6'],
     team: {
@@ -217,10 +279,10 @@ const projectJaJP = [
   {
     id: 17,
     cover: {
-      thumbnail: './images/projects/17-topiclip/thumbnail-min.png',
-      image: './images/projects/17-topiclip/cover-min.png'
+      thumbnail: '/images/projects/17-topiclip/thumbnail-min.png',
+      image: '/images/projects/17-topiclip/cover-min.png'
     },
-    detailImage: ['./images/projects/17-topiclip/detail-min.png'],
+    detailImage: ['/images/projects/17-topiclip/detail-min.png'],
     name: '会社ホームページ',
     country: '1',
     type: '1',
@@ -239,8 +301,8 @@ const projectJaJP = [
   {
     id: 16,
     cover: {
-      thumbnail: './images/projects/16-sohu/thumbnail-min.png',
-      image: './images/projects/16-sohu/cover-min.png'
+      thumbnail: '/images/projects/16-sohu/thumbnail-min.png',
+      image: '/images/projects/16-sohu/cover-min.png'
     },
     detailImage: [],
     name: 'Staticページ',
@@ -248,7 +310,7 @@ const projectJaJP = [
     type: '1',
     time: '2017/11',
     content: '',
-    link: '',
+    
     codeLink: 'https://github.com/zhumeisongsong/gulp-sohu',
     skill: ['1'],
     myRole: ['4', '5'],
@@ -262,8 +324,8 @@ const projectJaJP = [
   {
     id: 15,
     cover: {
-      thumbnail: './images/projects/15-biedong/thumbnail-min.png',
-      image: './images/projects/15-biedong/cover-min.png'
+      thumbnail: '/images/projects/15-biedong/thumbnail-min.png',
+      image: '/images/projects/15-biedong/cover-min.png'
     },
     detailImage: [],
     name: '広告会社ホームサイト',
@@ -285,8 +347,8 @@ const projectJaJP = [
   {
     id: 14,
     cover: {
-      thumbnail: './images/projects/14-house/thumbnail-min.png',
-      image: './images/projects/14-house/cover-min.png'
+      thumbnail: '/images/projects/14-house/thumbnail-min.png',
+      image: '/images/projects/14-house/cover-min.png'
     },
     detailImage: [],
     name: 'Staticページ',
@@ -294,8 +356,8 @@ const projectJaJP = [
     type: '1',
     time: '2017/11',
     content: '',
-    link: '',
-    codeLink: '',
+    
+    
     skill: ['1'],
     myRole: ['4'],
     team: {
@@ -308,17 +370,17 @@ const projectJaJP = [
   {
     id: 13,
     cover: {
-      thumbnail: './images/projects/13-dwh/thumbnail-min.png',
-      image: './images/projects/13-dwh/cover-min.png'
+      thumbnail: '/images/projects/13-dwh/thumbnail-min.png',
+      image: '/images/projects/13-dwh/cover-min.png'
     },
-    detailImage: ['./images/projects/13-dwh/detail-min.png'],
+    detailImage: ['/images/projects/13-dwh/detail-min.png'],
     name: '食べ物の会社ホームサイト',
     country: '1',
     type: '7',
     time: '2017/09',
     content: '',
-    link: '',
-    codeLink: '',
+    
+    
     skill: ['wordpress', 'docker'],
     myRole: ['4', '5', '6', '7', '8'],
     team: {
@@ -331,17 +393,17 @@ const projectJaJP = [
   {
     id: 12,
     cover: {
-      thumbnail: './images/projects/12-HE/thumbnail-min.png',
-      image: './images/projects/12-HE/cover-min.png'
+      thumbnail: '/images/projects/12-HE/thumbnail-min.png',
+      image: '/images/projects/12-HE/cover-min.png'
     },
-    detailImage: ['./images/projects/12-HE/detail-min.png'],
+    detailImage: ['/images/projects/12-HE/detail-min.png'],
     name: '応募システムのホームサイト',
     country: '1',
     type: '1',
     time: '2017/08',
     content: '',
     link: 'https://www.hackerearth.cn/',
-    codeLink: '',
+    
     skill: ['1'],
     myRole: ['4', '5', '6'],
     team: {
@@ -354,8 +416,8 @@ const projectJaJP = [
   {
     id: 11,
     cover: {
-      thumbnail: './images/projects/11-flower-plus/thumbnail-min.jpg',
-      image: './images/projects/11-flower-plus/cover-min.jpg'
+      thumbnail: '/images/projects/11-flower-plus/thumbnail-min.jpg',
+      image: '/images/projects/11-flower-plus/cover-min.jpg'
     },
     detailImage: [],
     name: 'B2Cシュップdemo',
@@ -376,17 +438,17 @@ const projectJaJP = [
   {
     id: 10,
     cover: {
-      thumbnail: './images/projects/10-bukka-CMS/thumbnail-min.png',
-      image: './images/projects/10-bukka-CMS/cover-min.png'
+      thumbnail: '/images/projects/10-bukka-CMS/thumbnail-min.png',
+      image: '/images/projects/10-bukka-CMS/cover-min.png'
     },
-    detailImage: ['./images/projects/10-bukka-CMS/detail-min.png'],
+    detailImage: ['/images/projects/10-bukka-CMS/detail-min.png'],
     name: 'B2Cレコード管理システム',
     country: '2',
     type: '7',
     time: '2017/05～2017/06',
     content: '',
-    link: '',
-    codeLink: '',
+    
+    
     skill: ['PHP', 'CI', 'smarty'],
     myRole: ['4', '5'],
     team: {
@@ -399,17 +461,15 @@ const projectJaJP = [
   {
     id: 9,
     cover: {
-      thumbnail: './images/projects/09-videojs/thumbnail-min.png',
-      image: './images/projects/09-videojs/cover-min.png'
+      thumbnail: '/images/projects/09-videojs/thumbnail-min.png',
+      image: '/images/projects/09-videojs/cover-min.png'
     },
-    detailImage: ['./images/projects/09-videojs/detail-min.png'],
+    detailImage: ['/images/projects/09-videojs/detail-min.png'],
     name: '動画サイト',
     country: '2',
     type: '1',
     time: '2017/04',
     content: '',
-    link: 'http://static.maysongshow.cn/player/assets/build/player.html',
-    codeLink: 'https://github.com/monstar-lab/sony_nogizaka46',
     skill: ['html css js'],
     myRole: ['4', '5'],
     team: {
@@ -422,14 +482,14 @@ const projectJaJP = [
   {
     id: 8,
     cover: {
-      thumbnail: './images/projects/08-fuzhou/thumbnail-min.png',
-      image: './images/projects/08-fuzhou/cover-min.jpg'
+      thumbnail: '/images/projects/08-fuzhou/thumbnail-min.png',
+      image: '/images/projects/08-fuzhou/cover-min.jpg'
     },
 
     detailImage: [
-      './images/projects/08-fuzhou/detail-1-min.jpg',
-      './images/projects/08-fuzhou/detail-2-min.png',
-      './images/projects/08-fuzhou/detail-3-min.jpg'
+      '/images/projects/08-fuzhou/detail-1-min.jpg',
+      '/images/projects/08-fuzhou/detail-2-min.png',
+      '/images/projects/08-fuzhou/detail-3-min.jpg'
     ],
     name: 'WebAPPのこうちく',
     country: '1',
@@ -437,8 +497,8 @@ const projectJaJP = [
     time: '2016/09～2016/11 2017/03～2017/04',
     content:
       'Dcloudのフレームワークを使用したWebAPPプロジェクト。IOSとAndroidの両方利用が可能です。',
-    link: '',
-    codeLink: '',
+    
+    
     skill: ['MUI', 'native.js', 'jQuery'],
     myRole: ['1', '2', '3', '4', '5', '8'],
     team: {
@@ -453,8 +513,8 @@ const projectJaJP = [
   {
     id: 7,
     cover: {
-      thumbnail: './images/projects/07-vip/thumbnail-min.png',
-      image: './images/projects/07-vip/cover-min.jpg'
+      thumbnail: '/images/projects/07-vip/thumbnail-min.png',
+      image: '/images/projects/07-vip/cover-min.jpg'
     },
     detailImage: [],
     name: 'B2C Hybrid APP',
@@ -462,8 +522,6 @@ const projectJaJP = [
     type: '1',
     time: '2016/03～2016/08',
     content: '',
-    link: '',
-    codeLink: '',
     skill: ['html css js'],
     myRole: ['4', '5', '6', '7'],
     team: {
@@ -477,8 +535,8 @@ const projectJaJP = [
   {
     id: 5,
     cover: {
-      thumbnail: './images/projects/05-car/thumbnail-min.png',
-      image: './images/projects/05-car/cover-min.png'
+      thumbnail: '/images/projects/05-car/thumbnail-min.png',
+      image: '/images/projects/05-car/cover-min.png'
     },
     detailImage: [],
     name: 'ゲーム--質問の答えるページ',

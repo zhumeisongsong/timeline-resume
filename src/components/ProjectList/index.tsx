@@ -3,7 +3,7 @@ import { Modal } from 'antd';
 import ImageItem from '../ImageItem';
 import { projectType } from '../../constants/index';
 import { I18nContext } from '../../locales';
-
+import ProjectDetail from '../ProjectDetail';
 import './index.scss';
 
 interface Project {
@@ -39,7 +39,7 @@ const ProjectList: FC = () => {
               className="item"
               onClick={() => onClick(item.id)}
             >
-              <ImageItem data={item.cover} />
+              {item.cover && <ImageItem data={item.cover} />}
               <div className="hover-cover">
                 <div className="wrapper">
                   <p className="title">{item.name}</p>
@@ -65,7 +65,7 @@ const ProjectList: FC = () => {
             onCancel={onClose}
             footer={''}
           >
-            {detailData?.name}
+            <ProjectDetail data={detailData}/>
           </Modal>
         )}
       </>
