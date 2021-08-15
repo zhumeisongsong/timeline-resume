@@ -1,3 +1,10 @@
+export interface MapType {
+  id: number,
+  name: string,
+  lang?: string,
+  type?: string
+}
+
 export const langType = [
   {
     id: 2,
@@ -20,11 +27,11 @@ export const projectType = [
   },
   {
     id: 2,
-    name: 'Web APP'
+    name: 'Web App'
   },
   {
     id: 3,
-    name: 'Hybrid APP(webview)',
+    name: 'Hybrid App(webview)',
   },
   {
     id: 4,
@@ -40,27 +47,40 @@ export const projectType = [
   }
 ];
 
-export const skillType = [
-  {
-    id: 1,
-    name: 'React + (Redux/Mobx) + react-router4 + axios + Antd'
-  },
-  {
-    id: 2,
-    name: 'React + (Redux/Mobx) + react-router4 + axios + Antd'
-  }
-];
-
-export const countryType = [
-  {
-    id: 1,
-    name: 'China'
-  },
-  {
-    id: 2,
-    name: 'Japan'
-  }
-];
+// export const skillType = [
+//   {
+//     id: 1,
+//     name: 'React.js'
+//   },
+//   {
+//     id: 2,
+//     name: 'Redux(Rematch)',
+//   },
+//   {
+//     id: 3,
+//     name: 'Redux+Redux-saga',
+//   },
+//   {
+//     id: 4,
+//     name: 'react-router',
+//   },
+//   {
+//     id: 5,
+//     name: 'Typescript',
+//   },
+//   {
+//     id: 6,
+//     name: 'axios'
+//   },
+//   {
+//     id: 7,
+//     name: 'Antd'
+//   },
+//   {
+//     id: 8,
+//     name: 'Gatsby.js'
+//   },
+// ];
 
 export const roleType = [
   {
@@ -100,8 +120,6 @@ export const roleType = [
     name: 'refactor'
   }
 ];
-
-
 
 
 

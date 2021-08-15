@@ -93,7 +93,7 @@ const projectEnUS = [
       './images/projects/22-wechat-app/detail-3.png',
       './images/projects/22-wechat-app/detail-4.png'
     ],
-    name: 'Wechat mini APP',
+    name: 'Wechat Mini App',
     country: '1',
     type: '2',
     time: '2018/05～2018/06',
@@ -123,7 +123,7 @@ const projectEnUS = [
       './images/projects/21-anet/detail-1-min.png',
       './images/projects/21-anet/detail-2-min.png'
     ],
-    name: 'News APP',
+    name: 'News App',
     country: '1',
     type: '3',
     time: '2018/03',
@@ -275,7 +275,7 @@ const projectEnUS = [
     content: '',
     link: ' http://www.beanimal.cn/',
     codeLink: 'https://github.com/zhumeisongsong/wp-biedong',
-    skill: ['wordpress'],
+    skill: ['Wordpress'],
     myRole: ['4', '5', '6', '7'],
     team: {
       total: 2,
@@ -321,7 +321,7 @@ const projectEnUS = [
     content: '',
     link: '',
     codeLink: '',
-    skill: ['wordpress', 'docker'],
+    skill: ['Wordpress', 'docker'],
     myRole: ['4', '5', '6', '7', '8'],
     team: {
       total: 2,
@@ -419,7 +419,7 @@ const projectEnUS = [
     content: '',
     link: 'http://static.maysongshow.cn/player/assets/build/player.html',
     codeLink: 'https://github.com/monstar-lab/sony_nogizaka46',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5'],
     team: {
       total: 3,
@@ -441,12 +441,12 @@ const projectEnUS = [
       './images/projects/08-fuzhou/detail-2-min.png',
       './images/projects/08-fuzhou/detail-3-min.jpg'
     ],
-    name: 'WebAPP',
+    name: 'WebApp',
     country: '1',
     type: '2',
     time: '2016/09～2016/11 2017/03～2017/04',
     content:
-      "It's a web APP which is based on Dclound's products, IOS and Android both works excellent.",
+      "It's a web App which is based on Dclound's products, IOS and Android both works excellent.",
     link: '',
     codeLink: '',
     skill: ['MUI', 'native.js', 'jQuery'],
@@ -458,7 +458,7 @@ const projectEnUS = [
       backEnd: 3,
       qc: 2
     },
-    learned: 'map(AMAP) API, how to make a low cost APP'
+    learned: 'map(AMAP) API, how to make a low cost App'
   },
   {
     id: 7,
@@ -469,14 +469,14 @@ const projectEnUS = [
     containCode: false,
     containLink: false,
     detailImage: [],
-    name: 'B2C Hybrid APP',
+    name: 'B2C Hybrid App',
     country: '1',
     type: '1',
     time: '2016/03～2016/08',
     content: '',
     link: '',
     codeLink: '',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5', '6', '7'],
     team: {
       total: 11,
@@ -500,7 +500,7 @@ const projectEnUS = [
     content: '',
     link: 'http://static.maysongshow.cn/static-car-game/assets/build/moc/#slide1',
     codeLink: 'https://github.com/zhumeisongsong/static-car-game',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5'],
     team: {
       total: 2,
@@ -524,7 +524,7 @@ const projectEnUS = [
     "time": "2009/03～2010/07",
     "content": "An information sharing platform in my university",
     "skill": [
-      "html css js"
+      "HTML CSS Javascript"
     ],
     "myRole": [
       "2",

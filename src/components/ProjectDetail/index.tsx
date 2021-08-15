@@ -1,4 +1,5 @@
 import React, { useMemo, useContext } from 'react';
+import { roleType, MapType, projectType } from '../../constants';
 import { I18nContext } from '../../locales';
 import { nl2br } from '../../utils/string';
 
@@ -23,12 +24,23 @@ const ProjectDetail = ({ data }: any) => {
           )}
         </header>
 
-        <div className="col-left">
+        <div className="text-content">
+          {/* type */}
+          <div className="item">
+            <div className="item-label">{translate('list.type')}</div>
+            <div className="item-content">
+              {
+                projectType.find((item: MapType) => data?.type === item.id + '')
+                  ?.name
+              }
+            </div>
+          </div>
+          {/* time */}
           <div className="item">
             <div className="item-label">{translate('list.time')}</div>
             <div className="item-content">{data?.time}</div>
           </div>
-
+          {/* codeLink */}
           {data?.codeLink && (
             <div className="item">
               <div className="item-label">{translate('list.codeLink')}</div>
@@ -37,35 +49,37 @@ const ProjectDetail = ({ data }: any) => {
               </a>
             </div>
           )}
-
+          {/* skill */}
           <div className="item">
             <div className="item-label">{translate('list.skill')}</div>
             <div className="item-content">
-              {/* {data.skill.map((val) => {
-          return (<span className="padding-r" key={val}>
-            {isNaN(parseInt(val, 10)) ? val : key2value('skillType', val) }
-          </span>)
-        })} */}
+              {data?.skill?.map((item: string, index: string) => (
+                <span className="padding-r" key={index}>
+                  {item}
+                </span>
+              ))}
             </div>
           </div>
-
-          {/*my role*/}
+          {/* role */}
           <div className="item">
             <div className="item-label">{translate('list.myRole')}</div>
             <div className="item-content">
               <ul>
-                {data?.myRole?.map((item: string) => {
+                {data?.myRole?.map((id: string) => {
                   return (
-                    <li key={item}>
-                      {/* <FormattedMessage className="ul-name" id={`role.${key2value('roleType', val)}`}/> */}
+                    <li key={id} className="ul-name">
+                      {translate(
+                        `role.${
+                          roleType.find((item) => item.id + '' === id)?.name
+                        }`
+                      )}
                     </li>
                   );
                 })}
               </ul>
             </div>
           </div>
-
-          {/*team member*/}
+          {/* team */}
           <div className="item">
             <div className="item-label">{translate('list.team')}</div>
             <div className="item-content">
@@ -76,7 +90,9 @@ const ProjectDetail = ({ data }: any) => {
                       <span className="ul-name">
                         {translate(`team.${key}`)}
                       </span>
-                      <span className="padding-lr">{data.team[key]}</span>
+                      <span className="padding-lr font-bold">
+                        {data.team[key]}
+                      </span>
                       {translate('list.unit')}
                     </li>
                   );
@@ -84,7 +100,7 @@ const ProjectDetail = ({ data }: any) => {
               </ul>
             </div>
           </div>
-
+          {/* learned */}
           {data?.learned && (
             <div className="item">
               <div className="item-label">{translate('list.learned')}</div>
@@ -97,9 +113,7 @@ const ProjectDetail = ({ data }: any) => {
             </div>
           )}
         </div>
-
-        {/*imageList*/}
-        <div className="detail-images">
+        <div className="image-content">
           {data['detailImage']?.map((item: string) => (
             <img src={item} key={item} alt={item} />
           ))}

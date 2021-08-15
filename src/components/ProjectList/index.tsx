@@ -57,15 +57,12 @@ const ProjectList: FC = () => {
         {visible && (
           <Modal
             className="detail"
-            title={
-              projectType.find((type) => detailData?.type === type.id + '')
-                ?.name
-            }
+            title={translate('modal.title')}
             visible={visible}
             onCancel={onClose}
             footer={''}
           >
-            <ProjectDetail data={detailData}/>
+            <ProjectDetail data={detailData} />
           </Modal>
         )}
       </>

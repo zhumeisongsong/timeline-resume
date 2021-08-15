@@ -129,7 +129,7 @@ const projectJaJP = [
       '/images/projects/24-koubei/detail-2-min.png',
       '/images/projects/24-koubei/detail-3-min.png'
     ],
-    name: 'AlipayプラットフォームのWebAPP構築',
+    name: 'AlipayプラットフォームのWebApp構築',
     country: '1',
     type: '3',
     time: '2018/05～2018/06',
@@ -158,7 +158,7 @@ const projectJaJP = [
       '/images/projects/22-wechat-app/detail-3.png',
       '/images/projects/22-wechat-app/detail-4.png'
     ],
-    name: 'Wechat mini APP',
+    name: 'Wechat mini App',
     country: '1',
     type: '2',
     time: '2018/05～2018/06',
@@ -186,7 +186,7 @@ const projectJaJP = [
       '/images/projects/21-anet/detail-1-min.png',
       '/images/projects/21-anet/detail-2-min.png'
     ],
-    name: 'ニュース APP',
+    name: 'ニュース App',
     country: '1',
     type: '3',
     time: '2018/03',
@@ -335,7 +335,7 @@ const projectJaJP = [
     content: '',
     link: ' http://www.beanimal.cn/',
     codeLink: 'https://github.com/zhumeisongsong/wp-biedong',
-    skill: ['wordpress'],
+    skill: ['Wordpress'],
     myRole: ['4', '5', '6', '7'],
     team: {
       total: 2,
@@ -381,7 +381,7 @@ const projectJaJP = [
     content: '',
     
     
-    skill: ['wordpress', 'docker'],
+    skill: ['Wordpress', 'docker'],
     myRole: ['4', '5', '6', '7', '8'],
     team: {
       total: 2,
@@ -470,7 +470,7 @@ const projectJaJP = [
     type: '1',
     time: '2017/04',
     content: '',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5'],
     team: {
       total: 3,
@@ -491,12 +491,12 @@ const projectJaJP = [
       '/images/projects/08-fuzhou/detail-2-min.png',
       '/images/projects/08-fuzhou/detail-3-min.jpg'
     ],
-    name: 'WebAPPのこうちく',
+    name: 'WebAppのこうちく',
     country: '1',
     type: '2',
     time: '2016/09～2016/11 2017/03～2017/04',
     content:
-      'Dcloudのフレームワークを使用したWebAPPプロジェクト。IOSとAndroidの両方利用が可能です。',
+      'Dcloudのフレームワークを使用したWebAppプロジェクト。IOSとAndroidの両方利用が可能です。',
     
     
     skill: ['MUI', 'native.js', 'jQuery'],
@@ -508,7 +508,7 @@ const projectJaJP = [
       backEnd: 3,
       qc: 2
     },
-    learned: 'マップ(AMAP)開発経験、低コストAPP開発経験'
+    learned: 'マップ(AMAP)開発経験、低コストApp開発経験'
   },
   {
     id: 7,
@@ -517,12 +517,12 @@ const projectJaJP = [
       image: '/images/projects/07-vip/cover-min.jpg'
     },
     detailImage: [],
-    name: 'B2C Hybrid APP',
+    name: 'B2C Hybrid App',
     country: '1',
     type: '1',
     time: '2016/03～2016/08',
     content: '',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5', '6', '7'],
     team: {
       total: 11,
@@ -546,7 +546,7 @@ const projectJaJP = [
     content: '',
     link: 'http://static.maysongshow.cn/static-car-game/assets/build/moc/#slide1',
     codeLink: 'https://github.com/zhumeisongsong/static-car-game',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5'],
     team: {
       total: 2,
