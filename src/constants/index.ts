@@ -31,7 +31,7 @@ export const projectType = [
   },
   {
     id: 3,
-    name: 'Hybrid App(webview)',
+    name: 'Hybrid App',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const projectType = [
   },
   {
     id: 6,
-    name: 'SPA'
+    name: 'npm'
   },
   {
     id: 7,
