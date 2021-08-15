@@ -14,15 +14,13 @@
 }
 
 .detail-content {
-  display: flex;
-  flex-wrap: wrap;
   position: relative;
   header {
     width: 100%;
     padding-bottom: 40px;
   }
-  .col-left {
-    width: 62.5%;
+  .text-content {
+    width: 100%;
   }
   .item {
     display: flex;
@@ -32,6 +30,7 @@
     }
   }
   .item-label {
+    width: 140px;
     padding-right: 8px;
     font-weight: bold;
     &::after {
@@ -52,9 +51,9 @@
   .ul-name {
   }
 
-  .detail-images {
+  .image-content {
     max-width: 900px;
-    width: 36.5%;
+    width: 100%;
     margin: 0 auto;
     img {
       width: 100%;
@@ -66,7 +65,7 @@
 }
 
 .padding-r {
-  padding-right: 16px;
+  padding-right: 8px;
 }
 
 .padding-lr {
@@ -74,8 +73,12 @@
   padding-right: 8px;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
 @media (max-width: 767px) {
-  .detail-content .col-left {
+  .detail-content .text-content {
     width: 100%;
     padding-bottom: 24px;
   }
