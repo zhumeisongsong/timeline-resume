@@ -33,6 +33,7 @@ const ProjectList: FC = () => {
     () => (
       <>
         <section className="section-container project-container scroll fade-in">
+          {console.log(data.length)}
           {data.map((item: any) => (
             <div
               key={item.id}
