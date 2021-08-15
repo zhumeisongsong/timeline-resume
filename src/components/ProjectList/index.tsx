@@ -67,7 +67,7 @@ const ProjectList: FC = () => {
         )}
       </>
     ),
-    [data, visible, detailData, onClick, onClose]
+    [data, visible, detailData, onClick, onClose, translate]
   );
 };
 
