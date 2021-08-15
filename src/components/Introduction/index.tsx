@@ -1,33 +1,37 @@
 import React, { useMemo, useContext } from 'react';
 import Particles from 'react-particles-js';
+import useWindowDimensions from '../../utils/useWindowDimensions';
 import { I18nContext } from '../../locales';
 
 import './index.scss';
 
-const particlesParams = {
-  particles: {
-    number: {
-      value: 70
-    },
-    color: {
-      value: '#ccc'
-    },
-    line_linked: {
-      color: '#ccc'
-    }
-  },
-  interactivity: {
-    events: {
-      onhover: {
-        enable: true,
-        mode: 'grab'
-      }
-    }
-  }
-};
-
 const Introduction = () => {
   const { translate } = useContext(I18nContext);
+  const windowDimensions = useWindowDimensions();
+  const particlesParams = useMemo(
+    () => ({
+      particles: {
+        number: {
+          value: windowDimensions.width <= 767 ? 30 : 80
+        },
+        color: {
+          value: '#bbb'
+        },
+        line_linked: {
+          color: '#bbb'
+        }
+      },
+      interactivity: {
+        events: {
+          onhover: {
+            enable: true,
+            mode: 'grab'
+          }
+        }
+      }
+    }),
+    [windowDimensions]
+  );
 
   return useMemo(
     () => (
@@ -41,15 +45,19 @@ const Introduction = () => {
 
         <div className="wrapper">
           <div className="name">{translate('intro.hello')}</div>
-          <h1>{translate('intro.face')}</h1>
-          <p>{translate('intro.description')}</p>
+          <h1
+            dangerouslySetInnerHTML={{ __html: translate('intro.face') }}
+          ></h1>
+          <p
+            dangerouslySetInnerHTML={{ __html: translate('intro.description') }}
+          ></p>
           <div className="icon-item">
             <div className="icon icon-arrow-down" />
           </div>
         </div>
       </section>
     ),
-    [translate]
+    [translate, particlesParams]
   );
 };
 

@@ -3,7 +3,7 @@ import { Modal } from 'antd';
 import ImageItem from '../ImageItem';
 import { projectType } from '../../constants/index';
 import { I18nContext } from '../../locales';
-
+import ProjectDetail from '../ProjectDetail';
 import './index.scss';
 
 interface Project {
@@ -33,13 +33,14 @@ const ProjectList: FC = () => {
     () => (
       <>
         <section className="section-container project-container scroll fade-in">
+          {console.log(data.length)}
           {data.map((item: any) => (
             <div
               key={item.id}
               className="item"
               onClick={() => onClick(item.id)}
             >
-              <ImageItem data={item.cover} />
+              {item.cover && <ImageItem data={item.cover} />}
               <div className="hover-cover">
                 <div className="wrapper">
                   <p className="title">{item.name}</p>
@@ -57,20 +58,17 @@ const ProjectList: FC = () => {
         {visible && (
           <Modal
             className="detail"
-            title={
-              projectType.find((type) => detailData?.type === type.id + '')
-                ?.name
-            }
+            title={translate('modal.title')}
             visible={visible}
             onCancel={onClose}
             footer={''}
           >
-            {detailData?.name}
+            <ProjectDetail data={detailData} />
           </Modal>
         )}
       </>
     ),
-    [data, visible, detailData, onClick, onClose]
+    [data, visible, detailData, onClick, onClose, translate]
   );
 };
 

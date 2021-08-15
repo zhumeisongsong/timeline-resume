@@ -1,5 +1,93 @@
 const projectEnUS = [
   {
+    id: 37,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/37/thumbnail-min.png',
+      image: '/images/projects/37ai/cover-min.png'
+    },
+    name: '医療相談システム',
+    time: '2021/07~'
+  },
+  {
+    id: 36,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/36/thumbnail-min.png',
+      image: '/images/projects/36/cover-min.png'
+    },
+    name: 'ドリンク注文アプリ',
+    time: '2021/04~2021/07'
+  },
+  {
+    id: 35,
+    type: '6',
+    cover: {
+      thumbnail: '/images/projects/npm/thumbnail-min.png',
+      image: '/images/projects/npm/cover-min.png'
+    },
+  },
+  {
+    id: 34,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'ファンクラブアプリ',
+    time: '2021/01~2021/04'
+  },
+  {
+    id: 33,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'ライブメッセージ機能',
+    time: '2020/07'
+  },
+  {
+    id: 31,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: '守り合いJapan',
+    time: '2020/05'
+  },
+  {
+    id: 30,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'Landing Page',
+    time: '2020/01～2020/04'
+  },
+  {
+    id: 29,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'シンガポールのオンライン予約システム',
+    time: '2019/08～2020/01'
+  },
+  {
+    id: 28,
+    type: '2',
+    cover: {
+      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.png',
+      image: '/images/projects/26-nippon-hodai/cover-min.png'
+    },
+    name: 'alphaca',
+    time: '2019/01～2019/06'
+  },
+  {
     id: 26,
     cover: {
       thumbnail: './images/projects/26-nippon-hodai/thumbnail-min.png',
@@ -7,13 +95,12 @@ const projectEnUS = [
     },
     detailImage: [],
     name: 'C2C curation site(Client)',
-    country: '2',
     type: '1',
-    time: '2018/06～',
+    time: '2018/06～2018/11',
     content:
       'A responsive website of travel topic. It includes 2 parts content display and profile center.',
     link: 'https://nippon.hodaiweb.com/',
-    codeLink: 'https://github.com/monstar-lab/TS_niponhoudai',
+    codeLink: 'https://github.com/zhumeisongsong/TS_niponhoudai',
     skill: ['1'],
     myRole: ['3', '4', '5', '8', '9'],
     team: {
@@ -34,9 +121,8 @@ const projectEnUS = [
     },
     detailImage: ['./images/projects/25-nippon-hodai-CMS/detail-min.png'],
     name: 'C2C curation site(admin)',
-    country: '2',
-    type: '3',
-    time: '2018/06～',
+    type: '2',
+    time: '2018/06～2018/11',
     content: 'The CMS of a C2C curation site',
     link: '',
     codeLink: 'https://github.com/monstar-lab/TS_niponhoudai_CMS',
@@ -63,9 +149,9 @@ const projectEnUS = [
       './images/projects/24-koubei/detail-2-min.png',
       './images/projects/24-koubei/detail-3-min.png'
     ],
-    name: 'A webApp in Alipay platform',
+    name: 'A Web App in Alipay platform',
     country: '1',
-    type: '1',
+    type: '2',
     time: '2018/05～2018/06',
     content: '',
     link: 'http://kbqz.monstar-lab.com.cn:8002/?shop_id=2017070600077010000034639246',
@@ -81,65 +167,6 @@ const projectEnUS = [
     },
     learned:
       'Used immutable.js for letting reducer be maintainable and testable'
-  },
-  {
-    id: 22,
-    cover: {
-      thumbnail: './images/projects/22-wechat-app/thumbnail-min.png',
-      image: './images/projects/22-wechat-app/cover-min.png'
-    },
-
-    detailImage: [
-      './images/projects/22-wechat-app/detail-1.png',
-      './images/projects/22-wechat-app/detail-2.png',
-      './images/projects/22-wechat-app/detail-3.png',
-      './images/projects/22-wechat-app/detail-4.png'
-    ],
-    name: 'Wechat mini APP',
-    country: '1',
-    type: '2',
-    time: '2018/05～2018/06',
-    content: '',
-    link: '',
-    codeLink:
-      'https://github.com/zhumeisongsong/wechat-mini-programs-basic-store',
-    skill: ['MINA'],
-    myRole: ['1', '3', '4', '5'],
-    team: {
-      total: 4,
-      design: 1,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: 'MINA API'
-  },
-  {
-    id: 21,
-    cover: {
-      thumbnail: './images/projects/21-anet/thumbnail-min.png',
-      image: './images/projects/21-anet/cover-min.png'
-    },
-    containCode: false,
-    containLink: false,
-    detailImage: [
-      './images/projects/21-anet/detail-1-min.png',
-      './images/projects/21-anet/detail-2-min.png'
-    ],
-    name: 'News APP',
-    country: '1',
-    type: '3',
-    time: '2018/03',
-    content: '',
-    link: '',
-    codeLink: '',
-    skill: ['2'],
-    myRole: ['1', '3', '4', '5'],
-    team: {
-      total: 2,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: ''
   },
   {
     id: 20,
@@ -190,7 +217,7 @@ const projectEnUS = [
       frontEnd: 2,
       backEnd: 1
     },
-    learned: 'the first prize of Hackathon code tank'
+    learned: 'The first prize of Hackathon code tank.'
   },
   {
     id: 18,
@@ -207,8 +234,7 @@ const projectEnUS = [
     type: '1',
     time: '2018/01',
     content: 'A website based on video.js',
-    link: 'http://static.maysongshow.cn/vr/assets/build/',
-    codeLink: ' https://github.com/monstar-lab/uverworld_web',
+    codeLink: 'https://github.com/zhumeisongsong/static-video-360',
     skill: ['1'],
     myRole: ['1', '2', '3', '4', '5', '6'],
     team: {
@@ -219,145 +245,7 @@ const projectEnUS = [
     learned: 'video.js API, videojs VR plugin'
   },
   {
-    id: 17,
-    cover: {
-      thumbnail: './images/projects/17-topiclip/thumbnail-min.png',
-      image: './images/projects/17-topiclip/cover-min.png'
-    },
-    detailImage: ['./images/projects/17-topiclip/detail-min.png'],
-    name: '会社ホームページ',
-    country: '1',
-    type: '1',
-    time: '2017/12',
-    content: '',
-    link: 'http://static.maysongshow.cn/topiclip/moc/index.html',
-    codeLink: 'https://github.com/zhumeisongsong/gulp-send-mail',
-    skill: ['1'],
-    myRole: ['1', '2', '3', '4', '5', '6'],
-    team: {
-      total: 1,
-      frontEnd: 1
-    },
-    learned: ''
-  },
-  {
-    id: 16,
-    cover: {
-      thumbnail: './images/projects/16-sohu/thumbnail-min.png',
-      image: './images/projects/16-sohu/cover-min.png'
-    },
-    detailImage: [],
-    name: 'Static page',
-    country: '1',
-    type: '1',
-    time: '2017/11',
-    content: '',
-    link: '',
-    codeLink: 'https://github.com/zhumeisongsong/gulp-sohu',
-    skill: ['1'],
-    myRole: ['4', '5'],
-    team: {
-      total: 4,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: ''
-  },
-  {
-    id: 15,
-    cover: {
-      thumbnail: './images/projects/15-biedong/thumbnail-min.png',
-      image: './images/projects/15-biedong/cover-min.png'
-    },
-    detailImage: [],
-    name: 'AD company home site',
-    country: '1',
-    type: '1',
-    time: '2017/11',
-    content: '',
-    link: ' http://www.beanimal.cn/',
-    codeLink: 'https://github.com/zhumeisongsong/wp-biedong',
-    skill: ['wordpress'],
-    myRole: ['4', '5', '6', '7'],
-    team: {
-      total: 2,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: ''
-  },
-  {
-    id: 14,
-    cover: {
-      thumbnail: './images/projects/14-house/thumbnail-min.png',
-      image: './images/projects/14-house/cover-min.png'
-    },
-    detailImage: [],
-    name: 'Static page',
-    country: '2',
-    type: '1',
-    time: '2017/11',
-    content: '',
-    link: '',
-    codeLink: '',
-    skill: ['1'],
-    myRole: ['4'],
-    team: {
-      total: 2,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: ''
-  },
-  {
-    id: 13,
-    cover: {
-      thumbnail: './images/projects/13-dwh/thumbnail-min.png',
-      image: './images/projects/13-dwh/cover-min.png'
-    },
-    detailImage: ['./images/projects/13-dwh/detail-min.png'],
-    name: 'A food selling company home site',
-    country: '1',
-    type: '7',
-    time: '2017/09',
-    content: '',
-    link: '',
-    codeLink: '',
-    skill: ['wordpress', 'docker'],
-    myRole: ['4', '5', '6', '7', '8'],
-    team: {
-      total: 2,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: ''
-  },
-  {
-    id: 12,
-    cover: {
-      thumbnail: './images/projects/12-HE/thumbnail-min.png',
-      image: './images/projects/12-HE/cover-min.png'
-    },
-    detailImage: ['./images/projects/12-HE/detail-min.png'],
-    name: 'A recruitment products home site',
-    country: '1',
-    type: '1',
-    time: '2017/08',
-    content: '',
-    link: 'https://www.hackerearth.cn/',
-    codeLink: '',
-    skill: ['1'],
-    myRole: ['4', '5', '6'],
-    team: {
-      total: 2,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: ''
-  },
-  {
     id: 11,
-
     cover: {
       thumbnail: './images/projects/11-flower-plus/thumbnail-min.jpg',
       image: './images/projects/11-flower-plus/cover-min.jpg'
@@ -365,8 +253,8 @@ const projectEnUS = [
     detailImage: [],
     name: 'B2C Shop Demo',
     country: '1',
-    type: '6',
-    time: '2017/06～2017/08',
+    type: '2',
+    time: '2017/06～2017/09',
     link: 'http://angular.maysongshow.cn',
     codeLink: 'https://github.com/zhumeisongsong/angular-my-app',
     skill: ['Angular4'],
@@ -383,31 +271,6 @@ const projectEnUS = [
       "In cart, the total price will change with count add or minus.This shows different components share same state.\rIn order confirm page, by using angular's router configa auth check is provided for calling login."
   },
   {
-    id: 10,
-    cover: {
-      thumbnail: './images/projects/10-bukka-CMS/thumbnail-min.png',
-      image: './images/projects/10-bukka-CMS/cover-min.png'
-    },
-    containCode: false,
-    containLink: false,
-    detailImage: ['./images/projects/10-bukka-CMS/detail-min.png'],
-    name: 'B2C record CMS',
-    country: '2',
-    type: '7',
-    time: '2017/05～2017/06',
-    content: '',
-    link: '',
-    codeLink: '',
-    skill: ['PHP', 'CI', 'smarty'],
-    myRole: ['4', '5'],
-    team: {
-      total: 2,
-      frontEnd: 1,
-      backEnd: 1
-    },
-    learned: ''
-  },
-  {
     id: 9,
     cover: {
       thumbnail: './images/projects/09-videojs/thumbnail-min.png',
@@ -419,9 +282,8 @@ const projectEnUS = [
     type: '1',
     time: '2017/04',
     content: '',
-    link: 'http://static.maysongshow.cn/player/assets/build/player.html',
-    codeLink: 'https://github.com/monstar-lab/sony_nogizaka46',
-    skill: ['html css js'],
+    codeLink: 'https://github.com/zhumeisongsong/nogizaka46',
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5'],
     team: {
       total: 3,
@@ -429,38 +291,6 @@ const projectEnUS = [
       backEnd: 1
     },
     learned: ''
-  },
-  {
-    id: 8,
-    cover: {
-      thumbnail: './images/projects/08-fuzhou/thumbnail-min.png',
-      image: './images/projects/08-fuzhou/cover-min.jpg'
-    },
-    containCode: false,
-    containLink: false,
-    detailImage: [
-      './images/projects/08-fuzhou/detail-1-min.jpg',
-      './images/projects/08-fuzhou/detail-2-min.png',
-      './images/projects/08-fuzhou/detail-3-min.jpg'
-    ],
-    name: 'WebAPP',
-    country: '1',
-    type: '2',
-    time: '2016/09～2016/11 2017/03～2017/04',
-    content:
-      "It's a web APP which is based on Dclound's products, IOS and Android both works excellent.",
-    link: '',
-    codeLink: '',
-    skill: ['MUI', 'native.js', 'jQuery'],
-    myRole: ['1', '2', '3', '4', '5', '8'],
-    team: {
-      total: 10,
-      design: 1,
-      frontEnd: 1,
-      backEnd: 3,
-      qc: 2
-    },
-    learned: 'map(AMAP) API, how to make a low cost APP'
   },
   {
     id: 7,
@@ -471,14 +301,14 @@ const projectEnUS = [
     containCode: false,
     containLink: false,
     detailImage: [],
-    name: 'B2C Hybrid APP',
+    name: 'B2C Hybrid App',
     country: '1',
-    type: '1',
+    type: '3',
     time: '2016/03～2016/08',
     content: '',
     link: '',
     codeLink: '',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5', '6', '7'],
     team: {
       total: 11,
@@ -502,7 +332,7 @@ const projectEnUS = [
     content: '',
     link: 'http://static.maysongshow.cn/static-car-game/assets/build/moc/#slide1',
     codeLink: 'https://github.com/zhumeisongsong/static-car-game',
-    skill: ['html css js'],
+    skill: ['HTML CSS Javascript'],
     myRole: ['4', '5'],
     team: {
       total: 2,
@@ -510,6 +340,35 @@ const projectEnUS = [
       backEnd: 1
     },
     learned: ''
+  },
+  {
+    "id": 1,
+    "cover": {
+      "thumbnail": "./images/projects/01-community/thumbnail-min.jpg",
+      "image": "./images/projects/01-community/cover-min.jpg"
+    },
+    "containCode": false,
+    "containLink": false,
+    "detailImage": [],
+    "name": "Students' community(in the university)",
+    "country": "1",
+    "type": "1",
+    "time": "2009/03～2010/07",
+    "content": "An information sharing platform in my university",
+    "skill": [
+      "HTML CSS Javascript"
+    ],
+    "myRole": [
+      "2",
+      "4",
+      "5"
+    ],
+    "team": {
+      "total": 2,
+      "frontEnd": 1,
+      "backEnd": 1
+    },
+    "learned": "Website UI design; How to make a static page by html&css"
   }
 ];
 

@@ -10,7 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 33.3%;
+    width: 25%;
+    max-width: 180px;
   }
 
   a {
@@ -23,7 +24,7 @@
 
   svg {
     font-size: 40px;
-    opacity: .8;
+    opacity: 0.8;
     margin-bottom: 16px;
   }
 
@@ -38,7 +39,7 @@
       flex-direction: column;
     }
     .item {
-      +.item {
+      + .item {
         padding-top: 64px;
       }
     }
