@@ -8,27 +8,30 @@ import './index.scss';
 const Introduction = () => {
   const { translate } = useContext(I18nContext);
   const windowDimensions = useWindowDimensions();
-  const particlesParams = {
-    particles: {
-      number: {
-        value: windowDimensions.width <= 767 ? 30 : 80
+  const particlesParams = useMemo(
+    () => ({
+      particles: {
+        number: {
+          value: windowDimensions.width <= 767 ? 30 : 80
+        },
+        color: {
+          value: '#bbb'
+        },
+        line_linked: {
+          color: '#bbb'
+        }
       },
-      color: {
-        value: '#bbb'
-      },
-      line_linked: {
-        color: '#bbb'
-      }
-    },
-    interactivity: {
-      events: {
-        onhover: {
-          enable: true,
-          mode: 'grab'
+      interactivity: {
+        events: {
+          onhover: {
+            enable: true,
+            mode: 'grab'
+          }
         }
       }
-    }
-  };
+    }),
+    [windowDimensions]
+  );
 
   return useMemo(
     () => (

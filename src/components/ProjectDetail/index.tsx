@@ -120,7 +120,7 @@ const ProjectDetail = ({ data }: any) => {
         </div>
       </div>
     ),
-    [data]
+    [data, translate]
   );
 };
 
