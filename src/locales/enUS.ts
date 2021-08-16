@@ -33,8 +33,8 @@ const enUS = {
   "modal.title": "Detail Information",
   "file.career": "Career",
   "file.resume": "Resume",
-  "file.careerPath": "./files/職務経歴書-宋竹梅.pdf",
-  "file.resumePath": "./files/履歴書-宋竹梅.pdf",
+  'file.careerPath': './files/職務経歴書-宋竹梅-Ja.pdf',
+  'file.resumePath': './files/履歴書-宋竹梅-Ja.pdf',
   "project": project
 }
 

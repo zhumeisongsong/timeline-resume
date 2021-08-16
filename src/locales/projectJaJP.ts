@@ -195,7 +195,7 @@ const projectJaJP = [
       thumbnail: '/images/projects/25-nippon-hodai-CMS/thumbnail-min.png',
       image: '/images/projects/25-nippon-hodai-CMS/cover-min.png'
     },
-    detailImage: ['/images/projects/25-nippon-hodai-CMS/detail-min.png'],
+    // detailImage: ['/images/projects/25-nippon-hodai-CMS/detail-min.png'],
     name: 'C2Cキュレーションサイト(admin)',
     country: '2',
     type: '3',

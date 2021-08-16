@@ -27,12 +27,13 @@ const jaJP = {
   'team.qc': 'テスト',
   "list.unit": "人",
   'list.link': 'リンク',
+  'list.learned': 'いい所',
   'list.codeLink': 'GitHubリンク',
   'modal.title': '案件詳細',
   'file.career': '職務経歴書',
   'file.resume': '履歴書',
-  'file.careerPath': './files/職務経歴書-宋竹梅.pdf',
-  'file.resumePath': './files/履歴書-宋竹梅.pdf',
+  'file.careerPath': './files/職務経歴書-宋竹梅-Ja.pdf',
+  'file.resumePath': './files/履歴書-宋竹梅-Ja.pdf',
   project: project
 };
 
