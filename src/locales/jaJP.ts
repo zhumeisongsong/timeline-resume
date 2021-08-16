@@ -21,7 +21,7 @@ const jaJP = {
   'list.infrastructure': 'インフラ',
   'list.team': '開発規模',
   'team.total': '全体',
-  'team.design': 'design',
+  'team.design': 'デザイン',
   'team.frontEnd': 'フロントエンド',
   'team.backEnd': 'エンド',
   'team.qc': 'テスト',

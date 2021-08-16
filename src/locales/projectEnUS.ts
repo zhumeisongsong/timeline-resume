@@ -12,8 +12,9 @@ const projectEnUS = [
     skill: ['Admin Panel: react.js + rematch + react-router + axois + typescript', 'Client: Gatsby.js + rematch(immer.js) + axois + typescript'],
     myRole: ['3', '4', '5'],
     team: {
-      total: 2,
-      frontEnd: 1,
+      total: 14,
+      design: 5,
+      frontEnd: 3,
       backEnd: 2,
       qc: 2
     },
@@ -26,7 +27,7 @@ const projectEnUS = [
       image: '/images/projects/36-drink-order-app/cover-min.jpg'
     },
     detailImage: [],
-    name: 'ドリンク注文アプリ',
+    name: 'Drink Order Web App',
     type: '2',
     time: '2021/04~2021/07',
     content: '',
@@ -66,7 +67,7 @@ const projectEnUS = [
       image: '/images/projects/34-fan-club/cover-min.jpg'
     },
     detailImage: [],
-    name: 'ファンクラブアプリ',
+    name: 'Fan Club Web App',
     type: '2',
     time: '2021/01~2021/04',
     skill: ['react.js + redux + redux-saga + react-router + axois'],
@@ -88,7 +89,7 @@ const projectEnUS = [
       image: '/images/projects/33-live-message/cover-min.jpg'
     },
     detailImage: [],
-    name: 'ライブメッセージ機能',
+    name: 'Message Function of Live',
     type: '2',
     time: '2020/07',
     skill: ['react.js + typeescript + amplify'],
@@ -96,12 +97,11 @@ const projectEnUS = [
     codeLink: 'https://github.com/zhumeisongsong/amplify-serverless-react-app',
     myRole: ['1', '3', '4', '5'],
     team: {
-      total: 2,
-      frontEnd: 3,
-      backEnd: 2,
-      qc: 2
+      total: 4,
+      frontEnd: 1,
+      qc: 1
     },
-    learned: 'Pressure test'
+    learned: 'Amplify API. Pressure test.'
   },
   {
     id: 31,
@@ -110,58 +110,70 @@ const projectEnUS = [
       image: '/images/projects/31-mamoriai-jp/cover-min.jpg'
     },
     detailImage: [],
-    name: 'Admin Panel of mamoriai JAPAN(OSS)',
+    name: 'Admin Panel of Mamoriai JAPAN(OSS)',
     type: '2',
     time: '2020/05',
     content: 'Covid tracer app. Admin pannel design and coding.',
     Link: 'https://ja.wikipedia.org/wiki/%E3%81%BE%E3%82%82%E3%82%8A%E3%81%82%E3%81%84JAPAN',
     codeLink: 'https://github.com/mamori-i-japan/mamori-i-japan-admin-panel',
-    skill: ['react.js + redux + redux-saga + react-router + typeescript' + 'Firebase'],
-    myRole: ['1', '3', '8'],
+    skill: ['react.js + redux + redux-saga + react-router + typeescript + Firebase'],
+    myRole: ['1', '3', '4', '5'],
     team: {
-      designer: 4,
+      design: 11,
       frontEnd: 2,
       backEnd: 2,
-      qc: 3
+      qc: 2
     },
     learned: 'How to countribute to OSS.'
   },
-  {
-    id: 30,
-    type: '2',
-    cover: {
-      thumbnail: '/images/projects/30/thumbnail-min.jpg',
-      image: '/images/projects/30/cover-min.jpg'
-    },
-    detailImage: [],
-    name: 'Landing Page',
-    time: '2020/01～2020/04'
-  },
-  {
-    id: 29,
-    type: '2',
-    cover: {
-      thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.jpg',
-      image: '/images/projects/26-nippon-hodai/cover-min.jpg'
-    },
-    detailImage: [],
-    name: 'シンガポールのオンライン予約システム',
-    time: '2019/08～2020/01'
-  },
+  // {
+  //   id: 30,
+  //   type: '2',
+  //   cover: {
+  //     thumbnail: '/images/projects/30/thumbnail-min.jpg',
+  //     image: '/images/projects/30/cover-min.jpg'
+  //   },
+  //   detailImage: [],
+  //   name: 'Landing Page',
+  //   time: '2020/01～2020/04'
+  // },
+  // {
+  //   id: 29,
+  //   type: '2',
+  //   cover: {
+  //     thumbnail: '/images/projects/26-nippon-hodai/thumbnail-min.jpg',
+  //     image: '/images/projects/26-nippon-hodai/cover-min.jpg'
+  //   },
+  //   detailImage: [],
+  //   name: 'Online Booking System',
+  //   time: '2019/08～2020/01'
+  // },
   {
     id: 28,
     type: '2',
     cover: {
-      thumbnail: '/images/projects/28/thumbnail-min.jpg',
-      image: '/images/projects/28/cover-min.jpg'
+      thumbnail: '/images/projects/28-alpaca/thumbnail-min.jpg',
+      image: '/images/projects/28-alpaca/cover-min.jpg'
     },
-    name: 'alphaca',
-    time: '2019/01～2019/06'
+    detailImage: [],
+    name: 'Alpaca Securities System',
+    time: '2019/01～2019/06',
+    content: '',
+    link: 'https://sec.alpaca.ai/',
+    skill: ['React.js + redux + redux-thunk + react-router + typescript'],
+    myRole: ['2', '3', '4', '5'],
+    team: {
+      total: 5,
+      design: 1,
+      frontEnd: 2,
+      backEnd: 2,
+    },
+    learned: 'Using ypescript'
   },
   {
     id: 26,
     cover: {
-      thumbnail: './images/projects/26-nippon-hodai/thumbnail-min.jpg',
+      thumbnail: './images/projects/26-nippon-hodai/thumbnail-min.png',
       image: './images/projects/26-nippon-hodai/cover-min.jpg'
     },
     detailImage: [],
@@ -190,14 +202,14 @@ const projectEnUS = [
       thumbnail: './images/projects/25-nippon-hodai-CMS/thumbnail-min.png',
       image: './images/projects/25-nippon-hodai-CMS/cover-min.png'
     },
-    detailImage: ['./images/projects/25-nippon-hodai-CMS/detail-min.png'],
+    // detailImage: ['./images/projects/25-nippon-hodai-CMS/detail-min.png'],
     name: 'C2C curation site(admin)',
     type: '2',
     time: '2018/06～2018/11',
     content: 'The CMS of a C2C curation site',
     link: '',
     codeLink: 'https://github.com/zhumeisongsong/TS_niponhoudai_CMS',
-    skill: ['2'],
+    skill: ['react.js + redux + redux-thunk + react-router + axois'],
     myRole: ['3', '4', '5', '8'],
     team: {
       total: 10,
@@ -214,12 +226,11 @@ const projectEnUS = [
       thumbnail: './images/projects/24-koubei/thumbnail-min.png',
       image: './images/projects/24-koubei/cover-min.jpg'
     },
-
-    detailImage: [
-      './images/projects/24-koubei/detail-1-min.png',
-      './images/projects/24-koubei/detail-2-min.png',
-      './images/projects/24-koubei/detail-3-min.png'
-    ],
+    // detailImage: [
+    //   './images/projects/24-koubei/detail-1-min.png',
+    //   './images/projects/24-koubei/detail-2-min.png',
+    //   './images/projects/24-koubei/detail-3-min.png'
+    // ],
     name: 'A Web App in Alipay platform',
     type: '2',
     time: '2018/05～2018/06',
@@ -242,11 +253,11 @@ const projectEnUS = [
       thumbnail: './images/projects/20-DSB/thumbnail-min.png',
       image: './images/projects/20-DSB/cover-min.png'
     },
-    detailImage: [
-      './images/projects/20-DSB/detail-1-min.png',
-      './images/projects/20-DSB/detail-2-min.png',
-      './images/projects/20-DSB/detail-3-min.png'
-    ],
+    // detailImage: [
+    //   './images/projects/20-DSB/detail-1-min.png',
+    //   './images/projects/20-DSB/detail-2-min.png',
+    //   './images/projects/20-DSB/detail-3-min.png'
+    // ],
     name: 'Tax data analysis system',
     type: '1',
     time: '2018/01～2010/04',
@@ -255,7 +266,8 @@ const projectEnUS = [
     skill: ['Vue.js + Vuex'],
     myRole: ['1', '3', '8', '9'],
     team: {
-      total: 2,
+      total: 11,
+      design: 2,
       frontEnd: 3,
       backEnd: 2,
       qc: 2
@@ -277,7 +289,7 @@ const projectEnUS = [
     skill: ['MINA'],
     myRole: ['1', '3', '4', '5'],
     team: {
-      total: 2,
+      total: 3,
       frontEnd: 2,
       backEnd: 1
     },
@@ -289,16 +301,16 @@ const projectEnUS = [
       thumbnail: './images/projects/18-VR/thumbnail-min.png',
       image: './images/projects/18-VR/cover-min.png'
     },
-    detailImage: [
-      './images/projects/18-VR/detail-1-min.png',
-      './images/projects/18-VR/detail-2-min.png'
-    ],
+    // detailImage: [
+    //   './images/projects/18-VR/detail-1-min.png',
+    //   './images/projects/18-VR/detail-2-min.png'
+    // ],
     name: 'Video website for mobile',
     type: '1',
     time: '2018/01',
     content: 'A website based on video.js',
     codeLink: 'https://github.com/zhumeisongsong/static-video-360',
-    skill: ['1'],
+    skill: ['pug + gulp + sass'],
     myRole: ['1', '2', '3', '4', '5', '6'],
     team: {
       total: 5,
@@ -318,7 +330,6 @@ const projectEnUS = [
     country: '1',
     type: '2',
     time: '2017/06～2017/09',
-    link: 'http://angular.maysongshow.cn',
     codeLink: 'https://github.com/zhumeisongsong/angular-my-app',
     skill: ['Angular4'],
     myRole: ['1', '2', '3', '4', '5', '6', '7'],
@@ -339,14 +350,13 @@ const projectEnUS = [
       thumbnail: './images/projects/09-videojs/thumbnail-min.png',
       image: './images/projects/09-videojs/cover-min.png'
     },
-    detailImage: ['./images/projects/09-videojs/detail-min.png'],
+    // detailImage: ['./images/projects/09-videojs/detail-min.png'],
     name: 'Video website',
-    country: '2',
     type: '1',
     time: '2017/04',
     content: '',
     codeLink: 'https://github.com/zhumeisongsong/nogizaka46',
-    skill: ['HTML CSS Javascript'],
+    skill: ['pug + gulp + sass'],
     myRole: ['4', '5'],
     team: {
       total: 3,
@@ -361,12 +371,9 @@ const projectEnUS = [
       thumbnail: './images/projects/07-vip/thumbnail-min.png',
       image: './images/projects/07-vip/cover-min.jpg'
     },
-    containCode: false,
-    containLink: false,
     detailImage: [],
     name: 'B2C Hybrid App',
-    country: '1',
-    type: '3',
+    type: '1',
     time: '2016/03～2016/08',
     content: '',
     link: '',
@@ -389,14 +396,12 @@ const projectEnUS = [
     },
     detailImage: [],
     name: 'QA game page',
-    country: '1',
     type: '1',
     time: '2015/09',
     content: '',
-    link: 'http://static.maysongshow.cn/static-car-game/assets/build/moc/#slide1',
     codeLink: 'https://github.com/zhumeisongsong/static-car-game',
     skill: ['HTML CSS Javascript'],
-    myRole: ['4', '5'],
+    myRole: ['3','4'],
     team: {
       total: 2,
       frontEnd: 1,
@@ -410,11 +415,8 @@ const projectEnUS = [
       thumbnail: './images/projects/01-community/thumbnail-min.jpg',
       image: './images/projects/01-community/cover-min.jpg'
     },
-    containCode: false,
-    containLink: false,
     detailImage: [],
     name: "Students' community(in the university)",
-    country: '1',
     type: '1',
     time: '2009/03～2010/07',
     content: 'An information sharing platform in my university',
