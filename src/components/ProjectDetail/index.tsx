@@ -54,9 +54,12 @@ const ProjectDetail = ({ data }: any) => {
             <div className="item-label">{translate('list.skill')}</div>
             <div className="item-content">
               {data?.skill?.map((item: string, index: string) => (
-                <span className="padding-r" key={index}>
-                  {item}
-                </span>
+                <>
+                  <span className="padding-r" key={index}>
+                    {item}
+                  </span>
+                  <br />
+                </>
               ))}
             </div>
           </div>
@@ -84,19 +87,20 @@ const ProjectDetail = ({ data }: any) => {
             <div className="item-label">{translate('list.team')}</div>
             <div className="item-content">
               <ul>
-                {Object.keys(data?.team).map((key) => {
-                  return (
-                    <li key={key}>
-                      <span className="ul-name">
-                        {translate(`team.${key}`)}
-                      </span>
-                      <span className="padding-lr font-bold">
-                        {data.team[key]}
-                      </span>
-                      {translate('list.unit')}
-                    </li>
-                  );
-                })}
+                {data?.team &&
+                  Object.keys(data.team).map((key) => {
+                    return (
+                      <li key={key}>
+                        <span className="ul-name">
+                          {translate(`team.${key}`)}
+                        </span>
+                        <span className="padding-lr font-bold">
+                          {data.team[key]}
+                        </span>
+                        {translate('list.unit')}
+                      </li>
+                    );
+                  })}
               </ul>
             </div>
           </div>
