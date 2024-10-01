@@ -25,6 +25,5 @@ jobs:
       - name: Run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESSS_TOKEN }}
-          NPM_TOKEN: ${{ secrets.REPO_ACCESSS_TOKEN }}
         run: |
           pnpm semantic-release
