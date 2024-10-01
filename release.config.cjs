@@ -2,7 +2,6 @@ const name = 'cv';
 const srcRoot = `./`;
 
 module.exports = {
-  extends: 'semantic-release-npm-github-publish',
   pkgRoot: `dist/${srcRoot}`,
   tagFormat: name + '-v${version}',
   commitPaths: [`${srcRoot}/*`],
