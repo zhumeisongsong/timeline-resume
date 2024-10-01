@@ -1,0 +1,29 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  setup:
+    uses: zhumeisongsong/shared-actions/.github/workflows/pnpm-setup.yml@main
+
+  release:
+    name: Release
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore Pnpm Store and Install Dependencies
+        uses: zhumeisongsong/shared-actions/.github/actions/pnpm@main
+
+      - name: Run semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESSS_TOKEN }}
+        run: |
+          pnpm semantic-release

@@ -1,20 +1,37 @@
 {
-  "name": "resume",
-  "version": "2.0.0",
+  "name": "cv",
+  "version": "0.0.0-semantic-release",
+  "license": "MIT",
   "scripts": {
+    "commit": "git-cz",
     "lint": "textlint docs/README.md",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   },
   "author": "Zhumei Song <zhumeisongsong@gmail.com>",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.0",
+    "git-cz": "^4.9.0",
+    "semantic-release": "^24.1.2",
     "textlint": "^14.0.4",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "packageManager": "pnpm@9.0.6",
   "volta": {
     "node": "20.11.0",
     "pnpm": "9.0.6"
   },
   "dependencies": {
     "md-to-pdf": "^5.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
   }
 }
