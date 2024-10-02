@@ -9,10 +9,10 @@
   },
   "author": "Zhumei Song <zhumeisongsong@gmail.com>",
   "devDependencies": {
-    "git-cz": "^4.9.0",
-    "semantic-release": "^24.1.2",
-    "textlint": "^14.0.4",
-    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+    "git-cz": "4.9.0",
+    "semantic-release": "24.1.2",
+    "textlint": "14.0.4",
+    "textlint-rule-spellcheck-tech-word": "5.0.0"
   },
   "release": {
     "branches": [
