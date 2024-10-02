@@ -49,25 +49,35 @@ Used:
 
 ## 👩🏼‍💻 Engineering Experience
 
-### Atrae, Inc (2021/12 ~) 
-Software engineer
+### @[Atrae](https://atrae.co.jp/) (2021/12 ~) 
+Software Engineer
+
 Businesses and projects:
 
 My roles:
 
 what we achieved:
 
-### Monstarlab (2018/12 ~ 2021/11)
-Front End Lead
+### @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11)
+Front-end Tech Lead
+
 Businesses and projects:
 
 My roles:
 
 what we achieved:
 
-### Monstarlab China (2014/10 ~ 2018/11)
-Front End Lead (2016/03 ~ 2018/11)
+### @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11)
+Front-end Tech Lead (2016/03 ~ 2018/11)<br/>
+
+Businesses and projects:
+
+My roles:
+
+what we achieved:
+
 Software Engineer (2014/10 ~ 2016/02)
+
 Businesses and projects:
 
 My roles:
