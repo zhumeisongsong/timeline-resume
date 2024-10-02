@@ -50,13 +50,15 @@ Used:
 ## 👩🏼‍💻 Engineering Experience
 
 ### @[Atrae](https://atrae.co.jp/) (2021/12 ~) 
-Software Engineer
+:::details Software Engineer
 
 Businesses and projects:
 
 My roles:
 
 what we achieved:
+
+:::
 
 ### @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11)
 Front-end Tech Lead
