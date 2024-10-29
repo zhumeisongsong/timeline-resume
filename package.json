@@ -9,6 +9,7 @@
   },
   "author": "Zhumei Song <zhumeisongsong@gmail.com>",
   "devDependencies": {
+    "@zhumeisong/git-cz-config": "^1.1.1",
     "git-cz": "4.9.0",
     "semantic-release": "24.1.2",
     "textlint": "14.0.4",
