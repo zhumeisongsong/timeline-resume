@@ -16,4 +16,5 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/zhumeisongsong/cv" },
     ],
   },
+  lastUpdated: true
 });
