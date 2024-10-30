@@ -1,0 +1,44 @@
+name: Deploy Vitepress site to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  setup:
+    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-pnpm-setup.yml@main
+
+  build:
+    name: Build
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore pnpm store and install dependencies
+        uses: zhumeisongsong/shared-actions/.github/actions/pnpm@main
+
+      - name: Build with VitePress
+        run: pnpm run docs:build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
+
+  deploy:
+    needs: build
+    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-nextjs-deploy-github-pages.yml@main

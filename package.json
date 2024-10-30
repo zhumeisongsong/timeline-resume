@@ -5,7 +5,10 @@
   "scripts": {
     "commit": "git-cz",
     "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src",
+    "docs:preview": "vitepress preview src"
   },
   "author": "Zhumei Song <zhumeisongsong@gmail.com>",
   "devDependencies": {
@@ -13,7 +16,8 @@
     "git-cz": "4.9.0",
     "semantic-release": "24.1.2",
     "textlint": "14.0.4",
-    "textlint-rule-spellcheck-tech-word": "5.0.0"
+    "textlint-rule-spellcheck-tech-word": "5.0.0",
+    "vitepress": "^1.4.2"
   },
   "release": {
     "branches": [
