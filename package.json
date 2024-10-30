@@ -5,7 +5,10 @@
   "scripts": {
     "commit": "git-cz",
     "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src",
+    "docs:preview": "vitepress preview src"
   },
   "author": "Zhumei Song <zhumeisongsong@gmail.com>",
   "devDependencies": {

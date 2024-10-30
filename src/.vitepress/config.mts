@@ -1,0 +1,18 @@
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "Song's CV",
+  description: "Software engineer based in Tokyo. 🇯🇵",
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: 'CV', link: '/' },
+      { text: 'Blog', link: '/blog' }
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/zhumeisongsong' }
+    ]
+  }
+})
