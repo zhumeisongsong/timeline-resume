@@ -13,7 +13,8 @@
     "git-cz": "4.9.0",
     "semantic-release": "24.1.2",
     "textlint": "14.0.4",
-    "textlint-rule-spellcheck-tech-word": "5.0.0"
+    "textlint-rule-spellcheck-tech-word": "5.0.0",
+    "vitepress": "^1.4.2"
   },
   "release": {
     "branches": [
