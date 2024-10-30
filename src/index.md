@@ -3,12 +3,15 @@
 layout: doc
 ---
 
-
 # Zhumei Song‘s CV
 
 Software engineer based in Tokyo. 🇯🇵
-
-<a href="mailto:zhumeisongsong@gmail.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/email-333.svg?&logo=Gmail&logoColor=red&style=for-the-badge" /></a><a href="https://github.com/zhumeisongsong" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/zhumeisongsong-%2312100E.svg?&logo=Github&logoColor=white&style=for-the-badge" /></a><a href="https://zhumeisongsong.github.io/blog" target="_blank"><img alt="Blog" src="https://img.shields.io/badge/Song's%20Blog-6c3485.svg?&style=for-the-badge&logo=Next.js&logoColor=white" /></a><a href="https://www.linkedin.com/in/zhumei-song-a9041a1bb" target="_blank"><img alt="Linkedin" src="https://img.shields.io/badge/linkdin-0a66c2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<div style=" display:flex; gap: 8px; flex-warp: wrap;">
+<a href="mailto:zhumeisongsong@gmail.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/email-444.svg?&logo=Gmail&logoColor=red&style=for-the-badge" /></a>
+<a href="https://github.com/zhumeisongsong" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/zhumeisongsong-333.svg?&logo=Github&logoColor=white&style=for-the-badge" /></a>
+<a href="https://zhumeisongsong.github.io/blog" target="_blank"><img alt="Blog" src="https://img.shields.io/badge/Song's%20Blog-6c3485.svg?&style=for-the-badge&logo=Next.js&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/zhumei-song-a9041a1bb" target="_blank"><img alt="Linkedin" src="https://img.shields.io/badge/linkdin-0a66c2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</div>
 
 ## 🐱 Basic Information
 
@@ -35,17 +38,19 @@ what we achieved:
 
 ### @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11)
 
-Front-end Tech Lead
+:::details Front-end Tech Lead
 
 Businesses and projects:
 
 My roles:
 
 what we achieved:
+
+ :::
 
 ### @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11)
 
-Front-end Tech Lead (2016/03 ~ 2018/11)<br/>
+:::details Front-end Tech Lead (2016/03 ~ 2018/11)
 
 Businesses and projects:
 
@@ -53,27 +58,32 @@ My roles:
 
 what we achieved:
 
-Software Engineer (2014/10 ~ 2016/02)
+:::
+
+:::details Software Engineer (2014/10 ~ 2016/02)
 
 Businesses and projects:
 
 My roles:
 
 what we achieved:
+
+:::
 
 ### Freelancer (2009/09 ~ 2014/01)
 
-Website Development Engineer
+:::details Web Developer
 
+:::
 
 ## 🎨 The Goals and Vision I'd Like to Accomplish
 
-Fight for not be a slave to formal methods.💪
+- Selecting a worthy challenge (aimed at creating value)
+- Complicating simple matters in thought (managing risks and preparing for the future)
+- Simplifying complex matters in action (delivering quality products while controlling costs)
+- Articulating complexity in a simple manner (ensuring successful knowledge transfer)
 
-- Selecting a worthy challenge.
-- Complicating simple matters in thought.
-- Simplifying complicated matters in action.
-- Articulating complexity in a simple manner.
+Always try best to making things simple, fight for not be a slave to formal methods.💪
 
 ## ⭐ Skills
 
@@ -86,14 +96,14 @@ Fight for not be a slave to formal methods.💪
 ## 🌈 Tech Stack
 
 
-### Languages:
+### Languages
 
 Typescript
 Javascript
 Node.js
 Python
 
-### Frameworks:
+### Frameworks
 
 Current: <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
 <img alt="Nest.js" src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">
