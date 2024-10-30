@@ -12,7 +12,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zhumeisongsong' }
+      { icon: 'github', link: 'https://github.com/zhumeisongsong/cv' }
     ]
   }
 })
