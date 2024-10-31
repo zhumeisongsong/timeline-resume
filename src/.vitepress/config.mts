@@ -8,7 +8,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "CV", link: "/" },
+      { text: "CV-en", link: "/" },
+      { text: "CV-ja", link: "/ja" },
     ],
 
     socialLinks: [
