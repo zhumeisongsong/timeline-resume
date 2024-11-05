@@ -31,6 +31,24 @@ Software engineer based in Tokyo. 🇯🇵
 
 I'm a software engineer on the Wevox product team, participating in the entire process from organizing user requirements to product design and system development.
 
+:sparkles: Workflow :sparkles:
+
+```
+My roles:
+
+What achieved:
+
+```
+
+:sparkles: Monorepo Migration :sparkles:
+
+```
+My roles:
+
+What achieved:
+
+```
+
 :::
 
 :::details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
@@ -39,15 +57,51 @@ I decided to move to Japan so that my child wouldn't have to do a lot of homewor
 
 After joining the Japan of Monstarlab, I served as a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
 
+:sparkles: Appointment Booking Management System :sparkles:
+
+```
+My roles:
+
+What achieved:
+
+```
+
+:sparkles: Chat Feature for Live Streaming Project :sparkles:
+
+```
+My roles:
+
+What achieved:
+
+```
+
 :::
 
 :::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11 · 4 yrs 2 mos )
 
 Because I really enjoy development, I decided to become a full-time web developer.
 
-After joining the Chengdu branch of Monstarlab, I self-studied React while working and introduced the front-end and back-end separation system design approach to the team. 
+After joining the Chengdu branch of Monstarlab, I self-studied React while working and introduced the front-end and back-end separation system design approach to the team.
 
 From March 2016, I served as the front-end tech lead, responsible for improving the front-end quality of all company projects.
+
+:sparkles: Tourism Information Management System :sparkles:
+
+```
+My roles:
+
+What achieved:
+
+```
+
+:sparkles: Ticket Purchasing Hybrid App :sparkles:
+
+```
+My roles:
+
+What achieved:
+
+```
 
 :::
 
@@ -56,6 +110,15 @@ From March 2016, I served as the front-end tech lead, responsible for improving 
 I started self-learning web development technologies in college. 💻
 
 After graduating, my main job was as a landscape designer, but at the same time, I also created websites for companies as a side job.
+
+:sparkles: Wordpress Website :sparkles:
+
+```
+My roles:
+
+What achieved:
+
+```
 
 :::
 
