@@ -16,5 +16,14 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/zhumeisongsong/cv" },
     ],
   },
-  lastUpdated: true
+  lastUpdated: true,
+  head: [
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "71A3myPAsbW4yU-SCkZlmMSVmyagcPQGxCxU2IfHhx4",
+      },
+    ],
+  ],
 });
