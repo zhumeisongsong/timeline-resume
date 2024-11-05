@@ -25,59 +25,41 @@ Software engineer based in Tokyo. 🇯🇵
 
 ## 👩🏼‍💻 Engineering Experience
 
-### @[Atrae](https://atrae.co.jp/) (2021/12 ~)
+:::details Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs)
 
-:::details Software Engineer
+[Wevox](https://get.wevox.io/) is a B2B web service. It's a platform aimed at enhancing organizational capabilities. More than 3,390 organizations have implemented Wevox, and the total number of responses exceeds 283.5 million.
 
-Businesses and projects:
-
-My roles:
-
-what we achieved:
+I'm a software engineer on the Wevox product team, participating in the entire process from organizing user requirements to product design and system development.
 
 :::
 
-### @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11)
+:::details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
 
-:::details Front-end Tech Lead
+I decided to move to Japan so that my child wouldn't have to do a lot of homework when he went to elementary school. ✈️
 
-Businesses and projects:
-
-My roles:
-
-what we achieved:
+After joining the Japan of Monstarlab, I served as a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
 
 :::
 
-### @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11)
+:::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11 · 4 yrs 2 mos )
 
-:::details Front-end Tech Lead (2016/03 ~ 2018/11)
+Because I really enjoy development, I decided to become a full-time web developer.
 
-Businesses and projects:
+After joining the Chengdu branch of Monstarlab, I self-studied React while working and introduced the front-end and back-end separation system design approach to the team. 
 
-My roles:
-
-what we achieved:
+From March 2016, I served as the front-end tech lead, responsible for improving the front-end quality of all company projects.
 
 :::
 
-:::details Software Engineer (2014/10 ~ 2016/02)
+:::details Freelancer (2009/09 ~ 2015/12) 5 yrs 3 mos
 
-Businesses and projects:
+I started self-learning web development technologies in college. 💻
 
-My roles:
-
-what we achieved:
+After graduating, my main job was as a landscape designer, but at the same time, I also created websites for companies as a side job.
 
 :::
 
-### Freelancer (2009/09 ~ 2014/01)
-
-:::details Web Developer
-
-:::
-
-## 🎨 The Goals and Vision I'd Like to Accomplish
+## 🎨 Goals and Vision
 
 - Selecting a worthy challenge (aimed at creating value)
 - Complicating simple matters in thought (managing risks and preparing for the future)
@@ -88,20 +70,18 @@ Always try best to making things simple, fight for not be a slave to formal meth
 
 ## ⭐ Skills
 
-- 💄 Front-end development (10 years)
-- 👽 Back-end development (3 years)
+- 💄 Front-end development
+- 👽 Back-end development
 - 🧱 Clean code / Clean architecture
 - 👷 DDD / System design
 - ⚡️ Agile methodology / scrum
 
 ## 🌈 Development Stack
 
-| Key                   | Value |
-| --------------------- | ----- |
-| Typescript/Javascript | ★★★★☆ |
-| Node.js               | ★★★★☆ |
-| Python                | ★★★☆☆ |
-| Golang                | ★★☆☆☆ |
+| Key                         | Value |
+| --------------------------- | ----- |
+| Typescript / Javascript     | ★★★★☆ |
+| Node.js / Apollo Federation | ★★★★☆ |
 
 <div style=" display:flex; gap: 8px; flex-wrap: wrap; padding-top: 16px;">
 <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
@@ -122,7 +102,7 @@ Always try best to making things simple, fight for not be a slave to formal meth
 - 🇺🇸 **English**: Professional working proficiency
 - 🇨🇳 **Chinese**: Native
 
-## 🏆 Accomplishments
+## 🏆 Activities
 
 - [Xinyao Cup Hackathon, Code for City] **First Prize Winner** with product [colorit](https://github.com/git-hacker/colorit) - Chengdu, Sichuan, China _(2018.01)_
 
@@ -130,7 +110,3 @@ Always try best to making things simple, fight for not be a slave to formal meth
 
 **Bachelor of Agriculture** in Landscape Architecture Studies <br/>
 [Chengdu University of Technology](https://www.cdut.edu.cn/) - Chengdu, Sichuan, China _(2008.09 - 2012.07)_
-
-<!-- Started self-learning `web development technologies` in university. 💻<br/>
-Became a full-time software engineer from `2014/10`. I was a landscape architect before.🌳<br/>
-Moved to Japan from `2018/12` for my child not to do a lot of homework when he go to elementary school. ✈️ -->
