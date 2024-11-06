@@ -17,25 +17,5 @@ export default defineConfig({
     ],
   },
   lastUpdated: true,
-  head: [
-    [
-      "meta",
-      {
-        name: "google-site-verification",
-        content: "71A3myPAsbW4yU-SCkZlmMSVmyagcPQGxCxU2IfHhx4",
-      },
-    ],
-    [
-      'script',
-      {
-        async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-3TJCENNN9X',
-      },
-    ],
-    [
-      'script',
-      {},
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-3TJCENNN9X');",
-    ],
-  ],
+  head: [],
 });
