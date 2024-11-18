@@ -9,7 +9,7 @@ Software engineer based in Tokyo. 🇯🇵
 
 <div style=" display:flex; gap: 8px; flex-warp: wrap;">
 <a href="mailto:zhumeisongsong@gmail.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/email-444.svg?&logo=Gmail&logoColor=red&style=for-the-badge" /></a>
-<a href="https://github.com/zhumeisongsong" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/zhumeisongsong-333.svg?&logo=Github&logoColor=white&style=for-the-badge" /></a>
+<a href="https://github.com/zhumeisongsong" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/zhumeisongsong-333.svg?&logo=GitHub&logoColor=white&style=for-the-badge" /></a>
 <a href="https://zhumeisongsong.github.io/blog" target="_blank"><img alt="Blog" src="https://img.shields.io/badge/Song's%20Blog-6c3485.svg?&style=for-the-badge&logo=Next.js&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/zhumei-song-a9041a1bb" target="_blank"><img alt="Linkedin" src="https://img.shields.io/badge/linkdin-0a66c2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </div>
@@ -31,7 +31,7 @@ Software engineer based in Tokyo. 🇯🇵
 
 I'm a software engineer on the Wevox product team, participating in the entire process from organizing user requirements to product design and system development.
 
-:sparkles: Workflow :sparkles:
+:sparkles: Product: Workflow :sparkles:
 
 ```
 My roles:
@@ -40,7 +40,7 @@ What achieved:
 
 ```
 
-:sparkles: Monorepo Migration :sparkles:
+:sparkles: Project: Monorepo Migration :sparkles:
 
 ```
 My roles:
@@ -57,7 +57,7 @@ I decided to move to Japan so that my child wouldn't have to do a lot of homewor
 
 After joining the Japan of Monstarlab, I served as a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
 
-:sparkles: Appointment Booking Management System :sparkles:
+:sparkles: Project: Appointment Booking Management System :sparkles:
 
 ```
 My roles:
@@ -66,7 +66,7 @@ What achieved:
 
 ```
 
-:sparkles: Chat Feature for Live Streaming Project :sparkles:
+:sparkles: Project: Chat Feature for Live Streaming Project :sparkles:
 
 ```
 My roles:
@@ -94,7 +94,7 @@ What achieved:
 
 ```
 
-:sparkles: Ticket Purchasing Hybrid App :sparkles:
+:sparkles: Project: Ticket Purchasing Hybrid App :sparkles:
 
 ```
 My roles:
