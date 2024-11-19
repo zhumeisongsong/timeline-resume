@@ -1,7 +1,8 @@
 {
   "name": "cv",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.0",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "commit": "git-cz",
     "lint": "textlint src/*.md",
@@ -12,6 +13,8 @@
   },
   "author": "Zhumei Song <zhumeisongsong@gmail.com>",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@zhumeisong/git-cz-config": "^1.1.1",
     "git-cz": "4.9.0",
     "md-to-pdf": "^5.2.4",
@@ -27,7 +30,10 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      "@semantic-release/github"
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
     ]
   },
   "packageManager": "pnpm@9.12.3",
