@@ -20,7 +20,7 @@ Software engineer based in Tokyo. 🇯🇵
 | -------------------------- | -------------------------------------------------------------------------------------- |
 | Name                       | Zhumei Song                                                                            |
 | Birth                      | 1990/08/29                                                                             |
-| Address                    | Yokohama City, Kanagawa Province, Japan                                                |
+| Address                    | Yokohama, Kanagawa, Japan                                                |
 | Highest level of education | Chengdu University of Technology <br/> Bachelor of Agriculture, Landscape Architecture |
 
 ## 👩🏼‍💻 Engineering Experience
@@ -29,96 +29,55 @@ Software engineer based in Tokyo. 🇯🇵
 
 [Wevox](https://get.wevox.io/) is a B2B web service. It's a platform aimed at enhancing organizational capabilities. More than 3,390 organizations have implemented Wevox, and the total number of responses exceeds 283.5 million.
 
-I'm a software engineer on the Wevox product team, participating in the entire process from organizing user requirements to product design and system development.
-
 :sparkles: Product: Workflow :sparkles:
 
 ```
+
+```
+
 My roles:
 
+```
+
+```
+
 What achieved:
+
+```
 
 ```
 
 :sparkles: Project: Monorepo Migration :sparkles:
 
-```
-My roles:
-
-What achieved:
-
-```
-
 :::
+
+
 
 :::details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
 
-I decided to move to Japan so that my child wouldn't have to do a lot of homework when he went to elementary school. ✈️
-
-After joining the Japan of Monstarlab, I served as a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
+As a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
 
 :sparkles: Project: Appointment Booking Management System :sparkles:
 
-```
-My roles:
-
-What achieved:
-
-```
-
 :sparkles: Project: Chat Feature for Live Streaming Project :sparkles:
 
-```
-My roles:
-
-What achieved:
-
-```
-
 :::
+
+
 
 :::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11 · 4 yrs 2 mos )
 
-Because I really enjoy development, I decided to become a full-time web developer.
-
-After joining the Chengdu branch of Monstarlab, I self-studied React while working and introduced the front-end and back-end separation system design approach to the team.
-
-From March 2016, I served as the front-end tech lead, responsible for improving the front-end quality of all company projects.
-
-:sparkles: Tourism Information Management System :sparkles:
-
-```
-My roles:
-
-What achieved:
-
-```
+:sparkles: Project: Tourism Information Management System :sparkles:
 
 :sparkles: Project: Ticket Purchasing Hybrid App :sparkles:
 
-```
-My roles:
-
-What achieved:
-
-```
-
 :::
 
-:::details Freelancer (2009/09 ~ 2015/12) 5 yrs 3 mos
 
-I started self-learning web development technologies in college. 💻
 
-After graduating, my main job was as a landscape designer, but at the same time, I also created websites for companies as a side job.
+:::details Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
 
-:sparkles: Wordpress Website :sparkles:
-
-```
-My roles:
-
-What achieved:
-
-```
+:sparkles: Project: Wordpress Website :sparkles:
 
 :::
 
@@ -141,10 +100,10 @@ Always try best to making things simple, fight for not be a slave to formal meth
 
 ## 🌈 Development Stack
 
-| Key                         | Value |
-| --------------------------- | ----- |
-| Typescript / Javascript     | ★★★★☆ |
-| Node.js / Apollo Federation | ★★★★☆ |
+| Key                     | Value |
+| ----------------------- | ----- |
+| Typescript / Javascript | ★★★★☆ |
+| Node.js                 | ★★★★☆ |
 
 <div style=" display:flex; gap: 8px; flex-wrap: wrap; padding-top: 16px;">
 <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
