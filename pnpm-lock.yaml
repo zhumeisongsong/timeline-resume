@@ -16,7 +16,7 @@ importers:
         version: 10.0.1(semantic-release@24.2.0)
       '@zhumeisong/git-cz-config':
         specifier: ^1.1.1
-        version: 1.2.0
+        version: 1.2.1
       git-cz:
         specifier: 4.9.0
         version: 4.9.0
@@ -786,8 +786,8 @@ packages:
   '@vueuse/shared@11.2.0':
     resolution: {integrity: sha512-VxFjie0EanOudYSgMErxXfq6fo8vhr5ICI+BuE3I9FnX7ePllEsVrRQ7O6Q1TLgApeLuPKcHQxAXpP+KnlrJsg==}
 
-  '@zhumeisong/git-cz-config@1.2.0':
-    resolution: {integrity: sha512-AmGs1lmRhEbSpWaQDQ+RI30A0M+Ecxhd2jdxZLi7AxTPi3Zh0sN/WON1kHRDTlc7X4RFXG8DZVHC3oEiMpZ0uQ==}
+  '@zhumeisong/git-cz-config@1.2.1':
+    resolution: {integrity: sha512-ne0RgJzc55xmGR+NM8+T5/lWrZWRDkcYU9Zx5gOLmv+NziAX13KMsCgLZ2QTDk542JMd0cd9LD1spnZKXvupoQ==}
 
   agent-base@7.1.1:
     resolution: {integrity: sha512-H0TSyFNDMomMNJQBn8wFV5YC/2eJ+VXECwOadZJT554xP6cODZHPX3H9QMQECxvrgiSOP1pHjy1sMWQVYJOUOA==}
@@ -3919,7 +3919,7 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@zhumeisong/git-cz-config@1.2.0': {}
+  '@zhumeisong/git-cz-config@1.2.1': {}
 
   agent-base@7.1.1:
     dependencies:
