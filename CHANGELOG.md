@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/zhumeisongsong/cv/compare/v1.10.0...v1.11.0) (2024-12-04)
+
+
+### Features
+
+* ✨ delete target in cv but add a new page ([860392e](https://github.com/zhumeisongsong/cv/commit/860392e6060b9476d34b7800e6dfc3b5d203ced9))
+
 # [1.10.0](https://github.com/zhumeisongsong/cv/compare/v1.9.0...v1.10.0) (2024-12-04)
 
 
