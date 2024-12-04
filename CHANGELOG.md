@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/zhumeisongsong/cv/compare/v1.13.0...v1.14.0) (2024-12-04)
+
+
+### Features
+
+* ✨ add ** to highlight text ([fb7d086](https://github.com/zhumeisongsong/cv/commit/fb7d0865d6deae3831ceb0216df025a2c634e14d))
+
 # [1.13.0](https://github.com/zhumeisongsong/cv/compare/v1.12.0...v1.13.0) (2024-12-04)
 
 
