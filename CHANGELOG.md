@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/zhumeisongsong/cv/compare/v1.9.0...v1.10.0) (2024-12-04)
+
+
+### Features
+
+* ✨ Enhance strcture of Goals & Vision ([4d686f1](https://github.com/zhumeisongsong/cv/commit/4d686f15da3f694ee8111acbe0493654af830a53))
+
 # [1.9.0](https://github.com/zhumeisongsong/cv/compare/v1.8.2...v1.9.0) (2024-12-04)
 
 
