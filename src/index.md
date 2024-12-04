@@ -28,28 +28,28 @@ Software engineer based in Tokyo. 🇯🇵
 | Address                    | Yokohama, Kanagawa, Japan                                                              |
 | Highest level of education | Chengdu University of Technology <br/> Bachelor of Agriculture, Landscape Architecture |
 
-## 🎨 Goals and Vision
+## 🎨 Goals & Vision
 
-As a software engineer, my goals are:
+With over 10 years of experience in designing and developing web applications using React, Node.js and AWS, I enjoy solving challenging problems, building robust systems, and working with team to create software that truly helps users.
 
-- Addressing `technical debt`, build robust systems that are easy to modify and extend
-- Improving `development quality`, deliver high-quality products that meet user needs
-- Enhancing `team collaboration efficiency`, foster a positive and collaborative team culture
+#### What I Want to Achieve
 
-The approach to achieving these goals could be:
+- **Resolve Technical Debt**: Build scalable and maintainable systems that are easy to extend for future needs.
+- **Ensure High Development Standards**: Deliver reliable, high-quality products that meet both business and user needs.
+- **Enhance Team Collaboration**: Help junior team members grow, and build a positive and collaborative team culture.
 
-- Selecting a `worthy challenge` (aimed at creating value)
-- Complicating `simple matters` in thought (managing risks and preparing for the future)
-- Simplifying `complex matters` in action (delivering quality products while controlling costs)
-- Articulating `complexity in a simple manner` (ensuring successful knowledge transfer)
+#### Approach to Achieving Goals
 
-Always try best to making things simple, fight for not be a slave to formal methods.💪
+- Selecting a worthy challenge (aim at creating value)
+- Complicating simple matters in thought (managing risks and preparing for the future)
+- Simplifying complex matters in action (delivering quality products while controlling costs)
+- Articulating complexity in a simple manner (ensuring successful knowledge transfer)
 
 ## 🎯 Target Company and Position
 
 I am looking for a company that:
 
-- Is willing to invest in `addressing technical debt` and recognizes its contribution to business growth.
+- Is willing to invest in resolving technical debt and recognizes its contribution to business growth.
 - Values `technological innovation`, but doesn't use technology for the sake of using it.
 - Has high standards for `development quality`, not just satisfied with code that runs.
 - Focuses more on ensuring that `everyone takes responsibility for the final product outcome`, rather than simply following a specification to complete development.
