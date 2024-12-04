@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/zhumeisongsong/cv/compare/v1.11.0...v1.12.0) (2024-12-04)
+
+
+### Features
+
+* ✨ add brief introduction ([44fa97f](https://github.com/zhumeisongsong/cv/commit/44fa97f23c0ee369fbdff2d3f1fa99bf92849a55))
+
 # [1.11.0](https://github.com/zhumeisongsong/cv/compare/v1.10.0...v1.11.0) (2024-12-04)
 
 
