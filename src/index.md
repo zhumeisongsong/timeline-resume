@@ -8,10 +8,15 @@ layout: doc
 Software engineer based in Tokyo. 🇯🇵
 
 <div style=" display:flex; gap: 8px; flex-warp: wrap;">
-<a href="mailto:zhumeisongsong@gmail.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/email-444.svg?&logo=Gmail&logoColor=red&style=for-the-badge" /></a>
+
 <a href="https://github.com/zhumeisongsong" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/zhumeisongsong-333.svg?&logo=GitHub&logoColor=white&style=for-the-badge" /></a>
+
 <a href="https://zhumeisongsong.github.io/blog" target="_blank"><img alt="Blog" src="https://img.shields.io/badge/Song's%20Blog-6c3485.svg?&style=for-the-badge&logo=Next.js&logoColor=white" /></a>
+
 <a href="https://www.linkedin.com/in/zhumei-song-a9041a1bb" target="_blank"><img alt="Linkedin" src="https://img.shields.io/badge/linkdin-0a66c2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+
+<a href="mailto:zhumeisongsong@gmail.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/email-444.svg?&logo=Gmail&logoColor=red&style=for-the-badge" /></a>
+
 </div>
 
 ## 🐱 Basic Information
@@ -20,8 +25,39 @@ Software engineer based in Tokyo. 🇯🇵
 | -------------------------- | -------------------------------------------------------------------------------------- |
 | Name                       | Zhumei Song                                                                            |
 | Birth                      | 1990/08/29                                                                             |
-| Address                    | Yokohama, Kanagawa, Japan                                                |
+| Address                    | Yokohama, Kanagawa, Japan                                                              |
 | Highest level of education | Chengdu University of Technology <br/> Bachelor of Agriculture, Landscape Architecture |
+
+## 🎨 Goals and Vision
+
+As a software engineer, my goals are:
+
+- Addressing `technical debt`, build robust systems that are easy to modify and extend
+- Improving `development quality`, deliver high-quality products that meet user needs
+- Enhancing `team collaboration efficiency`, foster a positive and collaborative team culture
+
+The approach to achieving these goals could be:
+
+- Selecting a `worthy challenge` (aimed at creating value)
+- Complicating `simple matters` in thought (managing risks and preparing for the future)
+- Simplifying `complex matters` in action (delivering quality products while controlling costs)
+- Articulating `complexity in a simple manner` (ensuring successful knowledge transfer)
+
+Always try best to making things simple, fight for not be a slave to formal methods.💪
+
+## 🎯 Target Company and Position
+
+I am looking for a company that:
+
+- Is willing to invest in `addressing technical debt` and recognizes its contribution to business growth.
+- Values `technological innovation`, but doesn't use technology for the sake of using it.
+- Has high standards for `development quality`, not just satisfied with code that runs.
+- Focuses more on ensuring that `everyone takes responsibility for the final product outcome`, rather than simply following a specification to complete development.
+
+I am targeting the following position:
+
+- Full-Stack Engineer / Software Engineer
+- Front-End Tech Lead / Senior Front-end Engineer
 
 ## 👩🏼‍💻 Engineering Experience
 
@@ -51,8 +87,6 @@ What achieved:
 
 :::
 
-
-
 :::details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
 
 As a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
@@ -63,8 +97,6 @@ As a front-end tech lead in a multinational development team, contributing not o
 
 :::
 
-
-
 :::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11 · 4 yrs 2 mos )
 
 :sparkles: Project: Tourism Information Management System :sparkles:
@@ -73,22 +105,11 @@ As a front-end tech lead in a multinational development team, contributing not o
 
 :::
 
-
-
 :::details Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
 
 :sparkles: Project: Wordpress Website :sparkles:
 
 :::
-
-## 🎨 Goals and Vision
-
-- Selecting a worthy challenge (aimed at creating value)
-- Complicating simple matters in thought (managing risks and preparing for the future)
-- Simplifying complex matters in action (delivering quality products while controlling costs)
-- Articulating complexity in a simple manner (ensuring successful knowledge transfer)
-
-Always try best to making things simple, fight for not be a slave to formal methods.💪
 
 ## ⭐ Skills
 
