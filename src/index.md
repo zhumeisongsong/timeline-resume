@@ -47,50 +47,130 @@ In December 2021, I joined Atrae as a Software Engineer on the Wevox product tea
 [Wevox](https://get.wevox.io/) is a B2B web service. It's a platform aimed at enhancing organizational capabilities. More than 3,390 organizations have implemented Wevox, and the total number of responses exceeds 283.5 million.
 
 :sparkles: Product: Workflow :sparkles:
-
 ```
 
-```
 
 My roles:
 
-```
-
-```
 
 What achieved:
 
-```
 
 ```
 
 :sparkles: Project: Monorepo Migration :sparkles:
+```
+
+
+My roles:
+
+
+What achieved:
+
+
+```
 
 :::
+
+
 
 :::details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
 
 As a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
 
 :sparkles: Project: Appointment Booking Management System :sparkles:
+```
+
+
+My roles:
+
+
+What achieved:
+
+
+```
 
 :sparkles: Project: Chat Feature for Live Streaming Project :sparkles:
+```
+
+
+My roles:
+
+
+What achieved:
+
+
+```
 
 :::
 
-:::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2018/11 · 4 yrs 2 mos )
+
+
+:::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
 
 :sparkles: Project: Tourism Information Management System :sparkles:
+```
+
+
+My roles:
+
+
+What achieved:
+
+
+```
 
 :sparkles: Project: Ticket Purchasing Hybrid App :sparkles:
+```
+
+
+My roles:
+
+
+What achieved:
+
+
+```
 
 :::
+
+
+
+:::details Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
+
+:sparkles: Project: Tourism Information Management System :sparkles:
+```
+
+
+My roles:
+
+
+What achieved:
+
+```
+
+:::
+
+
 
 :::details Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
 
 :sparkles: Project: Wordpress Website :sparkles:
+```
+
+
+My roles:
+- Edit WordPress themes
+- Deploy WordPress to server and setup domain
+
+What achieved:
+- Earned extra income
+
+```
 
 :::
+
+
 
 ## ⭐ Skills
 
