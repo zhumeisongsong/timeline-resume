@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/zhumeisongsong/cv/compare/v1.12.0...v1.13.0) (2024-12-04)
+
+
+### Features
+
+* ✨ add frame of projects ([d7a05e3](https://github.com/zhumeisongsong/cv/commit/d7a05e39b64ac5953a4e2d99570171d09ac4274e))
+
 # [1.12.0](https://github.com/zhumeisongsong/cv/compare/v1.11.0...v1.12.0) (2024-12-04)
 
 
