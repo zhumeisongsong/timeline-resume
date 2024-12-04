@@ -32,13 +32,13 @@ Software engineer based in Tokyo. 🇯🇵
 
 I began self-learning web development technologies during college, and after graduation, I worked as a landscape architect. However, I also pursued my passion for web development through side projects, creating websites for various companies.
 
-In October 2014, I joined Monstarlab Chengdu as a full-time web developer. There, I taught myself React and introduced the front-end and back-end separation architecture, significantly improving team efficiency and system scalability.
+In October 2014, I joined **Monstarlab Chengdu** as a full-time **Front-End Engineer**. There, I taught myself React and introduced the front-end and back-end separation architecture, significantly improving team efficiency and system scalability.
 
-By March 2016, I was promoted to Front-End Tech Lead, where I took responsibility for enhancing the front-end quality across all company projects. My efforts focused on improving code quality, doing technical investigations for new projects, and implementing best practices that improved the overall development process.
+By March 2016, I was promoted to **Front-End Tech Lead**, where I took responsibility for enhancing the front-end quality across all company projects. My efforts focused on improving code quality, doing technical investigations for new projects, and implementing best practices that improved the overall development process.
 
-In December 2018, I moved to Japan and continued my career at Monstarlab Japan, where I further expanded my skills in an international setting.
+In December 2018, I moved to Japan and continued my career at **Monstarlab Japan**, where I further expanded my skills in an international setting.
 
-In December 2021, I joined Atrae as a Software Engineer on the Wevox product team. In this role, I not only focused on front-end development but also participated in all stages of the product development cycle—from gathering user requirements to product design and system development.
+In December 2021, I joined **Atrae** as a **Software Engineer** on the **Wevox** product team. In this role, I not only focused on front-end development but also participated in all stages of the product development cycle—from gathering user requirements to product design and system development.
 
 ## 👩🏼‍💻 Engineering Experience
 
