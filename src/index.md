@@ -45,20 +45,6 @@ With over 10 years of experience in designing and developing web applications us
 - Simplifying complex matters in action (delivering quality products while controlling costs)
 - Articulating complexity in a simple manner (ensuring successful knowledge transfer)
 
-## 🎯 Target Company and Position
-
-I am looking for a company that:
-
-- Is willing to invest in resolving technical debt and recognizes its contribution to business growth.
-- Values `technological innovation`, but doesn't use technology for the sake of using it.
-- Has high standards for `development quality`, not just satisfied with code that runs.
-- Focuses more on ensuring that `everyone takes responsibility for the final product outcome`, rather than simply following a specification to complete development.
-
-I am targeting the following position:
-
-- Full-Stack Engineer / Software Engineer
-- Front-End Tech Lead / Senior Front-end Engineer
-
 ## 👩🏼‍💻 Engineering Experience
 
 :::details Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs)
