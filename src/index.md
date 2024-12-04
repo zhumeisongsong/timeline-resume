@@ -21,29 +21,24 @@ Software engineer based in Tokyo. 🇯🇵
 
 ## 🐱 Basic Information
 
-| Key                        | Value                                                                                  |
-| -------------------------- | -------------------------------------------------------------------------------------- |
-| Name                       | Zhumei Song                                                                            |
-| Birth                      | 1990/08/29                                                                             |
-| Address                    | Yokohama, Kanagawa, Japan                                                              |
-| Highest level of education | Chengdu University of Technology <br/> Bachelor of Agriculture, Landscape Architecture |
+| Key     | Value                     |
+| ------- | ------------------------- |
+| Name    | Zhumei Song               |
+| Gender  | Female                    |
+| Birth   | 1990/08/29                |
+| Address | Yokohama, Kanagawa, Japan |
 
-## 🎨 Goals & Vision
+## 🌱 Brief Introduction
 
-With over 10 years of experience in designing and developing web applications using React, Node.js and AWS, I enjoy solving challenging problems, building robust systems, and working with team to create software that truly helps users.
+I began self-learning web development technologies during college, and after graduation, I worked as a landscape architect. However, I also pursued my passion for web development through side projects, creating websites for various companies.
 
-#### What I Want to Achieve
+In October 2014, I joined Monstarlab Chengdu as a full-time web developer. There, I taught myself React and introduced the front-end and back-end separation architecture, significantly improving team efficiency and system scalability.
 
-- **Resolve Technical Debt**: Build scalable and maintainable systems that are easy to extend for future needs.
-- **Ensure High Development Standards**: Deliver reliable, high-quality products that meet both business and user needs.
-- **Enhance Team Collaboration**: Help junior team members grow, and build a positive and collaborative team culture.
+By March 2016, I was promoted to Front-End Tech Lead, where I took responsibility for enhancing the front-end quality across all company projects. My efforts focused on improving code quality, doing technical investigations for new projects, and implementing best practices that improved the overall development process.
 
-#### Approach to Achieving Goals
+In December 2018, I moved to Japan and continued my career at Monstarlab Japan, where I further expanded my skills in an international setting.
 
-- Selecting a worthy challenge (aim at creating value)
-- Complicating simple matters in thought (managing risks and preparing for the future)
-- Simplifying complex matters in action (delivering quality products while controlling costs)
-- Articulating complexity in a simple manner (ensuring successful knowledge transfer)
+In December 2021, I joined Atrae as a Software Engineer on the Wevox product team. In this role, I not only focused on front-end development but also participated in all stages of the product development cycle—from gathering user requirements to product design and system development.
 
 ## 👩🏼‍💻 Engineering Experience
 
@@ -124,6 +119,23 @@ As a front-end tech lead in a multinational development team, contributing not o
 <img alt="" src="https://img.shields.io/badge/-storybook-eb5685?style=for-the-badge&logo=storybook&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white" />
 </div>
+
+## 🎨 Goals & Vision
+
+With over 10 years of experience in designing and developing web applications, I enjoy solving challenging problems, building robust systems, and working with team to create software that truly helps users.
+
+#### What I Want to Achieve
+
+- **Resolve Technical Debt**: Build scalable and maintainable systems that are easy to extend for future needs.
+- **Ensure High Development Standards**: Deliver reliable, high-quality products that meet both business and user needs.
+- **Enhance Team Collaboration**: Help junior team members grow, and build a positive and collaborative team culture, everyone could share and contribute.
+
+#### Approach to Achieving Goals
+
+- Selecting a worthy challenge (aim at creating value)
+- Complicating simple matters in thought (managing risks and preparing for the future)
+- Simplifying complex matters in action (delivering quality products while controlling costs)
+- Articulating complexity in a simple manner (ensuring successful knowledge transfer)
 
 ## 💬 Languages
 
