@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Song's CV",
+  title: "Song",
   description: "Software engineer based in Tokyo. 🇯🇵",
   base: "/cv/",
   themeConfig: {

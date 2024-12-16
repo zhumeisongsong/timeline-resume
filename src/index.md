@@ -28,25 +28,16 @@ Software engineer based in Tokyo. 🇯🇵
 | Birth   | 1990/08/29                |
 | Address | Yokohama, Kanagawa, Japan |
 
-## 🌱 Brief Introduction
-
-I began self-learning web development technologies during college, and after graduation, I worked as a landscape architect. However, I also pursued my passion for web development through side projects, creating websites for various companies.
-
-In October 2014, I joined **Monstarlab Chengdu** as a full-time **Front-End Engineer**. There, I taught myself React and introduced the front-end and back-end separation architecture, significantly improving team efficiency and system scalability.
-
-By March 2016, I was promoted to **Front-End Tech Lead**, where I took responsibility for enhancing the front-end quality across all company projects. My efforts focused on improving code quality, doing technical investigations for new projects, and implementing best practices that improved the overall development process.
-
-In December 2018, I moved to Japan and continued my career at **Monstarlab Japan**, where I further expanded my skills in an international setting.
-
-In December 2021, I joined **Atrae** as a **Software Engineer** on the **Wevox** product team. In this role, I not only focused on front-end development but also participated in all stages of the product development cycle—from gathering user requirements to product design and system development.
-
 ## 👩🏼‍💻 Engineering Experience
 
-:::details Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs)
+:::details Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs+)
 
-[Wevox](https://get.wevox.io/) is a B2B web service. It's a platform aimed at enhancing organizational capabilities. More than 3,390 organizations have implemented Wevox, and the total number of responses exceeds 283.5 million.
+In December 2021, I joined **Atrae** as a **Software Engineer** on the **Wevox** product team. In this role, I not only focused on front-end development but also participated in back-end development. I am actively dealing with technical debts while developing new features.
 
-:sparkles: Product: Workflow :sparkles:
+[Wevox](https://get.wevox.io/) is a toB SaaS web service. It's a platform aimed at enhancing organizational capabilities. More than 3,390 organizations have implemented Wevox, and the total number of responses exceeds 283.5 million.
+
+🌱 Project: Workflow
+
 ```
 
 
@@ -58,8 +49,10 @@ What achieved:
 
 ```
 
-:sparkles: Project: Monorepo Migration :sparkles:
+🌱 Project: Monorepo Migration
+
 ```
+Product Mission:
 
 
 My roles:
@@ -71,14 +64,14 @@ What achieved:
 ```
 
 :::
-
-
 
 :::details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
 
+In December 2018, I moved to Japan and continued my career at **Monstarlab Japan**, where I further expanded my skills in an international setting.
 As a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
 
-:sparkles: Project: Appointment Booking Management System :sparkles:
+🌱 Project: Appointment Booking Management System
+
 ```
 
 
@@ -90,7 +83,8 @@ What achieved:
 
 ```
 
-:sparkles: Project: Chat Feature for Live Streaming Project :sparkles:
+🌱 Project: Chat Feature for Live Streaming
+
 ```
 
 
@@ -103,12 +97,13 @@ What achieved:
 ```
 
 :::
-
-
 
 :::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
 
-:sparkles: Project: Tourism Information Management System :sparkles:
+By March 2016, I was promoted to **Front-End Tech Lead**, where I took responsibility for enhancing the front-end quality across all company projects. My efforts focused on improving code quality, doing technical investigations for new projects, and implementing best practices that improved the overall development process.
+
+🌱 Project: Tourism Information Management System
+
 ```
 
 
@@ -120,7 +115,8 @@ What achieved:
 
 ```
 
-:sparkles: Project: Ticket Purchasing Hybrid App :sparkles:
+🌱 Project: Ticket Purchasing Hybrid App
+
 ```
 
 
@@ -133,12 +129,13 @@ What achieved:
 ```
 
 :::
-
-
 
 :::details Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
 
-:sparkles: Project: Tourism Information Management System :sparkles:
+In October 2014, I joined **Monstarlab Chengdu** as a full-time **Front-End Engineer**. While accomplishing daily tasks, I taught myself React and introduced the front-end and back-end separation architecture to the team. The standardized admin management system and the common components/functions shared between projects significantly improved team efficiency.
+
+🌱 Project: Tourism Information Management System
+
 ```
 
 
@@ -151,11 +148,12 @@ What achieved:
 
 :::
 
-
-
 :::details Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
 
-:sparkles: Project: Wordpress Website :sparkles:
+I began self-learning web development technologies during college, and after graduation, I worked as a landscape architect. However, I also pursued my passion for web development through side projects, creating websites for various companies.
+
+🌱 Wordpress Website
+
 ```
 
 
@@ -169,8 +167,6 @@ What achieved:
 ```
 
 :::
-
-
 
 ## ⭐ Skills
 
@@ -230,4 +226,4 @@ With over 10 years of experience in designing and developing web applications, I
 ## 👩🏼‍🎓 Education
 
 **Bachelor of Agriculture** in Landscape Architecture Studies <br/>
-[Chengdu University of Technology](https://www.cdut.edu.cn/) - Chengdu, Sichuan, China _(2008.09 - 2012.07)_
+[Chengdu University of Technology](https://www.cdut.edu.cn/) - Chengdu, Sichuan, China _(2008.09 - 2012.06)_
