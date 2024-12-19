@@ -249,11 +249,15 @@ What achieved:
 
 With over 10 years of experience in designing and developing web applications, I enjoy solving challenging problems, building robust systems, and working with team to create software that truly helps users.
 
-#### What I Want to Achieve
+**What I Want to Achieve:**
 
-Not only finishing a detail task like a screen layout / an API , but also could dive deep into software architecture practice.
+I not only want to complete specific tasks like pages or APIs, but also want to dive deeper into software architecture:
 
-#### Approach to Achieving Goals
+- Resolving technical debt
+- System performance monitoring
+- Managing Complexity Across Multiple Services
+
+**Approach:**
 
 - Selecting a worthy challenge (aim at creating value)
 - Complicating simple matters in thought (managing risks and preparing for the future)
