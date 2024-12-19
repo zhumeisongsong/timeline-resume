@@ -227,20 +227,25 @@ I began self-learning web development technologies during college, and after gra
 🌱 Project: Wordpress Website
 
 ```
-为企业制作基于wordpress的官网。
-My roles:
-我为希望制作自己的官网的客户提供两种套餐的服务：基础套餐和自定义套餐。
-基础套餐包括：
--
+Making Wordpress websites for companies.
+
+Basic package includes:
+- Home page
+- Service page
+- About page
+- Contact page
+
+A customized package is also available for clients with additional requirements.
+
 
 My roles:
-- Design: Based on client's requirement, design website layout
-- Development: Edit WordPress themes
-- Deploy: WordPress to server and setup domain
+- Design: Design website layout based on client requirements.
+- Development: Customize and edit WordPress themes.
+- Deployment: Deploy WordPress to the server and set up the domain.
 
 What achieved:
-- 快速交付符合用户需求的网站。
-- 发现自己更喜欢从事数字化领域开发类的工作。不满足于仅仅做展示用的网站，决定转行做软件开发。
+- Gained experience with the full process of website development.
+- Found my passion with and decided to switch my career to software development
 ```
 
 :::
