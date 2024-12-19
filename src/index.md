@@ -99,11 +99,9 @@ Software Engineer based in Tokyo. 🇯🇵
 
 ## 👩🏼‍💻 Engineering Experience
 
-Proven leader in implementing modern UI design, optimizing user experience, and mentoring development teams.
-
 :::details Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs+)
 
-In December 2021, I joined **Atrae** as a **Software Engineer** on the **Wevox** product team. In this role, I not only focused on front-end development but also participated in back-end development. I am actively dealing with technical debts while developing new features.
+I joined **Atrae** as a **Software Engineer** on the **Wevox** product team. In this role, I not only focused on front-end development but also participated in back-end development. I am actively dealing with technical debts while developing new features.
 
 [Wevox](https://get.wevox.io/) is a toB SaaS web service. It's a platform aimed at enhancing organizational capabilities. More than 3,390 organizations have implemented Wevox, and the total number of responses exceeds 283.5 million.
 
@@ -139,8 +137,7 @@ What achieved:
 
 :::details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
 
-In December 2018, I moved to Japan and continued my career at **Monstarlab Japan**, where I further expanded my skills in an international setting.
-As a front-end tech lead in a multinational development team, contributing not only to individual projects but also to improving the overall development quality of the company through standardization.
+I moved to Japan and continued my career at **Monstarlab Japan**, where I further expanded my skills in an international setting. As a Front-End Tech Lead in a multinational development team, I contributed not only to individual projects but also to improving the overall development quality of the company through standardization, such as the common auth module (OAuth 2 standard), mock server, and front-end template for new projects, among others.
 
 🌱 Project: Coffee Label Print Web App
 
@@ -172,22 +169,11 @@ What achieved:
 
 :::details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
 
-By March 2016, I was promoted to **Front-End Tech Lead**, where I took responsibility for enhancing the front-end quality across all company projects. My efforts focused on improving code quality, doing technical investigations for new projects, and implementing best practices that improved the overall development process.
+With my contributions to front-end engineering, I was promoted to **Front-End Tech Lead**, where I took responsibility for enhancing front-end quality across all company projects. My efforts focused on improving code quality, conducting technical investigations for new projects, and implementing best practices that improved the overall development process.
 
-🌱 Project: Tourism Information Management System
+The standardized admin management system and the shared common components/functions between projects significantly improved the development efficiency.
 
-```
-
-
-My roles:
-
-
-What achieved:
-
-
-```
-
-🌱 Project: Ticket Purchasing Hybrid App
+🌱 Project: 
 
 ```
 
@@ -196,7 +182,6 @@ My roles:
 
 
 What achieved:
-
 
 ```
 
@@ -204,12 +189,11 @@ What achieved:
 
 :::details Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
 
-In October 2014, I joined **Monstarlab Chengdu** as a full-time **Front-End Engineer**. While accomplishing daily tasks, I taught myself React and introduced the front-end and back-end separation architecture to the team. The standardized admin management system and the common components/functions shared between projects significantly improved team efficiency.
+I joined **Monstarlab Chengdu** as a full-time **Front-End Engineer**. While accomplishing daily tasks, I taught myself React and introduced the front-end and back-end separation architecture to the team.
 
-🌱 Project: Tourism Information Management System
+🌱 Project: Tourist Attraction Ticket Booking Hybrid App
 
 ```
-
 
 My roles:
 
