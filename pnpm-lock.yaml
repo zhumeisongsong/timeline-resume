@@ -16,7 +16,7 @@ importers:
         version: 10.0.1(semantic-release@24.2.0)
       '@zhumeisong/git-cz-config':
         specifier: ^1.1.1
-        version: 1.2.4
+        version: 1.4.2
       '@zhumeisong/semantic-release-config':
         specifier: ^1.3.3
         version: 1.3.3
@@ -786,8 +786,8 @@ packages:
   '@vueuse/shared@11.2.0':
     resolution: {integrity: sha512-VxFjie0EanOudYSgMErxXfq6fo8vhr5ICI+BuE3I9FnX7ePllEsVrRQ7O6Q1TLgApeLuPKcHQxAXpP+KnlrJsg==}
 
-  '@zhumeisong/git-cz-config@1.2.4':
-    resolution: {integrity: sha512-TYG6Mzuy0xGquXlxCkG0fgaPSOr4YwLC/IprXxncWoBJafxloX8FuSIhCsBxYU0P4a+hecJn0Uy8fImJ32njWA==}
+  '@zhumeisong/git-cz-config@1.4.2':
+    resolution: {integrity: sha512-99r+1tfvgAHWAFYvlFSAw7rzUB/S8HXdf/aot+/mwBdgF09jwWWbvS62l+MM8SYrHDCc4F4n69A8W9ASqEKk0g==}
 
   '@zhumeisong/semantic-release-config@1.3.3':
     resolution: {integrity: sha512-ZSB4ztFvcpbXjhXRx0mZL3g1L+q3hsifWexlADCewFu0czYmbka4q3OOuYJSIB4imTcnKJXP7vsVuSBGGSQTAA==}
@@ -3920,7 +3920,9 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@zhumeisong/git-cz-config@1.2.4': {}
+  '@zhumeisong/git-cz-config@1.4.2':
+    dependencies:
+      '@zhumeisong/semantic-release-config': 1.3.3
 
   '@zhumeisong/semantic-release-config@1.3.3': {}
 
