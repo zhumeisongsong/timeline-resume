@@ -237,7 +237,6 @@ Basic package includes:
 
 A customized package is also available for clients with additional requirements.
 
-
 My roles:
 - Design: Design website layout based on client requirements.
 - Development: Customize and edit WordPress themes.
