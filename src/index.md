@@ -105,33 +105,21 @@ I joined **Atrae** as a **Software Engineer** on the **Wevox** product team. In 
 
 [Wevox](https://get.wevox.io/) is a toB SaaS web service. It's a platform aimed at enhancing organizational capabilities. More than 3,390 organizations have implemented Wevox, and the total number of responses exceeds 283.5 million.
 
-🌱 Project: Workflow
+### Workflow 🚀
 
-```
+**Project introduction:**
 
+**My roles:**
 
+**What achieved:**
 
-My roles:
+### Monorepo Migration 🚀
 
+**Project introduction:**
 
-What achieved:
+**My roles:**
 
-
-```
-
-🌱 Project: Monorepo Migration
-
-```
-Product Mission:
-
-
-My roles:
-
-
-What achieved:
-
-
-```
+**What achieved:**
 
 :::
 
@@ -139,31 +127,21 @@ What achieved:
 
 I moved to Japan and continued my career at **Monstarlab Japan**, where I further expanded my skills in an international setting. As a Front-End Tech Lead in a multinational development team, I contributed not only to individual projects but also to improving the overall development quality of the company through standardization, such as the common auth module (OAuth 2 standard), mock server, and front-end template for new projects, among others.
 
-🌱 Project: Coffee Label Print Web App
+### Coffee Label Print Web App 🚀
 
-```
+**Project introduction:**
 
+**My roles:**
 
-My roles:
+**What achieved:**
 
+### Live Streaming Chat Feature 🚀
 
-What achieved:
+**Project introduction:**
 
+**My roles:**
 
-```
-
-🌱 Project: Live Streaming Chat Feature
-
-```
-
-
-My roles:
-
-
-What achieved:
-
-
-```
+**What achieved:**
 
 :::
 
@@ -173,17 +151,21 @@ With my contributions to front-end engineering, I was promoted to **Front-End Te
 
 The standardized admin management system and the shared common components/functions between projects significantly improved the development efficiency.
 
-🌱 Project: 
+### Nippon Hodai Travel User Web App + Admin Web App 🚀
 
-```
+**Project introduction:**
 
+**My roles:**
 
-My roles:
+**What achieved:**
 
+### Video Play Web App 🚀
 
-What achieved:
+**Project introduction:**
 
-```
+**My roles:**
+
+**What achieved:**
 
 :::
 
@@ -191,58 +173,54 @@ What achieved:
 
 I joined **Monstarlab Chengdu** as a full-time **Front-End Engineer**. While accomplishing daily tasks, I taught myself React and introduced the front-end and back-end separation architecture to the team.
 
-🌱 Project: Tourist Attraction Ticket Booking Hybrid App
+### Tourist Attraction Ticket Booking Hybrid App 🚀
 
-```
+**Project introduction:**
 
-My roles:
+**My roles:**
 
-
-What achieved:
-
-```
+**What achieved:**
 
 :::
 
 :::details Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
 
-I began self-learning web development technologies during college, and after graduation, I worked as a landscape architect. However, I also pursued my passion for web development through side projects, creating websites for various companies.
+I began self-learning web development technologies during college, and after graduation, I worked as a landscape architect. However, I also pursued my passion for web development through side projects, creating websites for various companies and some H5 pages for event promotion.
 
-🌱 Project: Wordpress Website
+### Wordpress Website 🚀
 
-```
-Making Wordpress websites for companies.
+**Project introduction:**
 
-Basic package includes:
-- Home page
-- Service page
-- About page
-- Contact page
+I create company introduction websites using WordPress. These companies span various industries, including architecture firms, landscape firms, small appliance companies, watchmakers, and more.
 
-A customized package is also available for clients with additional requirements.
+I offer two types of packages:
 
-My roles:
-- Design: Design website layout based on client requirements.
-- Development: Customize and edit WordPress themes.
-- Deployment: Deploy WordPress to the server and set up the domain.
+1. **Basic Package:** Includes a Home page, Service page, About page and Contact page.
+2. **Customized Package:** Tailored for clients with additional or specific requirements.
 
-What achieved:
-- Gained experience with the full process of website development.
-- Found my passion with and decided to switch my career to software development
-```
+**My roles:**
+
+- **Design:** Design website layouts based on client requirements.
+- **Development:** Customize and edit WordPress themes.
+- **Deployment:** Deploy WordPress to the server and set up the domain.
+
+**What achieved:**
+
+- Gained comprehensive experience in the entire website development process.
+- Discovered my passion for web development, leading me to transition my career to software development.
 
 :::
 
 ## 🎨 Goals & Vision
 
-With over 10 years of experience in designing and developing web applications, I enjoy solving challenging problems, building robust systems, and working with team to create software that truly helps users.
+With over 10 years of experience in designing and developing web applications, I enjoy solving challenging problems, building robust systems(scalable, maintainable, and performant), and working with team to create software that truly helps users.
 
 **What I Want to Achieve:**
 
 I not only want to complete specific tasks like pages or APIs, but also want to dive deeper into software architecture:
 
 - Resolving technical debt
-- System performance monitoring
+- System performance
 - Managing Complexity Across Multiple Services
 
 **Approach:**
