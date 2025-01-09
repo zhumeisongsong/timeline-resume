@@ -33,16 +33,11 @@ Software Engineer based in Tokyo. 🇯🇵
 | Address | Yokohama, Kanagawa, Japan |
 | Email   | zhumeisongsong@gmail.com  |
 
+## 📌 Summary
+
 ## 🌈 Skills
 
-- 💄 Front-end (10 years+)
-- 👽 Back-end (3 years+)
-- 🧪 unit test/ e2e test
-- 🧱 Clean architecture / Monorepo / Functional Programming / Declarative Programming
-- ⭐ DDD / OOD
-- ⚡️ Agile methodology / scrum
-
-**Front-End Technologies:**
+**Front-End:**
 
 <div style="display:flex; gap: 8px; flex-wrap: wrap;">
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
@@ -64,7 +59,7 @@ Software Engineer based in Tokyo. 🇯🇵
   <img alt="redux" src="https://img.shields.io/badge/-redux-764abc?style=for-the-badge&logo=redux&logoColor=white" />
 </div>
 
-**Back-End Technologies:**
+**Back-End:**
 
 <div style=" display:flex; gap: 8px; flex-wrap: wrap;">
   <img alt="Nest.js" src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
@@ -89,7 +84,7 @@ Software Engineer based in Tokyo. 🇯🇵
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white" />
 </div>
 
-**Soft Skills:**
+**Others:**
 
 <div style=" display:flex; gap: 8px; flex-wrap: wrap;">
   <img alt="Team Collaboration" src="https://img.shields.io/badge/-Team%20Collaboration-47A248?style=for-the-badge&logo=Team%20Collaboration&logoColor=white" />
@@ -99,146 +94,34 @@ Software Engineer based in Tokyo. 🇯🇵
 
 ## 👩🏼‍💻 Engineering Experience
 
-### :rocket: Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs+)
+### Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs+)
 
-I'm part of the Wevox product team, which has 30 members and focuses on developing new products and maintaining existing ones.
-In my role, I tackle technical debt while also contributing to the development of new features.
 
-[Wevox](https://get.wevox.io/) is a B2B SaaS web service designed to enhance organizational capabilities. Over 3,390 organizations have adopted Wevox, and the platform has gathered more than 283.5 million survey responses in total.
 
-:::details :package: Workflow Web App (2022/08 ~ 2024/10)
+### Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
 
-:::
 
-:::details :package: Admin Web App (2021/12 ~ 2022/06)
+### Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
 
-This project was a newly created web app aimed at managing the settings for all products under Wevox. It also included a significant system architecture upgrade, migrating the frontend from a monolithic application to a Monorepo architecture and transitioning the backend from Ruby on Rails (monolithic) to a Go-based microservices architecture.
 
-##### Issue 🔥
+### Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
 
-As the number of products in Wevox grew, the monolithic application could no longer support independent development and deployment for multiple projects simultaneously.
+### 🚀 Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
 
-Having a separate git repository for each project also made it challenging to create and manage shared assets across projects.
 
-##### Solution 💡
+## 🌱 Independent Projects
 
-We decided to introduce Nx Monorepo to enable the management of multiple projects within a single repository.
+In my free time, I'm working on doing the AI-powered application:
 
-##### My roles 👷
+[Daily Delight](https://zhumeisongsong.github.io/daily-delight.html)
 
-Team: 7 members in total, consisting of backend developers(3), frontend developers(3), and product Designer(1).
-
-My primary responsibilities in this project focused on frontend development:
-
-- Reviewed legacy code and cross-checked new UI designs to ensure no features were overlooked.
-- Collaborated with the designer to refine details such as loading styles, error case handling, pagination styles, and general form validation rules.
-- Reviewed API designs to ensure they met requirements, addressing aspects like empty responses, initial sorting rules for lists, and error case definitions.
-- Designed the Monorepo architecture, separating apps and libraries.
-- Developed the frontend using Nx, Next.js, Material UI, and Axios.
-- Migrated and refactored legacy code.
-- Created reusable frontend assets, including shared UI components, shared functions, and shared state management solutions.
-- Conducted code reviews to maintain code quality and consistency.
-
-##### What achieved 🎉
-
-- Upgrading the system architecture: enabling multiple projects to be developed and deployed independently, which significantly improved development efficiency.
-- Established a new deployment process for frontend applications with the combination of Monorepo and CI/CD. Deployments for one project no longer trigger re-deployments for all projects, reducing release waiting times.
-- The admin app served as a sample and documentation for the new architecture, facilitating knowledge sharing within the team.
-
-##### If these could be improved ⚡️
-
-Although the project was completed in just six months and met its main goals, several challenges remained:
-
-- Changes to shared libs had an unpredictable impact since there was no test coverage in the please where using shared libs and version control of shared libs.
-- The issue of page-based frontend presenters being too heavy continued, making it difficult to modify and test. This showed the need for clear separation between different parts of the system (domain, application, and infrastructure), so that changes and tests could be more controlled.
-- The frontend was too dependent on APIs. Without a well-organized API design, it was hard for the frontend to be reusable. We needed better separation between the API interface and frontend data model.
-- There was no standard approach to error handling (such as HTTP status codes and error codes), leading to confusion.
-
-:::
-
-### :rocket: Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
-
-I moved to Japan and continued my career at **Monstarlab Japan**, where I further expanded my skills in an international setting. As a Front-End Tech Lead in a multinational development team, I contributed not only to individual projects but also to improving the overall development quality of the company through standardization, such as the common auth module (OAuth 2 standard), mock server, and front-end template for new projects, among others.
-
-:::details :package: Coffee Label Print Web App
-
-:::
-
-:::details :package: Live Streaming Chat Feature
-
-:::
-
-### :rocket: Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
-
-With my contributions to front-end engineering, I was promoted to **Front-End Tech Lead**, where I took responsibility for enhancing front-end quality across all company projects. My efforts focused on improving code quality, conducting technical investigations for new projects, and implementing best practices that improved the overall development process.
-
-The standardized admin management system and the shared common components/functions between projects significantly improved the development efficiency.
-
-:::details :package: Nippon Hodai Travel User Web App + Admin Web App
-
-:::
-
-:::details :package: Video Play Web App
-
-:::
-
-### :rocket:Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
-
-I joined **Monstarlab Chengdu** as a full-time **Front-End Engineer**. While accomplishing daily tasks, I taught myself React and introduced the front-end and back-end separation architecture to the team.
-
-:::details :package: Tourist Attraction Ticket Booking Hybrid App
-
-:::
-
-:::details :package: Nippon Hodai Travel User Web App + Admin Web App
-
-:::
-
-### :rocket: Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
-
-I began self-learning web development technologies during college, and after graduation, I worked as a landscape architect.
-
-However, I also pursued my passion for web development through side projects, creating websites for various companies and some H5 pages for event promotion.
-
-:::details :package: Wordpress Website
-
-I create company introduction websites using WordPress. These companies span various industries, including architecture firms, landscape firms, small appliance companies, watchmakers, and more.
-
-I offer two types of packages to clients:
-
-1. **Basic Package:** Includes a Home page, Service page, About page and Contact page.
-2. **Customized Package:** Tailored for clients with additional or specific requirements.
-
-##### My roles:
-
-- **Design:** Design website layouts based on client requirements.
-- **Development:** Customize and edit WordPress themes.
-- **Deployment:** Deploy WordPress to the server and set up the domain.
-
-##### What achieved:
-
-- Gained comprehensive experience in the entire website development process.
-- Discovered my passion for web development, leading me to transition my career to software development.
-
-:::
-
-## 🌱 Independent Development
-
-Here are some of the projects I've worked on independently:
-
-[Daily Delight（WIP）](https://zhumeisongsong.github.io/daily-delight.html)
-
-[Interactive Knowledge Learning Game（TODO）](https://zhumeisongsong.github.io/quiz-game.html)
-
-My independent projects development foundations:
+The foundations of my independent projects development are:
 
 [Multiple Projects Development Workspace](https://github.com/zhumeisongsong/multiple-products-workspace)
 
 [GraphQL Federation Workspace](https://github.com/zhumeisongsong/graphql-federation-workspace)
 
 [Shared Github Actions Library](https://github.com/zhumeisongsong/shared-actions)
-
-[Semantic Release Config](https://www.npmjs.com/package/@zhumeisong/semantic-release-config)
 
 [@zhumeisong/semantic-release-config](https://www.npmjs.com/package/@zhumeisong/semantic-release-config)
 
