@@ -213,13 +213,11 @@ I offer two types of packages:
 
 ## 🎨 Goals & Vision
 
-**What I Want to Achieve:**
-
-I'm a software engineer with over 10 years of experience in designing and developing web applications. Mainly I do front-end development (React), but I also have experience in back-end development (Node.js).
-
 I enjoy solving challenging problems, building easy to change and maintainable systems, and working with team to create software that truly helps users.
 
-I not only want to complete specific tasks like pages or APIs, but also want to dive deeper into software architecture:
+**What I Want to Achieve:**
+
+I not only want to complete specific tasks like pages or APIs, but also want to dive deeper into **low coupling and high cohesion** software architecture:
 
 - Resolving technical debt
 - System performance data visualization and improvement
