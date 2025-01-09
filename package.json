@@ -19,8 +19,8 @@
     "@zhumeisong/semantic-release-config": "^1.3.3",
     "git-cz": "4.9.0",
     "md-to-pdf": "^5.2.4",
-    "semantic-release": "24.2.0",
-    "textlint": "14.4.0",
+    "semantic-release": "24.2.1",
+    "textlint": "14.4.2",
     "textlint-rule-spellcheck-tech-word": "5.0.0",
     "vitepress": "^1.4.2"
   },
