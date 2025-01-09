@@ -38,8 +38,8 @@ Software Engineer based in Tokyo. 🇯🇵
 - 💄 Front-end (10 years+)
 - 👽 Back-end (3 years+)
 - 🧪 unit test/ e2e test
-- 🧱 Clean architecture / Event-driven architecture / Microservice architecture / Monorepo
-- ⭐ DDD / OOD / Functional Programming / Declarative Programming
+- 🧱 Clean architecture / Monorepo / Functional Programming / Declarative Programming
+- ⭐ DDD / OOD
 - ⚡️ Agile methodology / scrum
 
 **Front-End Technologies:**
@@ -213,14 +213,16 @@ I offer two types of packages:
 
 ## 🎨 Goals & Vision
 
-With over 10 years of experience in designing and developing web applications, I enjoy solving challenging problems, building robust systems(scalable, maintainable, and performant), and working with team to create software that truly helps users.
-
 **What I Want to Achieve:**
+
+I'm a software engineer with over 10 years of experience in designing and developing web applications. Mainly I do front-end development (React), but I also have experience in back-end development (Node.js).
+
+I enjoy solving challenging problems, building easy to change and maintainable systems, and working with team to create software that truly helps users.
 
 I not only want to complete specific tasks like pages or APIs, but also want to dive deeper into software architecture:
 
 - Resolving technical debt
-- System performance
+- System performance data visualization and improvement
 - Managing Complexity Across Multiple Services
 
 **Approach:**
