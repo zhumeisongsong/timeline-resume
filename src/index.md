@@ -222,6 +222,30 @@ I offer two types of packages to clients:
 
 :::
 
+## 🌱 Independent Development
+
+Here are some of the projects I've worked on independently:
+
+[Daily Delight（WIP）](https://zhumeisongsong.github.io/daily-delight.html)
+
+[Interactive Knowledge Learning Game（TODO）](https://zhumeisongsong.github.io/quiz-game.html)
+
+My independent projects development foundations:
+
+[Multiple Projects Development Workspace](https://github.com/zhumeisongsong/multiple-products-workspace)
+
+[GraphQL Federation Workspace](https://github.com/zhumeisongsong/graphql-federation-workspace)
+
+[Shared Github Actions Library](https://github.com/zhumeisongsong/shared-actions)
+
+[Semantic Release Config](https://www.npmjs.com/package/@zhumeisong/semantic-release-config)
+
+[@zhumeisong/semantic-release-config](https://www.npmjs.com/package/@zhumeisong/semantic-release-config)
+
+[@zhumeisong/git-cz-config](https://www.npmjs.com/package/@zhumeisong/git-cz-config)
+
+[@zhumeisong/common-error-exception](https://www.npmjs.com/package/@zhumeisong/common-error-exception)
+
 ## 🎨 Goals & Vision
 
 I enjoy solving challenging problems, building easy to change and maintainable systems, and working with team to create software that truly helps users.
