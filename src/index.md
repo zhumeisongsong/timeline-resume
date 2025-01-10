@@ -3,37 +3,49 @@
 layout: doc
 ---
 
-# Zhumei Song‘s CV
+# Zhumei Song
 
 Software Engineer based in Tokyo. 🇯🇵
 
-<div style="display:flex; gap: 8px; flex-warp: wrap;">
-
-  <a href="https://github.com/zhumeisongsong" target="_blank">
-    <img alt="GitHub" src="https://img.shields.io/badge/zhumeisongsong-333.svg?&logo=GitHub&logoColor=white&style=for-the-badge" />
-  </a>
-
-  <a href="https://zhumeisongsong.github.io/blog" target="_blank">
-    <img alt="Blog" src="https://img.shields.io/badge/Song's%20Blog-6c3485.svg?&style=for-the-badge&logo=Next.js&logoColor=white" />
-  </a>
-
-  <a href="https://www.linkedin.com/in/zhumei-song-a9041a1bb" target="_blank">
-    <img alt="Linkedin" src="https://img.shields.io/badge/linkdin-0a66c2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-
-</div>
-
-## 🐱 Basic Information
-
-| Key     | Value                     |
-| ------- | ------------------------- |
-| Name    | Zhumei Song               |
-| Gender  | Female                    |
-| Birth   | 1990/08/29                |
-| Address | Yokohama, Kanagawa, Japan |
-| Email   | zhumeisongsong@gmail.com  |
+[zhumeisongsong@gmail.com](mailto:zhumeisongsong@gmail.com) / [Blog](https://zhumeisongsong.github.io/blog) / [GitHub](https://github.com/zhumeisongsong) / [LinkedIn](https://www.linkedin.com/in/zhumei-song-a9041a1bb)
 
 ## 📌 Summary
+
+## 👩🏼‍💻 Engineering Experience
+
+### Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs+)
+
+### Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
+
+### Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
+
+### Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
+
+### Freelancer (2009/07 ~ 2014/09 · 5 yrs 3 mos)
+
+I began self-learning web development technologies during college. After graduation, I worked as a landscape architect, but I continued to pursue my passion for web development through side projects. I created WordPress (PHP) websites for various companies and developed H5 pages (HTML5/CSS3/JavaScript/jQuery) for event promotions.
+
+I have provided services to over 20 companies, including architectural design firms, landscape design firms, IT companies, and watch sales companies. I have successfully completed digital marketing and promotion projects for more than 30 brands.
+
+## 🌱 Independent Projects
+
+In my free time, I'm working on doing the AI-powered application:
+
+[Daily Delight](https://zhumeisongsong.github.io/daily-delight.html)
+
+The foundations of my independent projects development are:
+
+[Multiple Projects Development Workspace](https://github.com/zhumeisongsong/multiple-products-workspace)
+
+[GraphQL Federation Workspace](https://github.com/zhumeisongsong/graphql-federation-workspace)
+
+[Shared Github Actions Library](https://github.com/zhumeisongsong/shared-actions)
+
+[@zhumeisong/semantic-release-config](https://www.npmjs.com/package/@zhumeisong/semantic-release-config)
+
+[@zhumeisong/git-cz-config](https://www.npmjs.com/package/@zhumeisong/git-cz-config)
+
+[@zhumeisong/common-error-exception](https://www.npmjs.com/package/@zhumeisong/common-error-exception)
 
 ## 🌈 Skills
 
@@ -91,42 +103,6 @@ Software Engineer based in Tokyo. 🇯🇵
   <img alt="Communication" src="https://img.shields.io/badge/-Communication-0077b5?style=for-the-badge&logo=Communication&logoColor=white" />
   <img alt="Problem Solving" src="https://img.shields.io/badge/-Problem%20Solving-fcc624?style=for-the-badge&logo=Problem%20Solving&logoColor=white" />
 </div>
-
-## 👩🏼‍💻 Engineering Experience
-
-### Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs+)
-
-### Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
-
-### Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
-
-### Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
-
-### 🚀 Freelancer (2009/07 ~ 2014/09 · 5 yrs 3 mos)
-
-I began self-learning web development technologies during college. After graduation, I worked as a landscape architect, but I continued to pursue my passion for web development through side projects. I created WordPress (PHP) websites for various companies and developed H5 pages (HTML5/CSS3/JavaScript/jQuery) for event promotions.
-
-I have provided services to over 20 companies, including architectural design firms, landscape design firms, IT companies, and watch sales companies. I have successfully completed digital marketing and promotion projects for more than 30 brands.
-
-## 🌱 Independent Projects
-
-In my free time, I'm working on doing the AI-powered application:
-
-[Daily Delight](https://zhumeisongsong.github.io/daily-delight.html)
-
-The foundations of my independent projects development are:
-
-[Multiple Projects Development Workspace](https://github.com/zhumeisongsong/multiple-products-workspace)
-
-[GraphQL Federation Workspace](https://github.com/zhumeisongsong/graphql-federation-workspace)
-
-[Shared Github Actions Library](https://github.com/zhumeisongsong/shared-actions)
-
-[@zhumeisong/semantic-release-config](https://www.npmjs.com/package/@zhumeisong/semantic-release-config)
-
-[@zhumeisong/git-cz-config](https://www.npmjs.com/package/@zhumeisong/git-cz-config)
-
-[@zhumeisong/common-error-exception](https://www.npmjs.com/package/@zhumeisong/common-error-exception)
 
 ## 🎨 Goals & Vision
 
