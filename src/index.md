@@ -7,7 +7,9 @@ layout: doc
 
 Software Engineer based in Tokyo. 🇯🇵
 
-[zhumeisongsong@gmail.com](mailto:zhumeisongsong@gmail.com) / [Blog](https://zhumeisongsong.github.io/blog) / [GitHub](https://github.com/zhumeisongsong) / [LinkedIn](https://www.linkedin.com/in/zhumei-song-a9041a1bb)
+[LinkedIn](https://www.linkedin.com/in/zhumei-song-a9041a1bb) / [Blog](https://zhumeisongsong.github.io/blog) / [zhumeisongsong@gmail.com](mailto:zhumeisongsong@gmail.com) / [GitHub](https://github.com/zhumeisongsong)
+
+
 
 ## 📌 Summary
 
@@ -15,33 +17,27 @@ Software Engineer based in Tokyo. 🇯🇵
 
 ::: details Software Engineer @[Atrae](https://atrae.co.jp/) _(2021.12 ~ · 3 yrs+)_
 
-- **Technologies used:** TypeScript, React, Next.js, Monorepo, Nx, Material UI, Valtio , immer, urql, Vite, storybook, Vitest, Playwright, Node.js, NestJS, Docker, AWS, Kafka, Github Actions
-
 :::
 
 ::: details Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) _(2018.12 ~ 2021.11 · 3 yrs)_
-
-- **Technologies used:** TypeScript, React, Next.js, Vue.js, styled-components, Ant Design, Webpack, Git, Docker, AWS, Github Actions
 
 :::
 
 ::: details Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) _(2016.03 ~ 2018.11 · 2 yrs 9 mos)_
 
-- **Technologies used:** TypeScript, JavaScript, ES6, React, Next.js, Vue.js, styled-components, Ant Design, Webpack, Git, Docker, AWS, TravisCI
-
 :::
 
-::: details Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) _(2014.10 ~ 2016.02 · 1 yrs 5 mos)_
-
-- **Technologies used:** HTML5, CSS3, JavaScript, PHP, MySQL, Pug, Sass, jQuery, Gulp, Git, TravisCI.
+::: details Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) - Chengdu, China _(2014.10 ~ 2016.02 · 1 yrs 5 mos)_
 
 :::
 
 ::: details Freelancer _(2009.07 ~ 2014.09 · 5 yrs 3 mos)_
 
-- **Technologies used:** HTML5, CSS3, JavaScript, PHP, MySQL, Sass, jQuery
-
 :::
+
+## 📦 Projects
+
+
 
 ## 🌱 Independent Projects
 
@@ -149,4 +145,4 @@ I not only want to complete specific tasks like pages or APIs, but also want to 
 
 ## 👩🏼‍🎓 Education
 
-[Chengdu University of Technology](https://www.cdut.edu.cn/) - B.S., Landscape Architecture - Chengdu Sichuan China _(2008.09 - 2012.06)_
+[Chengdu University of Technology](https://www.cdut.edu.cn/) - B.S. Landscape Architecture - Chengdu, China _(2008.09 - 2012.06)_
