@@ -96,18 +96,17 @@ Software Engineer based in Tokyo. 🇯🇵
 
 ### Software Engineer @[Atrae](https://atrae.co.jp/) (2021/12 ~ · 3 yrs+)
 
-
-
 ### Front-End Lead @[Monstarlab Japan](https://monstar-lab.com/jp) (2018/12 ~ 2021/11 · 3 yrs)
-
 
 ### Front-End Lead @[Monstarlab China](https://www.monstar-lab.com.cn/) (2016/03 ~ 2018/11 · 2 yrs 9 mos )
 
-
 ### Front-End Engineer @[Monstarlab China](https://www.monstar-lab.com.cn/) (2014/10 ~ 2016/02 · 1 yrs 5 mos )
 
-### 🚀 Freelancer (2009/07 ~ 2014/09) 5 yrs 3 mos
+### 🚀 Freelancer (2009/07 ~ 2014/09 · 5 yrs 3 mos)
 
+I began self-learning web development technologies during college. After graduation, I worked as a landscape architect, but I continued to pursue my passion for web development through side projects. I created WordPress (PHP) websites for various companies and developed H5 pages (HTML5/CSS3/JavaScript/jQuery) for event promotions.
+
+I have provided services to over 20 companies, including architectural design firms, landscape design firms, IT companies, and watch sales companies. I have successfully completed digital marketing and promotion projects for more than 30 brands.
 
 ## 🌱 Independent Projects
 

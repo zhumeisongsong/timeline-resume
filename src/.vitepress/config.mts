@@ -10,11 +10,29 @@ export default defineConfig({
     nav: [
       { text: "CV", link: "/" },
       { text: "CV-ja", link: "/ja" },
+      { text: "Projects", link: "/projects/202112" },
     ],
 
     socialLinks: [
       { icon: "github", link: "https://github.com/zhumeisongsong/cv" },
     ],
+
+    sidebar: {
+      "/projects/": [
+        // {
+        //   text: "Workflow Web App",
+        //   link: "/projects/202208",
+        // },
+        {
+          text: "Admin Web App",
+          link: "/projects/202112",
+        },
+        // {
+        //   text: "Coffee Label Generated Web App",
+        //   link: "/projects/202106",
+        // },
+      ],
+    },
   },
   lastUpdated: true,
   head: [
@@ -33,14 +51,14 @@ export default defineConfig({
       },
     ],
     [
-      'script',
+      "script",
       {
         async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-L74CKN4BBD',
+        src: "https://www.googletagmanager.com/gtag/js?id=G-L74CKN4BBD",
       },
     ],
     [
-      'script',
+      "script",
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-L74CKN4BBD');",
     ],
