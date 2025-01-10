@@ -10,8 +10,9 @@ Software Engineer based in Tokyo. 🇯🇵
 [LinkedIn](https://www.linkedin.com/in/zhumei-song-a9041a1bb) / [Blog](https://zhumeisongsong.github.io/blog) / [zhumeisongsong@gmail.com](mailto:zhumeisongsong@gmail.com) / [GitHub](https://github.com/zhumeisongsong)
 
 
-
 ## 📌 Summary
+
+Senior Front-End Engineer with 10+ years of experience designing and building scalable, user-friendly web applications. Expert in React, TypeScript, and performance optimization, with a proven track record of delivering complex projects and leading cross-functional teams.
 
 ## 👩🏼‍💻 Engineering Experience
 
