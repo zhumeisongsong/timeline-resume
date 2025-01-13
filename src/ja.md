@@ -19,7 +19,7 @@ layout: doc
     <img alt="Blog" src="https://img.shields.io/badge/Song's%20Blog-6c3485.svg?&logo=Next.js&logoColor=white&style=for-the-badge" />
   </a>
 
-  <a href="mailto:zhumeisongsong@gmail.com"　style="text-decoration: none;">
+  <a href="mailto:zhumeisongsong@gmail.com" style="text-decoration: none;">
    <div style="background-color: #6b8b08; color: white; padding: 2px 8px; font-size: 12px;">zhumeisongsong@gmail.com</div>
   </a>
 </div>
