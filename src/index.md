@@ -126,8 +126,6 @@ A passionate advocate for clean code and clean architecture.
 
 :::
 
-## 📦 Projects
-
 ## 🌱 Independent Projects
 
 In my free time, I'm working on doing the AI-powered application:
